@@ -125,22 +125,22 @@ NEMOCI-1
         Jste aktuálně veden/a v neurologické evidenci?
           {45} [ Ano | Ne ]
       Roztroušená skleróza
-        {46} [text]
+        {46} [ano|ne]
       Alzheimerova nemoc
-        {47} [text]
+        {47} [ano|ne]
 
     1.d) Psychická onemocnění (např. úzkost, deprese, poruchy spánku, stresová porucha, poporodní deprese, syndrom vyhoření, bipolární porucha, obsedantně kompulzivní porucha, schizofrenie, autismus, Aspergerův syndrom, Downův syndrom, ADHD)
       Deprese, úzkost, fobie, poruchy spánku, stresová porucha, postraumatická stresová porucha
         Užíváte kombinaci tří nebo více druhů léků?
           {48} [ Ano | Ne ]
       Syndrom vyhoření
-        {49} [text]
+        {49} [ano|ne]
       Bipolární porucha, obsedantně kompulzivní porucha, schizofrenie
-        {50} [text]
+        {50} [ano|ne]
       Downův syndrom
-        {51} [text]
+        {51} [ano|ne]
       Autismus, porucha autistického spektra, Aspergerův syndrom
-        {52} [text]
+        {52} [ano|ne]
       ADHD
         Užíváte kombinaci dvou nebo více druhů léků?
           {53} [ Ano | Ne ]
@@ -150,11 +150,11 @@ NEMOCI-1
         Vyskytly se u vás komplikace jako krevní sraženiny, trombózy nebo tromboembolie?
           {54} [ Ano | Ne ]
       Anemie z nedostatku železa
-        {55} [text]
+        {55} [ano|ne]
       Jiná anémie (např. hemoragická, aplastická, megaloblastická, hemolytická, autoimunitní hemolytická, sideroblotastická)
         {56} [text]
       Hemofilie
-        {57} [text]
+        {57} [ano|ne]
 
     1.f) Zvýšená hladinu cukru v krvi (prediabetes / porucha glukózové tolerance) nebo cukrovka (diabetes, gestační diabetes - těhotenská cukrovka)
       Zvýšená hladina cukru v krvi (prediabetes / porucha glukózové tolerance)
@@ -422,17 +422,17 @@ TRVALE-NASLEDKY
           Nos, ústa, krk
             Jaký máte trvalý následek?
               Ztráta nosu nebo čichu
-                {145} [text]
+                {145} [ano|ne]
               Ztráta jazyka
-                {146} [text]
+                {146} [ano|ne]
               Ztráta zubu/zubů
-                {147} [text]
+                {147} [ano|ne]
               Ztráta hlasu nebo poškození hlasivek
-                {148} [text]
+                {148} [ano|ne]
               Trvalá tracheostomie
-                {149} [text]
+                {149} [ano|ne]
               Jizvy (např. vzniklé poraněním nebo popálením)
-                {150} [text]
+                {150} [ano|ne]
               Jiný trvalý následek
                 {151} [text]
           Oko, ucho
@@ -441,30 +441,30 @@ TRVALE-NASLEDKY
                 Na jaké straně?
                   {152} [ Pravá | Levá ]
               Ztráta zraku (úplná slepota)
-                {153} [text]
+                {153} [ano|ne]
               Částečná ztráta zraku (částečná slepota, praktická slepota)
-                {154} [text]
+                {154} [ano|ne]
               Pískání nebo šum v uchu (tinnitus)
-                {155} [text]
+                {155} [ano|ne]
               Ztráta ucha nebo poškození boltce
                 Na jaké straně?
                   {156} [ Pravá | Levá ]
               Nedoslýchavost jednoho ucha
-                {157} [text]
+                {157} [ano|ne]
               Hluchota jednoho ucha
-                {158} [text]
+                {158} [ano|ne]
               Nedoslýchavost nebo částečná hluchota obou uší
-                {159} [text]
+                {159} [ano|ne]
               Ztráta sluchu (úplná hluchota obou uší)
-                {160} [text]
+                {160} [ano|ne]
               Jiný trvalý následek
                 {161} [text]
       Páteř
         Jaký máte trvalý následek?
           Omezení hybnosti
-            {162} [text]
+            {162} [ano|ne]
           Poškození páteře, míchy
-            {163} [text]
+            {163} [ano|ne]
       Trvalé následky trupu a orgánů
         Jaký máte trvalý následek?
           Ztráta části nebo celé plíce
@@ -477,20 +477,20 @@ TRVALE-NASLEDKY
             Na jaké straně?
               {166} [ Pravá | Levá ]
           Zúžení jícnu
-            {167} [text]
+            {167} [ano|ne]
           Ztráta sleziny nebo její části
-            {168} [text]
+            {168} [ano|ne]
           Ztráta části jater
-            {169} [text]
+            {169} [ano|ne]
           Ztráta jedné ledviny nebo její části
             Na jaké straně?
               {170} [ Pravá | Levá ]
           Ztráta obou ledvin
-            {171} [text]
+            {171} [ano|ne]
           Porušení funkce trávících orgánů
-            {172} [text]
+            {172} [ano|ne]
           Jizvy (např. vzniklé poraněním nebo popálením)
-            {173} [text]
+            {173} [ano|ne]
           Jiný trvalý následek
             {174} [text]
       Horní končetina
@@ -528,9 +528,9 @@ TRVALE-NASLEDKY
               Jiný trvalý následek
                 {184} [text]
           Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.)
-            {185} [text]
+            {185} [ano|ne]
           Jizvy (např. vzniklé poraněním nebo popálením)
-            {186} [text]
+            {186} [ano|ne]
           Jiný trvalý následek
             {187} [text]
       Dolní končetina
@@ -570,13 +570,13 @@ TRVALE-NASLEDKY
             Levá
               {198} [text]
           Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.)
-            {199} [text]
+            {199} [ano|ne]
           Jizvy (např. vzniklé poraněním nebo popálením)
-            {200} [text]
+            {200} [ano|ne]
           Jiný trvalý následek
             {201} [text]
       Nic z výše uvedeného
-        {202} [text]
+        {202} [ano|ne]
 
 URAZY-7-LET
   5. Měl/a jste v posledních 7 letech úraz? (např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod.)
@@ -964,4 +964,4 @@ URAZY-7-LET
               {311} [text]
 
       Nic z výše uvedeného
-        {312} [text]
+        {312} [ano|ne]
