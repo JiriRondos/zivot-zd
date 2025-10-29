@@ -16,6 +16,12 @@ Veškeré volby odpovědí ze zdroje a případné pole pro "ruční" zápis inf
 ###
 Použij nejvhodnější kompaktní formát pavouka/stromu → yaml/toml/...?
 
+Použij češtinu a přesné výrazy ze zdroje a nevymýšlej jiné/zbytečné kategorie/podkategorie, než uvedené ve zdroji.
+
+Odstraň veškeré zbytečné nebo duplicitní položky, nahraď nekompaktní provedení kompaktním. Např.:
+- "answer_type": "radio_group" → zcela zbytečný údaj
+- "answer_type": "text_field" → nahraď za "answer": ""
+
 ###
 Jsou ve výstupu veškeré body (číslované i nečíslované položky) jako ve zdroji? Včetně číselných označení?
 
