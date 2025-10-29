@@ -6,24 +6,24 @@ UVOD
   Váha (kg)
     {3} [text]
   Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret.)
-    {4} [Ano, Ne]
+    {4} [ Ano | Ne ]
   Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin?
-    {5} [Ano, Ne]
+    {5} [ Ano | Ne ]
   Užíváte nebo jste užíval/a drogy či jiné návykové látky?
-    {6} [Ano, Ne]
+    {6} [ Ano | Ne ]
   Které z následujících drog jste užil/a?
     Marihuana - kouření, vaporizace, konzumace
       Užil/a jste tuto drogu v posledních 2 letech?
-        {7} [Ano, Ne]
+        {7} [ Ano | Ne ]
       Jak často jste v posledních 2 letech užíval/a tuto drogu?
         {8} [text]
     Jiný druh drog (např. kokain, opiáty, heroin, amfetaminy, MDMA, pervitin)
       Užil/a jste tuto drogu v posledních 7 letech?
-        {9} [Ano, Ne]
+        {9} [ Ano | Ne ]
   Jste nebo jste byl/a závislý/á na alkoholu, drogách, léčivých přípravcích nebo jiných návykových látkách?
-    {10} [Ano, Ne]
+    {10} [ Ano | Ne ]
   Užil/a jste v posledních 10 letech některou z výše uvedených látek?
-    {11} [Ano, Ne]
+    {11} [ Ano | Ne ]
 
 ZDRAVY-ZIVOTNI-STYL
   Mám zájem o vyplnění dotazníku pro slevu za zdravý životní styl
@@ -33,17 +33,17 @@ ZDRAVY-ZIVOTNI-STYL
   Váha (kg)
     {14} [text]
   Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret.)
-    {15} [Ano, Ne]
+    {15} [ Ano | Ne ]
   Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin?
-    {16} [Ano, Ne]
+    {16} [ Ano | Ne ]
   Užíváte nebo jste užíval/a drogy či jiné návykové látky?
-    {17} [Ano, Ne]
+    {17} [ Ano | Ne ]
   Kolik hodin průměrně denně spíte?
-    {18} [Méně než 6 hodin, 6 až 9 hodin, Více než 9 hodin]
+    {18} [ Méně než 6 hodin | 6 až 9 hodin | Více než 9 hodin ]
   Jak často se věnujete pohybu?
-    {19} [Vůbec nebo velmi zřídka, Nepravidelně v průměru 1x týdně, Pravidelně min. 2 x týdně]
+    {19} [ Vůbec nebo velmi zřídka | Nepravidelně v průměru 1x týdně | Pravidelně min. 2 x týdně ]
   Jak často chodíte na preventivní lékařské prohlídky k praktickému lékaři?
-    {20} [Minimálně 1x za 2 roky, Méně často než 1x za 2 roky, Vůbec]
+    {20} [ Minimálně 1x za 2 roky | Méně často než 1x za 2 roky | Vůbec ]
 
 NEMOCI-1
   1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?
@@ -51,52 +51,52 @@ NEMOCI-1
       Rakovina – zhoubný nádor
         [MUŽ] Prostaty
           Prodělal jste toto onemocnění v posledních 10 letech?
-            {21} [Ano, Ne]
+            {21} [ Ano | Ne ]
         [MUŽ] Varlete / varlat
           Prodělal jste toto onemocnění v posledních 10 letech?
-            {22} [Ano, Ne]
+            {22} [ Ano | Ne ]
         [ŽENA] Děložního čípku
           Prodělala jste toto onemocnění v posledních 10 letech?
-            {23} [Ano, Ne]
+            {23} [ Ano | Ne ]
         Prsu / prsů
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {24} [Ano, Ne]
+            {24} [ Ano | Ne ]
         Ledviny / ledvin
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {25} [Ano, Ne]
+            {25} [ Ano | Ne ]
         Močového měchýře
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {26} [Ano, Ne]
+            {26} [ Ano | Ne ]
         Tlustého střeva nebo konečníku (rekta)
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {27} [Ano, Ne]
+            {27} [ Ano | Ne ]
         Plíce / plic
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {28} [Ano, Ne]
+            {28} [ Ano | Ne ]
         Kůže
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {29} [Ano, Ne]
+            {29} [ Ano | Ne ]
         Štítné žlázy
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {30} [Ano, Ne]
+            {30} [ Ano | Ne ]
         Kostí
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {31} [Ano, Ne]
+            {31} [ Ano | Ne ]
         Mozku
           Prodělal/a jste toto onemocnění v posledních 10 letech?
-            {32} [Ano, Ne]
+            {32} [ Ano | Ne ]
         Jiné / Ostatní
           Uveďte o jaké onemocnění se jedná
             {33} [text]
       Leukémie
         Prodělal/a jste toto onemocnění v posledních 10 letech?
-          {34} [Ano, Ne]
+          {34} [ Ano | Ne ]
       Lymfom (např. Hodgkinův lymfom, Non-Hodgkinův lymfom)
         Prodělal/a jste toto onemocnění v posledních 10 letech?
-          {35} [Ano, Ne]
+          {35} [ Ano | Ne ]
       Nezhoubný nádor mozku
         Prodělal/a jste toto onemocnění v posledních 5 letech?
-          {36} [Ano, Ne]
+          {36} [ Ano | Ne ]
 
     1.b) Vysoký krevní tlak a onemocnění srdce (např. srdeční infarkt, angina pectoris / bolest na hrudi / ischemická choroba srdeční, bušení srdce / arytmie, vrozená vada srdce nebo operace srdce)
       Vysoký krevní tlak
@@ -107,7 +107,7 @@ NEMOCI-1
             {38} [text]
       Srdeční infarkt
         Prodělal/a jste srdeční infarkt v posledních 5 letech?
-          {39} [Ano, Ne]
+          {39} [ Ano | Ne ]
       Angina pectoris, bolest na hrudi, ischemická choroba srdeční
         {40} [text]
       Bušení srdce, arytmie
@@ -123,7 +123,7 @@ NEMOCI-1
           {44} [text]
       Epilepsie
         Jste aktuálně veden/a v neurologické evidenci?
-          {45} [Ano, Ne]
+          {45} [ Ano | Ne ]
       Roztroušená skleróza
         {46} [text]
       Alzheimerova nemoc
@@ -132,7 +132,7 @@ NEMOCI-1
     1.d) Psychická onemocnění (např. úzkost, deprese, poruchy spánku, stresová porucha, poporodní deprese, syndrom vyhoření, bipolární porucha, obsedantně kompulzivní porucha, schizofrenie, autismus, Aspergerův syndrom, Downův syndrom, ADHD)
       Deprese, úzkost, fobie, poruchy spánku, stresová porucha, postraumatická stresová porucha
         Užíváte kombinaci tří nebo více druhů léků?
-          {48} [Ano, Ne]
+          {48} [ Ano | Ne ]
       Syndrom vyhoření
         {49} [text]
       Bipolární porucha, obsedantně kompulzivní porucha, schizofrenie
@@ -143,12 +143,12 @@ NEMOCI-1
         {52} [text]
       ADHD
         Užíváte kombinaci dvou nebo více druhů léků?
-          {53} [Ano, Ne]
+          {53} [ Ano | Ne ]
 
     1.e) Onemocnění krve (např. porucha srážlivosti krve, chudokrevnost – anémie, hemofilie)
       Leidenská mutace nebo jiná porucha srážlivosti krve – trombofilie (např. protrombinová mutace, antitrombinová deficience, MTHFR mutace, hyperhomocytémie)
         Vyskytly se u vás komplikace jako krevní sraženiny, trombózy nebo tromboembolie?
-          {54} [Ano, Ne]
+          {54} [ Ano | Ne ]
       Anemie z nedostatku železa
         {55} [text]
       Jiná anémie (např. hemoragická, aplastická, megaloblastická, hemolytická, autoimunitní hemolytická, sideroblotastická)
@@ -167,7 +167,7 @@ NEMOCI-1
     1.g) Onemocnění pohybového aparátu (např. bolesti zad nebo šíje, onemocnění páteře, Bechtěrevova nemoc – ankylozující spondylitida, artritida, artróza, vrozená vada pohybového aparátu)
       Bolest zad
         Máte v současné době toto onemocnění?
-          {60} [Ano, Ne]
+          {60} [ Ano | Ne ]
       Onemocnění meziobratlových plotének (např. výhřez ploténky) a meziobratlových kloubů (např. artróza, artritida)
         {61} [text]
       Bechtěrevova choroba (ankylozující spondylitida)
@@ -182,30 +182,30 @@ NEMOCI-1
           Na jakém kloubu?
             Rameno
               Na jaké straně?
-                {65} [Pravá, Levá]
+                {65} [ Pravá | Levá ]
             Loket
               Na jaké straně?
-                {66} [Pravá, Levá]
+                {66} [ Pravá | Levá ]
             Zápěstí
               Na jaké straně?
-                {67} [Pravá, Levá]
+                {67} [ Pravá | Levá ]
             Kyčel
               Na jaké straně?
-                {68} [Pravá, Levá]
+                {68} [ Pravá | Levá ]
             Koleno
               Na jaké straně?
-                {69} [Pravá, Levá]
+                {69} [ Pravá | Levá ]
             Kotník (hlezno)
               Na jaké straně?
-                {70} [Pravá, Levá]
+                {70} [ Pravá | Levá ]
         Infekční nebo septická artritida
           Máte v současné době toto onemocnění?
-            {71} [Ano, Ne]
+            {71} [ Ano | Ne ]
       Artróza nebo totální endoprotéza (TEP)
         Máte nebo jste měl/a artrózu?
-          {72} [Ano, Ne]
+          {72} [ Ano | Ne ]
         Máte provedenou náhradu kloubu (totální endoprotéza, TEP), uvažujete o ní nebo vám byla doporučena?
-          {73} [Ano, Ne]
+          {73} [ Ano | Ne ]
       Vrozená vada pohybového aparátu
         Uveďte diagnózu
           {74} [text]
@@ -223,7 +223,7 @@ NEMOCI-2
         {77} [text]
       Dna
         Užíváte pro toto onemocnění léky?
-          {78} [Ano, Ne]
+          {78} [ Ano | Ne ]
 
     2.b) Onemocnění dýchací soustavy (např. astma, chronická obstrukční plicní nemoc - CHOPN, bronchitida, plicní fibróza, zápal plic, zánět průdušek, alergie)
       Astma
@@ -233,25 +233,25 @@ NEMOCI-2
         {80} [text]
       Zápal plic, akutní bronchitida, zánět průdušek
         Máte v současnosti toto onemocnění?
-          {81} [Ano, Ne]
+          {81} [ Ano | Ne ]
       Alergie
         Hospitalizovali vás anebo jste byl/a v posledních 2 letech v pracovní neschopnosti v souvislosti s tímto onemocněním?
-          {82} [Ano, Ne]
+          {82} [ Ano | Ne ]
 
     2.c) Onemocnění trávící soustavy (např. žlučníkové kameny, vřed dvanáctníku, žaludeční vřed, reflux jícnu, zánět slinivky břišní – pankreatitida, onemocnění jater, Crohnova nemoc, ulcerózní kolitida, celiakie, onemocnění nebo vrozené vady jícnu, žaludku nebo střev)
       Žlučníkové kameny
         Máte v současnosti toto onemocnění?
-          {83} [Ano, Ne]
+          {83} [ Ano | Ne ]
       Vřed dvanáctníku (duodenum), žaludeční vřed
         Máte v současnosti toto onemocnění?
-          {84} [Ano, Ne]
+          {84} [ Ano | Ne ]
       Reflux jícnu (gastrozofagiální reflux)
         Máte nebo měl/a jste komplikace? (např.potíže s polykáním, zvracení krve, vřed nebo zúžení jícnu, Barretův jícen, brániční / jícnová kýla – hiátová hernie)
           {85} [text]
       Zánět slinivky břišní (pankreatitida)
         Akutní zánět slinivky břišní
           Měl jste 3 a více záchvatů za posledních 7 let?
-            {86} [Ano, Ne]
+            {86} [ Ano | Ne ]
         Chronický zánět slinivky břišní
           {87} [text]
       Onemocnění jater (např. cirhóza, fibróza nebo ztučnění jater – steatóza, cysta na játrech, hemangiom jater)
@@ -260,25 +260,25 @@ NEMOCI-2
         {89} [text]
       Celiakie
         Máte komplikace v souvislosti s tímto onemocněním? (např. nízka váha, podvýživa, malabsorpční syndrom)
-          {90} [Ano, Ne]
+          {90} [ Ano | Ne ]
       Vrozená vada jícnu, žaludku nebo střev
         {91} [text]
 
     2.d) Onemocnění močového ústrojí (např. ledvinové kameny, zánět ledvin, močového měchýře nebo močových cest, vrozená vada ledvin, močového měchýře nebo močových cest)
       Ledvinové kameny
         Máte v současnosti toto onemocnění?
-          {92} [Ano, Ne]
+          {92} [ Ano | Ne ]
       Vrozená vada ledvin, močového měchýře, močových cest
         {93} [text]
       Zánět močového měchýře
         Máte v současnosti toto onemocnění?
-          {94} [Ano, Ne]
+          {94} [ Ano | Ne ]
       Zánět močových cest
         Máte v současnosti toto onemocnění?
-          {95} [Ano, Ne]
+          {95} [ Ano | Ne ]
       Zánět ledvin
         Máte v současnosti toto onemocnění?
-          {96} [Ano, Ne]
+          {96} [ Ano | Ne ]
 
     2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu)
       [MUŽ] Zvětšená prostata
@@ -291,7 +291,7 @@ NEMOCI-2
     2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV)
       Žloutenka (hepatitida) typu A nebo E
         Máte v současné době toto onemocnění?
-          {100} [Ano, Ne]
+          {100} [ Ano | Ne ]
       Žloutenka (hepatitida) typu B nebo D
         {101} [text]
       Žloutenka (hepatitida) typu C
@@ -300,13 +300,13 @@ NEMOCI-2
         {103} [text]
       Lymeská borelióza
         Máte v současné době toto onemocnění?
-          {104} [Ano, Ne]
+          {104} [ Ano | Ne ]
       Encefalitida (včetně klíšťové)
         Máte v současné době toto onemocnění?
-          {105} [Ano, Ne]
+          {105} [ Ano | Ne ]
       Meningitida
         Máte v současné době toto onemocnění?
-          {106} [Ano, Ne]
+          {106} [ Ano | Ne ]
       HIV
         {107} [text]
 
@@ -321,12 +321,12 @@ NEMOCI-2
     2.i) Onemocnění kůže (např. lupénka, atopický ekzém, ekzém)
       Lupénka (psoriáza)
         Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech?
-          {111} [Ano, Ne]
+          {111} [ Ano | Ne ]
       Atopický ekzém (atopická dermatitida)
         {112} [text]
       Ekzém (kontaktní dermatitida)
         Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky?
-          {113} [Ano, Ne]
+          {113} [ Ano | Ne ]
 
     2.j) Onemocnění zrakového ústrojí (např. krátkozrakost, dalekozrakost víc jak 10 dioptrií, astigmatizmus, tupozrakost, šilhavost, keratokonus, zelený zákal, šedý zákal, slepota)
       Krátkozrakost nebo dalekozrakost více než 10 dioptrií
@@ -357,7 +357,7 @@ NEMOCI-2
     2.k) Onemocnění sluchového ústrojí (např. pískání nebo šum v uchu – tinnitus, nedoslýchavost, hluchota)
       Pískání nebo šum v uchu (tinnitus)
         Máte problémy nebo se léčíte v současnosti s tímto onemocněním?
-          {125} [Ano, Ne]
+          {125} [ Ano | Ne ]
       Nedoslýchavost 1 ucha
         {126} [text]
       Hluchota 1 ucha
@@ -391,9 +391,9 @@ SOUCASNY-STAV
 
   3.b) Máte nebo jste měl/a přiznanou invaliditu 1., 2., 3. stupně a /nebo sníženou soběstačnost?
     Jste nebo jste byl/a osobou se zdravotním zněvýhodněním (např. držitel průkazu ZTP, OZZ)?
-      {136} [Ano, Ne]
+      {136} [ Ano | Ne ]
     Žádal/a jste o jejich přiznání?
-      {137} [Ano, Ne]
+      {137} [ Ano | Ne ]
     Osoba se zdravotním znevýhodněním (např. držitel průkazu ZTP nebo OZZ)
       V jaké fázi aktuálně je?
         {138} [text]
@@ -439,7 +439,7 @@ TRVALE-NASLEDKY
             Jaký máte trvalý následek?
               Ztráta oka nebo slepota jednoho oka
                 Na jaké straně?
-                  {152} [Pravá, Levá]
+                  {152} [ Pravá | Levá ]
               Ztráta zraku (úplná slepota)
                 {153} [text]
               Částečná ztráta zraku (částečná slepota, praktická slepota)
@@ -448,7 +448,7 @@ TRVALE-NASLEDKY
                 {155} [text]
               Ztráta ucha nebo poškození boltce
                 Na jaké straně?
-                  {156} [Pravá, Levá]
+                  {156} [ Pravá | Levá ]
               Nedoslýchavost jednoho ucha
                 {157} [text]
               Hluchota jednoho ucha
@@ -469,13 +469,13 @@ TRVALE-NASLEDKY
         Jaký máte trvalý následek?
           Ztráta části nebo celé plíce
             Na jaké straně?
-              {164} [Pravá, Levá]
+              {164} [ Pravá | Levá ]
           Poškození funkce plic nebo srůsty plic
             Na jaké straně?
-              {165} [Pravá, Levá]
+              {165} [ Pravá | Levá ]
           Ztráta prsu
             Na jaké straně?
-              {166} [Pravá, Levá]
+              {166} [ Pravá | Levá ]
           Zúžení jícnu
             {167} [text]
           Ztráta sleziny nebo její části
@@ -484,7 +484,7 @@ TRVALE-NASLEDKY
             {169} [text]
           Ztráta jedné ledviny nebo její části
             Na jaké straně?
-              {170} [Pravá, Levá]
+              {170} [ Pravá | Levá ]
           Ztráta obou ledvin
             {171} [text]
           Porušení funkce trávících orgánů
@@ -499,32 +499,32 @@ TRVALE-NASLEDKY
             Na jakém kloubu máte trvalý následek?
               Rameno
                 Na jaké straně?
-                  {175} [Pravá, Levá]
+                  {175} [ Pravá | Levá ]
               Loket
                 Na jaké straně?
-                  {176} [Pravá, Levá]
+                  {176} [ Pravá | Levá ]
               Zápěstí
                 Na jaké straně?
-                  {177} [Pravá, Levá]
+                  {177} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {178} [Pravá, Levá]
+                  {178} [ Pravá | Levá ]
           Jiný trvalý následek
             {179} [text]
           Ztráta prstu nebo horní končetiny
             Jaký máte trvalý následek?
               Ztráta prstu
                 Na jaké straně?
-                  {180} [Pravá, Levá]
+                  {180} [ Pravá | Levá ]
               Ztráta horní končetiny v úrovni předloktí
                 Na jaké straně?
-                  {181} [Pravá, Levá]
+                  {181} [ Pravá | Levá ]
               Ztráta horní končetiny v úrovni pažní kosti
                 Na jaké straně?
-                  {182} [Pravá, Levá]
+                  {182} [ Pravá | Levá ]
               Ztráta horní končetiny v zápěstí
                 Na jaké straně?
-                  {183} [Pravá, Levá]
+                  {183} [ Pravá | Levá ]
               Jiný trvalý následek
                 {184} [text]
           Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.)
@@ -539,29 +539,29 @@ TRVALE-NASLEDKY
             Na jakém kloubu máte trvalý následek?
               Kyčel
                 Na jaké straně?
-                  {188} [Pravá, Levá]
+                  {188} [ Pravá | Levá ]
               Koleno
                 Na jaké straně?
-                  {189} [Pravá, Levá]
+                  {189} [ Pravá | Levá ]
               Kotník (hlezno)
                 Na jaké straně?
-                  {190} [Pravá, Levá]
+                  {190} [ Pravá | Levá ]
           Jiný trvalý následek
             {191} [text]
           Ztráta prstu nebo dolní končetiny
             Jaký máte trvalý následek?
               Ztráta prstu
                 Na jaké straně?
-                  {192} [Pravá, Levá]
+                  {192} [ Pravá | Levá ]
               Ztráta v úrovni stehna
                 Na jaké straně?
-                  {193} [Pravá, Levá]
+                  {193} [ Pravá | Levá ]
               Ztráta v úrovni bérce
                 Na jaké straně?
-                  {194} [Pravá, Levá]
+                  {194} [ Pravá | Levá ]
               Ztráta v hlezenním kloubu (kotníku)
                 Na jaké straně?
-                  {195} [Pravá, Levá]
+                  {195} [ Pravá | Levá ]
               Jiný trvalý následek
                 {196} [text]
           Zkrácení končetiny o 3 cm nebo více
@@ -607,7 +607,7 @@ URAZY-7-LET
                   {208} [text]
               Oko
                 Na jaké straně?
-                  {209} [Pravá, Levá]
+                  {209} [ Pravá | Levá ]
               Nos
                 Kolikrát?
                   {210} [text]
@@ -692,7 +692,7 @@ URAZY-7-LET
                   {231} [text]
               Žebra
                 Na jaké straně?
-                  {232} [Pravá, Levá]
+                  {232} [ Pravá | Levá ]
           Pohmoždění (kontuze) orgánů
             Jaký orgán byl poraněn?
               Hrdlo (hrtan, hltan, jícen, hlasivky)
@@ -700,7 +700,7 @@ URAZY-7-LET
                   {233} [text]
               Plíce
                 Na jaké straně?
-                  {234} [Pravá, Levá]
+                  {234} [ Pravá | Levá ]
               Srdce
                 Kolikrát?
                   {235} [text]
@@ -721,16 +721,16 @@ URAZY-7-LET
                   {240} [text]
               Ledviny
                 Na jaké straně?
-                  {241} [Pravá, Levá]
+                  {241} [ Pravá | Levá ]
               Močový měchýř, močová trubice, pohlavní orgány
                 Kolikrát?
                   {242} [text]
           Natržení, ruptura nebo zhmoždění břišního svalu
             Na jaké straně?
-              {243} [Pravá, Levá]
+              {243} [ Pravá | Levá ]
           Poleptání, popálení, otevřená rána na trupu
             Na jaké straně?
-              {244} [Pravá, Levá]
+              {244} [ Pravá | Levá ]
           Jiný úraz
             Kolikrát?
               {245} [text]
@@ -741,104 +741,104 @@ URAZY-7-LET
             Jaká část horní končetiny byla poraněna?
               Lopatka
                 Na jaké straně?
-                  {246} [Pravá, Levá]
+                  {246} [ Pravá | Levá ]
               Kliční kost
                 Na jaké straně?
-                  {247} [Pravá, Levá]
+                  {247} [ Pravá | Levá ]
               Pažní kost (humerus)
                 Na jaké straně?
-                  {248} [Pravá, Levá]
+                  {248} [ Pravá | Levá ]
               Předloktí (loketní a vřetenní kost)
                 Na jaké straně?
-                  {249} [Pravá, Levá]
+                  {249} [ Pravá | Levá ]
               Zápěstí
                 Na jaké straně?
-                  {250} [Pravá, Levá]
+                  {250} [ Pravá | Levá ]
               Záprstní kosti
                 Na jaké straně?
-                  {251} [Pravá, Levá]
+                  {251} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {252} [Pravá, Levá]
+                  {252} [ Pravá | Levá ]
           Podvrtnutí kloubu
             Jaká část horní končetiny byla poraněna?
               Rameno
                 Na jaké straně?
-                  {253} [Pravá, Levá]
+                  {253} [ Pravá | Levá ]
               Loket
                 Na jaké straně?
-                  {254} [Pravá, Levá]
+                  {254} [ Pravá | Levá ]
               Zápěstí
                 Na jaké straně?
-                  {255} [Pravá, Levá]
+                  {255} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {256} [Pravá, Levá]
+                  {256} [ Pravá | Levá ]
           Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach
             Jaká část horní končetiny byla poraněna?
               Rameno
                 Na jaké straně?
-                  {257} [Pravá, Levá]
+                  {257} [ Pravá | Levá ]
               Loket
                 Na jaké straně?
-                  {258} [Pravá, Levá]
+                  {258} [ Pravá | Levá ]
               Zápěstí
                 Na jaké straně?
-                  {259} [Pravá, Levá]
+                  {259} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {260} [Pravá, Levá]
+                  {260} [ Pravá | Levá ]
           Pohmoždění (kontuze)
             Jaká část horní končetiny byla poraněna?
               Rameno
                 Na jaké straně?
-                  {261} [Pravá, Levá]
+                  {261} [ Pravá | Levá ]
               Loket
                 Na jaké straně?
-                  {262} [Pravá, Levá]
+                  {262} [ Pravá | Levá ]
               Zápěstí
                 Na jaké straně?
-                  {263} [Pravá, Levá]
+                  {263} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {264} [Pravá, Levá]
+                  {264} [ Pravá | Levá ]
               Předloktí (loketní a vřetenní kost)
                 Na jaké straně?
-                  {265} [Pravá, Levá]
+                  {265} [ Pravá | Levá ]
               Svaly paže (nadloktí)
                 Na jaké straně?
-                  {266} [Pravá, Levá]
+                  {266} [ Pravá | Levá ]
           Natržení nebo přetržení (ruptura) svalu
             Jaká část horní končetiny byla poraněna?
               Svaly ramenní a lopatkové
                 Na jaké straně?
-                  {267} [Pravá, Levá]
+                  {267} [ Pravá | Levá ]
               Svaly předloktí
                 Na jaké straně?
-                  {268} [Pravá, Levá]
+                  {268} [ Pravá | Levá ]
               Svaly paže (nadloktí)
                 Na jaké straně?
-                  {269} [Pravá, Levá]
+                  {269} [ Pravá | Levá ]
           Poleptání, popálení, otevřená rána
             Jaká část horní končetiny byla poraněna?
               Rameno
                 Na jaké straně?
-                  {270} [Pravá, Levá]
+                  {270} [ Pravá | Levá ]
               Loket
                 Na jaké straně?
-                  {271} [Pravá, Levá]
+                  {271} [ Pravá | Levá ]
               Zápěstí
                 Na jaké straně?
-                  {272} [Pravá, Levá]
+                  {272} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {273} [Pravá, Levá]
+                  {273} [ Pravá | Levá ]
               Předloktí
                 Na jaké straně?
-                  {274} [Pravá, Levá]
+                  {274} [ Pravá | Levá ]
               Paže (nadloktí)
                 Na jaké straně?
-                  {275} [Pravá, Levá]
+                  {275} [ Pravá | Levá ]
           Jiný úraz
             Kolikrát?
               {276} [text]
@@ -852,113 +852,113 @@ URAZY-7-LET
                   {277} [text]
               Kyčel
                 Na jaké straně?
-                  {278} [Pravá, Levá]
+                  {278} [ Pravá | Levá ]
               Stehenní kost
                 Na jaké straně?
-                  {279} [Pravá, Levá]
+                  {279} [ Pravá | Levá ]
               Čéška
                 Na jaké straně?
-                  {280} [Pravá, Levá]
+                  {280} [ Pravá | Levá ]
               Holenní a lýtková kost
                 Na jaké straně?
-                  {281} [Pravá, Levá]
+                  {281} [ Pravá | Levá ]
               Kotník (hlezno)
                 Na jaké straně?
-                  {282} [Pravá, Levá]
+                  {282} [ Pravá | Levá ]
               Pata
                 Na jaké straně?
-                  {283} [Pravá, Levá]
+                  {283} [ Pravá | Levá ]
               Nártní (metatarzální) kosti
                 Na jaké straně?
-                  {284} [Pravá, Levá]
+                  {284} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {285} [Pravá, Levá]
+                  {285} [ Pravá | Levá ]
           Podvrtnutí kloubu
             Jaká část dolní končetiny byla poraněna?
               Kyčel
                 Na jaké straně?
-                  {286} [Pravá, Levá]
+                  {286} [ Pravá | Levá ]
               Koleno
                 Na jaké straně?
-                  {287} [Pravá, Levá]
+                  {287} [ Pravá | Levá ]
               Kotník (hlezno)
                 Na jaké straně?
-                  {288} [Pravá, Levá]
+                  {288} [ Pravá | Levá ]
               Pata
                 Na jaké straně?
-                  {289} [Pravá, Levá]
+                  {289} [ Pravá | Levá ]
               Nártní (metatarzální) kosti
                 Na jaké straně?
-                  {290} [Pravá, Levá]
+                  {290} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {291} [Pravá, Levá]
+                  {291} [ Pravá | Levá ]
           Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach
             Jaká část dolní končetiny byla poraněna?
               Kyčel
                 Na jaké straně?
-                  {292} [Pravá, Levá]
+                  {292} [ Pravá | Levá ]
               Koleno
                 Na jaké straně?
-                  {293} [Pravá, Levá]
+                  {293} [ Pravá | Levá ]
               Kotník (hlezno)
                 Na jaké straně?
-                  {294} [Pravá, Levá]
+                  {294} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {295} [Pravá, Levá]
+                  {295} [ Pravá | Levá ]
           Pohmoždění (kontuze)
             Jaká část dolní končetiny byla poraněna?
               Kyčel
                 Na jaké straně?
-                  {296} [Pravá, Levá]
+                  {296} [ Pravá | Levá ]
               Koleno
                 Na jaké straně?
-                  {297} [Pravá, Levá]
+                  {297} [ Pravá | Levá ]
               Kotník (hlezno)
                 Na jaké straně?
-                  {298} [Pravá, Levá]
+                  {298} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {299} [Pravá, Levá]
+                  {299} [ Pravá | Levá ]
               Stehno
                 Na jaké straně?
-                  {300} [Pravá, Levá]
+                  {300} [ Pravá | Levá ]
               Bérec (holeň nebo lýtko)
                 Na jaké straně?
-                  {301} [Pravá, Levá]
+                  {301} [ Pravá | Levá ]
           Natržení nebo přetržení (ruptura) svalu
             Jaká část dolní končetiny byla poraněna?
               Svaly kyčelního kloubu (vč. hýžďového)
                 Na jaké straně?
-                  {302} [Pravá, Levá]
+                  {302} [ Pravá | Levá ]
               Svaly stehna
                 Na jaké straně?
-                  {303} [Pravá, Levá]
+                  {303} [ Pravá | Levá ]
               Svaly bérce (holeň nebo lýtko)
                 Na jaké straně?
-                  {304} [Pravá, Levá]
+                  {304} [ Pravá | Levá ]
           Poleptání, popálení, otevřená rána
             Jaká část dolní končetiny byla poraněna?
               Kyčle (vč. hýžďového svalu)
                 Na jaké straně?
-                  {305} [Pravá, Levá]
+                  {305} [ Pravá | Levá ]
               Koleno
                 Na jaké straně?
-                  {306} [Pravá, Levá]
+                  {306} [ Pravá | Levá ]
               Kotník (hlezno)
                 Na jaké straně?
-                  {307} [Pravá, Levá]
+                  {307} [ Pravá | Levá ]
               Prsty
                 Na jaké straně?
-                  {308} [Pravá, Levá]
+                  {308} [ Pravá | Levá ]
               Stehno
                 Na jaké straně?
-                  {309} [Pravá, Levá]
+                  {309} [ Pravá | Levá ]
               Bérec (holeň nebo lýtko)
                 Na jaké straně?
-                  {310} [Pravá, Levá]
+                  {310} [ Pravá | Levá ]
           Jiný úraz
             Kolikrát?
               {311} [text]
