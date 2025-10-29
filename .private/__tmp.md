@@ -33,6 +33,25 @@ Odstraň veškeré zbytečné nebo duplicitní položky, nahraď nekompaktní pr
 Jsou ve výstupu veškeré body (číslované i nečíslované položky) jako ve zdroji? Včetně číselných označení?
 
 ###
+Některé body v dotazníku mají číselná označení (např. 1.a)), ale ostatní body ne → špatně se to kontroluje a špatně se na body odkazuje.
+
+Zároveň yaml formát je zde použit jako co nejjednodušší (kompaktní) technika pro přepis reálného ZD (html s dynamickým rozbalováním podle vyplňování). Nefunguje zde jako technické parametry a hodnoty (mohl by to být klidně txt soubor).
+
+Jak nejlépe vyřešit adresování a kompaktnost? Např. cca?:
+NEMOCI-1
+  1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?
+    1.a) Nádorová onemocnění (např. rakovina – zhoubný nádor, leukémie, lymfom, nezhoubný nádor mozku)
+      Rakovina – zhoubný nádor
+        [MUŽ] Prostaty
+          {1} Prodělal jste toto onemocnění v posledních 10 letech?: [Ano, Ne]
+        [MUŽ] Varlete / varlat
+          {2} Prodělal jste toto onemocnění v posledních 10 letech?: [Ano, Ne]
+        [ŽENA] Děložního čípku
+          {3} Prodělala jste toto onemocnění v posledních 10 letech?: [Ano, Ne]
+      Prsu / prsů
+        {4} Prodělala jste toto onemocnění v posledních 10 letech?: [Ano, Ne]
+
+###
 Tzn:
 - 'answer: "checkbox"':
     - NE: toto NEJSOU konkrétní volby odpovědi

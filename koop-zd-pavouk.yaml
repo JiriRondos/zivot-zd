@@ -31,10 +31,12 @@ KOOP_ZD_PAVOUK:
     "1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?":
       "1.a) Nádorová onemocnění (např. rakovina – zhoubný nádor, leukémie, lymfom, nezhoubný nádor mozku)":
         "Rakovina – zhoubný nádor":
-          "Prostaty":
+          "[MUŽ] Prostaty":
             "Prodělal jste toto onemocnění v posledních 10 letech?": [Ano, Ne]
-          "Varlete / varlat":
+          "[MUŽ] Varlete / varlat":
             "Prodělal jste toto onemocnění v posledních 10 letech?": [Ano, Ne]
+          "[ŽENA] Děložního čípku":
+            "Prodělala jste toto onemocnění v posledních 10 letech?": [Ano, Ne]
           "Prsu / prsů":
             "Prodělal/a jste toto onemocnění v posledních 10 letech?": [Ano, Ne]
           "Ledviny / ledvin":
@@ -185,7 +187,8 @@ KOOP_ZD_PAVOUK:
           "Máte v současnosti toto onemocnění?": [Ano, Ne]
 
       "2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu)":
-        "Zvětšená prostata": ""
+        "[MUŽI] Zvětšená prostata": ""
+        "[ŽENY] Gynekologické obtíže": ""
         "Bulka v prsu": ""
 
       "2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV)":
