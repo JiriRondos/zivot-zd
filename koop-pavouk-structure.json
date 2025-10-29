@@ -1,0 +1,2328 @@
+{
+  "KOOP_ZD_PAVOUK": {
+    "1_UVOD_ZAKLADNI_DOTAZY": {
+      "prakticky_lekar": {
+        "question": "Praktický lékař - Jméno a příjmení, adresa (pokud neznáte přesnou adresu, uveďte město):",
+        "answer_type": "text_field"
+      },
+      "vyska": {
+        "question": "Výška (cm)",
+        "answer_type": "text_field"
+      },
+      "vaha": {
+        "question": "Váha (kg)",
+        "answer_type": "text_field"
+      },
+      "koureni": {
+        "question": "Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret.)",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      },
+      "alkohol": {
+        "question": "Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin?",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      },
+      "drogy_navykove_latky": {
+        "question": "Užíváte nebo jste užíval/a drogy či jiné návykové látky?",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      },
+      "druhy_drog": {
+        "question": "Které z následujících drog jste užil/a?",
+        "marihuana": {
+          "label": "Marihuana - kouření, vaporizace, konzumace",
+          "posledni_2_roky": {
+            "question": "Užil/a jste tuto drogu v posledních 2 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "jak_casto": {
+            "question": "Jak často jste v posledních 2 letech užíval/a tuto drogu?",
+            "answer_type": "text_field"
+          }
+        },
+        "jine_drogy": {
+          "label": "Jiný druh drog (např. kokain, opiáty, heroin, amfetaminy, MDMA, pervitin)",
+          "posledni_7_let": {
+            "question": "Užil/a jste tuto drogu v posledních 7 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        }
+      },
+      "zavislost": {
+        "question": "Jste nebo jste byl/a závislý/á na alkoholu, drogách, léčivých přípravcích nebo jiných návykových látkách?",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      },
+      "uzivani_posledni_10_let": {
+        "question": "Užil/a jste v posledních 10 letech některou z výše uvedených látek?",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      }
+    },
+
+    "2_ZDRAVY_ZIVOTNI_STYL": {
+      "zajem_dotaznik": {
+        "question": "Mám zájem o vyplnění dotazníku pro slevu za zdravý životní styl",
+        "answer_type": "checkbox"
+      },
+      "vyska_zs": {
+        "question": "Výška (cm)",
+        "answer_type": "text_field"
+      },
+      "vaha_zs": {
+        "question": "Váha (kg)",
+        "answer_type": "text_field"
+      },
+      "koureni_zs": {
+        "question": "Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret.)",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      },
+      "alkohol_zs": {
+        "question": "Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin?",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      },
+      "drogy_zs": {
+        "question": "Užíváte nebo jste užíval/a drogy či jiné návykové látky?",
+        "answer_type": "radio_group",
+        "options": ["Ano", "Ne"]
+      },
+      "spanek": {
+        "question": "Kolik hodin průměrně denně spíte?",
+        "answer_type": "radio_group",
+        "options": ["Méně než 6 hodin", "6 až 9 hodin", "Více než 9 hodin"]
+      },
+      "pohyb": {
+        "question": "Jak často se věnujete pohybu?",
+        "answer_type": "radio_group",
+        "options": ["Vůbec nebo velmi zřídka", "Nepravidelně, v průměru 1x týdně", "Pravidelně min. 2 x týdně"]
+      },
+      "preventivni_prohlidky": {
+        "question": "Jak často chodíte na preventivní lékařské prohlídky k praktickému lékaři?",
+        "answer_type": "radio_group",
+        "options": ["Minimálně 1x za 2 roky", "Méně často než 1x za 2 roky", "Vůbec"]
+      }
+    },
+
+    "3_NEMOCI_1": {
+      "hlavni_otazka": {
+        "question": "1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?"
+      },
+      
+      "1a_nadorova_onemocneni": {
+        "question": "1.a) Nádorová onemocnění (např. rakovina – zhoubný nádor, leukémie, lymfom, nezhoubný nádor mozku)",
+        
+        "rakovina_zhoubny_nador": {
+          "prostata": {
+            "label": "Prostaty",
+            "dotaz": "Prodělal jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "varlete": {
+            "label": "Varlete / varlat",
+            "dotaz": "Prodělal jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "prsu": {
+            "label": "Prsu / prsů",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "ledviny": {
+            "label": "Ledviny / ledvin",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "mocovy_mechyr": {
+            "label": "Močového měchýře",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "tluste_strevo": {
+            "label": "Tlustého střeva nebo konečníku (rekta)",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "plice": {
+            "label": "Plíce / plic",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "kuze": {
+            "label": "Kůže",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "stitna_zlaza": {
+            "label": "Štítné žlázy",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "kosti": {
+            "label": "Kostí",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "mozek": {
+            "label": "Mozku",
+            "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "jine_ostatni": {
+            "label": "Jiné / Ostatní",
+            "specifikace": "Uveďte o jaké onemocnění se jedná",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "leukemie": {
+          "label": "Leukémie",
+          "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+          "answer_type": "radio_group",
+          "options": ["Ano", "Ne"]
+        },
+        
+        "lymfom": {
+          "label": "Lymfom (např. Hodgkinův lymfom, Non-Hodgkinův lymfom)",
+          "dotaz": "Prodělal/a jste toto onemocnění v posledních 10 letech?",
+          "answer_type": "radio_group",
+          "options": ["Ano", "Ne"]
+        },
+        
+        "nezhoubny_nador_mozku": {
+          "label": "Nezhoubný nádor mozku",
+          "dotaz": "Prodělal/a jste toto onemocnění v posledních 5 letech?",
+          "answer_type": "radio_group",
+          "options": ["Ano", "Ne"]
+        }
+      },
+
+      "1b_vysoky_tlak_srdce": {
+        "question": "1.b) Vysoký krevní tlak a onemocnění srdce (např. srdeční infarkt, angina pectoris / bolest na hrudi / ischemická choroba srdeční, bušení srdce / arytmie, vrozená vada srdce nebo operace srdce)",
+        
+        "vysoky_krevni_tlak": {
+          "label": "Vysoký krevní tlak",
+          "systolicky": {
+            "question": "Systolický (vyšší hodnota)",
+            "answer_type": "text_field"
+          },
+          "diastolicky": {
+            "question": "Diastolický (nižší hodnota)",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "srdecni_infarkt": {
+          "label": "Srdeční infarkt",
+          "dotaz": "Prodělal/a jste srdeční infarkt v posledních 5 letech?",
+          "answer_type": "radio_group",
+          "options": ["Ano", "Ne"]
+        },
+        
+        "angina_pectoris": {
+          "label": "Angina pectoris, bolest na hrudi, ischemická choroba srdeční",
+          "answer_type": "checkbox"
+        },
+        
+        "buseni_srdce": {
+          "label": "Bušení srdce, arytmie",
+          "answer_type": "checkbox"
+        },
+        
+        "vrozena_vada": {
+          "label": "Vrozená vada srdce",
+          "answer_type": "checkbox"
+        },
+        
+        "operace_srdce": {
+          "label": "Operace srdce",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "1c_neurologicka": {
+        "question": "1.c) Neurologická onemocnění (např. cévní mozková příhoda – mrtvice, epilepsie, roztroušená skleróza, Alzheimerova nemoc)",
+        
+        "cevni_mozkova_prihoda": {
+          "label": "Cévní mozková příhoda (mrtvice)",
+          "nasledky": {
+            "question": "Máte nějaké následky? (např. narušení schopnosti hýbat některou částí těla, porucha řeči, zhoršení zraku, epilepsie)",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "epilepsie": {
+          "label": "Epilepsie",
+          "neurologicka_evidence": {
+            "question": "Jste aktuálně veden/a v neurologické evidenci?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "roztroušena_skleroza": {
+          "label": "Roztroušená skleróza",
+          "answer_type": "checkbox"
+        },
+        
+        "alzheimerova_nemoc": {
+          "label": "Alzheimerova nemoc",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "1d_psychicka": {
+        "question": "1.d) Psychická onemocnění (např. úzkost, deprese, poruchy spánku, stresová porucha, poporodní deprese, syndrom vyhoření, bipolární porucha, obsedantně kompulzivní porucha, schizofrenie, autismus, Aspergerův syndrom, Downův syndrom, ADHD)",
+        
+        "deprese_uzkost": {
+          "label": "Deprese, úzkost, fobie, poruchy spánku, stresová porucha, postraumatická stresová porucha",
+          "kombinace_tri_leky": {
+            "question": "Užíváte kombinaci tří nebo více druhů léků?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "syndrom_vyhoreni": {
+          "label": "Syndrom vyhoření",
+          "answer_type": "checkbox"
+        },
+        
+        "bipolarni_porucha": {
+          "label": "Bipolární porucha, obsedantně kompulzivní porucha, schizofrenie",
+          "answer_type": "checkbox"
+        },
+        
+        "downuv_syndrom": {
+          "label": "Downův syndrom",
+          "answer_type": "checkbox"
+        },
+        
+        "autismus": {
+          "label": "Autismus, porucha autistického spektra, Aspergerův syndrom",
+          "answer_type": "checkbox"
+        },
+        
+        "adhd": {
+          "label": "ADHD",
+          "kombinace_dva_leky": {
+            "question": "Užíváte kombinaci dvou nebo více druhů léků?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        }
+      },
+
+      "1e_onemocneni_krve": {
+        "question": "1.e) Onemocnění krve (např. porucha srážlivosti krve, chudokrevnost – anémie, hemofilie)",
+        
+        "leidenska_mutace": {
+          "label": "Leidenská mutace nebo jiná porucha srážlivosti krve – trombofilie (např. protrombinová mutace, antitrombinová deficience, MTHFR mutace, hyperhomocytémie)",
+          "komplikace": {
+            "question": "Vyskytly se u vás komplikace jako krevní sraženiny, trombózy nebo tromboembolie?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "anemie_nedostatek_zeleza": {
+          "label": "Anemie z nedostatku železa",
+          "answer_type": "checkbox"
+        },
+        
+        "jina_anemie": {
+          "label": "Jiná anémie (např. hemoragická, aplastická, megaloblastická, hemolytická, autoimunitní hemolytická, sideroblotastická)",
+          "answer_type": "checkbox"
+        },
+        
+        "hemofilie": {
+          "label": "Hemofilie",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "1f_cukor_diabetes": {
+        "question": "1.f) Zvýšená hladinu cukru v krvi (prediabetes / porucha glukózové tolerance) nebo cukrovka (diabetes, gestační diabetes - těhotenská cukrovka)",
+        
+        "prediabetes": {
+          "label": "Zvýšená hladina cukru v krvi (prediabetes / porucha glukózové tolerance)",
+          "posledni_hodnota": {
+            "question": "Poslední naměřená hodnota cukru v krvi byla:",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "diabetes": {
+          "label": "Diabetes / cukrovka (diabetes mellitus 1. typu – cukrovka 1. typu, diabetes mellitus 2. typu – cukrovka 2. typu, diabetes mellitus typu LADA, diabetes mellitus typu MODY)",
+          "lecba": {
+            "question": "Jak onemocnění léčíte?",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "1g_pohybovy_aparat": {
+        "question": "1.g) Onemocnění pohybového aparátu (např. bolesti zad nebo šíje, onemocnění páteře, Bechtěrevova nemoc – ankylozující spondylitida, artritida, artróza, vrozená vada pohybového aparátu)",
+        
+        "bolest_zad": {
+          "label": "Bolest zad",
+          "soucasnost": {
+            "question": "Máte v současné době toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "plotenky_klouby": {
+          "label": "Onemocnění meziobratlových plotének (např. výhřez ploténky) a meziobratlových kloubů (např. artróza, artritida)",
+          "answer_type": "checkbox"
+        },
+        
+        "bechtereva": {
+          "label": "Bechtěrevova choroba (ankylozující spondylitida)",
+          "rozsah": {
+            "question": "Označte rozsah postižení:",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "artritida": {
+          "label": "Artritida (revmatoidní, psoriatická, poúrazová, infekční nebo septická)",
+          "types": {
+            "revmatoidni": {
+              "label": "Revmatoidní artritida",
+              "answer_type": "checkbox"
+            },
+            "psoriaticka": {
+              "label": "Psoriatická artritida",
+              "answer_type": "checkbox"
+            },
+            "pourazova": {
+              "label": "Poúrazová artritida",
+              "kloub": {
+                "question": "Na jakém kloubu?",
+                "options": {
+                  "rameno": {
+                    "label": "Rameno",
+                    "strana": {
+                      "question": "Na jaké straně?",
+                      "options": ["Pravá", "Levá"]
+                    }
+                  },
+                  "loket": {
+                    "label": "Loket",
+                    "strana": {
+                      "question": "Na jaké straně?",
+                      "options": ["Pravá", "Levá"]
+                    }
+                  },
+                  "zapesti": {
+                    "label": "Zápěstí",
+                    "strana": {
+                      "question": "Na jaké straně?",
+                      "options": ["Pravá", "Levá"]
+                    }
+                  },
+                  "kycel": {
+                    "label": "Kyčel",
+                    "strana": {
+                      "question": "Na jaké straně?",
+                      "options": ["Pravá", "Levá"]
+                    }
+                  },
+                  "koleno": {
+                    "label": "Koleno",
+                    "strana": {
+                      "question": "Na jaké straně?",
+                      "options": ["Pravá", "Levá"]
+                    }
+                  },
+                  "kotnik": {
+                    "label": "Kotník (hlezno)",
+                    "strana": {
+                      "question": "Na jaké straně?",
+                      "options": ["Pravá", "Levá"]
+                    }
+                  }
+                }
+              }
+            },
+            "infekcni_septicka": {
+              "label": "Infekční nebo septická artritida",
+              "soucasnost": {
+                "question": "Máte v současné době toto onemocnění?",
+                "answer_type": "radio_group",
+                "options": ["Ano", "Ne"]
+              }
+            }
+          }
+        },
+        
+        "artroza_tep": {
+          "label": "Artróza nebo totální endoprotéza (TEP)",
+          "artroza": {
+            "question": "Máte nebo jste měl/a artrózu?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          },
+          "nahrada_kloubu": {
+            "question": "Máte provedenou náhradu kloubu (totální endoprotéza, TEP), uvažujete o ní nebo vám byla doporučena?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "vrozena_vada": {
+          "label": "Vrozená vada pohybového aparátu",
+          "diagnoza": {
+            "question": "Uveďte diagnózu",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "1h_nic_z_uvedeneho": {
+        "label": "1.h) Nic z výše uvedeného",
+        "answer_type": "checkbox"
+      }
+    },
+
+    "4_NEMOCI_2": {
+      "hlavni_otazka": {
+        "question": "2. Máte nebo jste měl/a v posledních 7 letech některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?"
+      },
+
+      "2a_porucha_latkove_premeny": {
+        "question": "2.a) Porucha látkové přeměny (např. zvýšený cholesterol, zvýšené jaterní testy, dna)",
+        
+        "cholesterol": {
+          "label": "Zvýšený cholesterol",
+          "hodnota": {
+            "question": "Poslední naměřená hodnota cholesterolu:",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "jaterni_testy": {
+          "label": "Zvýšené jaterní testy",
+          "answer_type": "checkbox"
+        },
+        
+        "dna": {
+          "label": "Dna",
+          "leky": {
+            "question": "Užíváte pro toto onemocnění léky?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        }
+      },
+
+      "2b_dychaci_soustava": {
+        "question": "2.b) Onemocnění dýchací soustavy (např. astma, chronická obstrukční plicní nemoc - CHOPN, bronchitida, plicní fibróza, zápal plic, zánět průdušek, alergie)",
+        
+        "astma": {
+          "label": "Astma",
+          "leky": {
+            "question": "Jak často užíváte léky v souvislosti s tímto onemocněním?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "chopn": {
+          "label": "Chronická obstrukční plicní nemoc (CHOPN), chronická bronchitida, plicní fibróza",
+          "answer_type": "checkbox"
+        },
+        
+        "zapal_plic": {
+          "label": "Zápal plic, akutní bronchitida, zánět průdušek",
+          "soucasnost": {
+            "question": "Máte v současnosti toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "alergie": {
+          "label": "Alergie",
+          "hospitalizace": {
+            "question": "Hospitalizovali vás anebo jste byl/a v posledních 2 letech v pracovní neschopnosti v souvislosti s tímto onemocněním?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        }
+      },
+
+      "2c_travici_soustava": {
+        "question": "2.c) Onemocnění trávící soustavy (např. žlučníkové kameny, vřed dvanáctníku, žaludeční vřed, reflux jícnu, zánět slinivky břišní – pankreatitida, onemocnění jater, Crohnova nemoc, ulcerózní kolitida, celiakie, onemocnění nebo vrozené vady jícnu, žaludku nebo střev)",
+        
+        "zlucnikove_kameny": {
+          "label": "Žlučníkové kameny",
+          "soucasnost": {
+            "question": "Máte v současnosti toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "vred": {
+          "label": "Vřed dvanáctníku (duodenum), žaludeční vřed",
+          "soucasnost": {
+            "question": "Máte v současnosti toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "reflux": {
+          "label": "Reflux jícnu (gastrozofagiální reflux)",
+          "komplikace": {
+            "question": "Máte nebo měl/a jste komplikace? (např.potíže s polykáním, zvracení krve, vřed nebo zúžení jícnu, Barretův jícen, brániční / jícnová kýla – hiátová hernie)",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "pankreatitida": {
+          "label": "Zánět slinivky břišní (pankreatitida)",
+          "akutni": {
+            "label": "Akutní zánět slinivky břišní",
+            "zachvaty": {
+              "question": "Měl jste 3 a více záchvatů za posledních 7 let?",
+              "answer_type": "radio_group",
+              "options": ["Ano", "Ne"]
+            }
+          },
+          "chronicky": {
+            "label": "Chronický zánět slinivky břišní",
+            "answer_type": "checkbox"
+          }
+        },
+        
+        "jatra": {
+          "label": "Onemocnění jater (např. cirhóza, fibróza nebo ztučnění jater – steatóza, cysta na játrech, hemangiom jater)",
+          "answer_type": "checkbox"
+        },
+        
+        "crohnova_kolitida": {
+          "label": "Crohnova nemoc, ulcerózní kolitida",
+          "answer_type": "checkbox"
+        },
+        
+        "celiakie": {
+          "label": "Celiakie",
+          "komplikace": {
+            "question": "Máte komplikace v souvislosti s tímto onemocněním? (např. nízká váha, podvýživa, malabsorpční syndrom)",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "vada_jicen": {
+          "label": "Vrozená vada jícnu, žaludku nebo střev",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "2d_mocove_ustroji": {
+        "question": "2.d) Onemocnění močového ústrojí (např. ledvinové kameny, zánět ledvin, močového měchýře nebo močových cest, vrozená vada ledvin, močového měchýře nebo močových cest)",
+        
+        "ledvinove_kameny": {
+          "label": "Ledvinové kameny",
+          "soucasnost": {
+            "question": "Máte v současnosti toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "vada_ledvin": {
+          "label": "Vrozená vada ledvin, močového měchýře, močových cest",
+          "answer_type": "checkbox"
+        },
+        
+        "zanet_mechyr": {
+          "label": "Zánět močového měchýře",
+          "soucasnost": {
+            "question": "Máte v současnosti toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "zanet_cesty": {
+          "label": "Zánět močových cest",
+          "soucasnost": {
+            "question": "Máte v současnosti toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "zanet_ledvin": {
+          "label": "Zánět ledvin",
+          "soucasnost": {
+            "question": "Máte v současnosti toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        }
+      },
+
+      "2f_prostata_prsy": {
+        "question": "2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu)",
+        
+        "zvetsena_prostata": {
+          "label": "Zvětšená prostata",
+          "answer_type": "checkbox"
+        },
+        
+        "bulka_prsu": {
+          "label": "Bulka v prsu",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "2g_infekcni_nemoci": {
+        "question": "2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV)",
+        
+        "hepatitida_a_e": {
+          "label": "Žloutenka (hepatitida) typu A nebo E",
+          "soucasnost": {
+            "question": "Máte v současné době toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "hepatitida_b_d": {
+          "label": "Žloutenka (hepatitida) typu B nebo D",
+          "answer_type": "checkbox"
+        },
+        
+        "hepatitida_c": {
+          "label": "Žloutenka (hepatitida) typu C",
+          "answer_type": "checkbox"
+        },
+        
+        "mononukleoza": {
+          "label": "Infekční mononukleóza",
+          "soucasnost": {
+            "question": "Máte v současné době toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "lymeska": {
+          "label": "Lymeská borelióza",
+          "soucasnost": {
+            "question": "Máte v současné době toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "encefalitida": {
+          "label": "Encefalitida (včetně klíšťové)",
+          "soucasnost": {
+            "question": "Máte v současné době toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "meningitida": {
+          "label": "Meningitida",
+          "soucasnost": {
+            "question": "Máte v současné době toto onemocnění?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "hiv": {
+          "label": "HIV",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "2h_stitna_zlaza": {
+        "question": "2.h) Onemocnění štítné žlázy (např. snížená funkce, zvýšená funkce, cysta nebo uzly)",
+        
+        "snizena_funkce": {
+          "label": "Snížená funkce štítné žlázy (hypofunkce)",
+          "answer_type": "checkbox"
+        },
+        
+        "zvysena_funkce": {
+          "label": "Zvýšená funkce štítné žlázy (hyperfunkce)",
+          "answer_type": "checkbox"
+        },
+        
+        "cysta_uzly": {
+          "label": "Cysta nebo uzly štítné žlázy",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "2i_kuze": {
+        "question": "2.i) Onemocnění kůže (např. lupénka, atopický ekzém, ekzém)",
+        
+        "lupenka": {
+          "label": "Lupénka (psoriáza)",
+          "klouby": {
+            "question": "Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "atopicky_ekzem": {
+          "label": "Atopický ekzém (atopická dermatitida)",
+          "answer_type": "checkbox"
+        },
+        
+        "ekzem": {
+          "label": "Ekzém (kontaktní dermatitida)",
+          "priznaky": {
+            "question": "Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        }
+      },
+
+      "2j_zrakove_ustroji": {
+        "question": "2.j) Onemocnění zrakového ústrojí (např. krátkozrakost, dalekozrakost víc jak 10 dioptrií, astigmatizmus, tupozrakost, šilhavost, keratokonus, zelený zákal, šedý zákal, slepota)",
+        
+        "zrakost_10_dioptrii": {
+          "label": "Krátkozrakost nebo dalekozrakost více než 10 dioptrií",
+          "answer_type": "checkbox"
+        },
+        
+        "astigmatismus": {
+          "label": "Astigmatismus",
+          "answer_type": "checkbox"
+        },
+        
+        "tupozrakost": {
+          "label": "Tupozrakost",
+          "answer_type": "checkbox"
+        },
+        
+        "silhavost": {
+          "label": "Šilhavost",
+          "answer_type": "checkbox"
+        },
+        
+        "keratokonus": {
+          "label": "Keratokonus",
+          "answer_type": "checkbox"
+        },
+        
+        "zeleny_zakal": {
+          "label": "Zelený zákal (glaukom, zvýšený nitrooční tlak, NOT)",
+          "answer_type": "checkbox"
+        },
+        
+        "sedy_zakal": {
+          "label": "Šedý zákal (katarakta)",
+          "answer_type": "checkbox"
+        },
+        
+        "slepota": {
+          "label": "Slepota (např. slepota 1 oka, částečná nebo praktická, úplná)",
+          "types": {
+            "slepota_1_oko": {
+              "label": "Slepota 1 oka",
+              "strana": {
+                "options": ["Pravé oko", "Levé oko"]
+              }
+            },
+            "castecna_slepota": {
+              "label": "Částečná nebo praktická slepota",
+              "answer_type": "checkbox"
+            },
+            "uplna_slepota": {
+              "label": "Úplná slepota",
+              "answer_type": "checkbox"
+            }
+          }
+        }
+      },
+
+      "2k_sluchove_ustroji": {
+        "question": "2.k) Onemocnění sluchového ústrojí (např. pískání nebo šum v uchu – tinnitus, nedoslýchavost, hluchota)",
+        
+        "tinnitus": {
+          "label": "Pískání nebo šum v uchu (tinnitus)",
+          "lecba": {
+            "question": "Máte problémy nebo se léčíte v současnosti s tímto onemocněním?",
+            "answer_type": "radio_group",
+            "options": ["Ano", "Ne"]
+          }
+        },
+        
+        "nedoslychavost_1_ucho": {
+          "label": "Nedoslýchavost 1 ucha",
+          "answer_type": "checkbox"
+        },
+        
+        "hluchota_1_ucho": {
+          "label": "Hluchota 1 ucha",
+          "answer_type": "checkbox"
+        },
+        
+        "nedoslychavost_oba": {
+          "label": "Nedoslýchavost nebo částečná hluchota obou uší",
+          "answer_type": "checkbox"
+        },
+        
+        "ztrata_sluchu": {
+          "label": "Ztráta sluchu (úplná hluchota obou uší)",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "2l_nic_z_uvedeneho": {
+        "label": "2.l) Nic z výše uvedeného",
+        "answer_type": "checkbox"
+      }
+    },
+
+    "5_NEMOCI_3_SOUCASNE_OBTIZE": {
+      "3a_soucasne_obtize": {
+        "question": "3.a) Máte v současné době zdravotní obtíže? (nemoc, pracovní neschopnost, plánujete navštívit lékaře, probíhá u vás vyšetřování, čekáte na výsledky testů, zahájení léčby či operaci)",
+        
+        "pracovni_neschopnost": {
+          "label": "Jsem v pracovní neschopnosti nebo nejsem schopen práce (v případě OSVČ)",
+          "duvod": {
+            "question": "Uveďte důvod:",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "planuji_lekare": {
+          "label": "Mám potíže, pro které plánuji vyhledat lékaře",
+          "duvod": {
+            "question": "Uveďte důvod:",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "probiha_vysetrovani": {
+          "label": "Probíhá u mě vyšetřování, testy nebo čekám na výsledky provedených vyšetření",
+          "duvod": {
+            "question": "Uveďte důvod:",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "cekam_lecbu": {
+          "label": "Čekám na zahájení jakékoliv formy léčby nebo operaci",
+          "lecba": {
+            "label": "Léčba (kromě operace)",
+            "duvod": {
+              "question": "Uveďte důvod:",
+              "answer_type": "text_field"
+            }
+          },
+          "operace": {
+            "label": "Operace",
+            "vyber": {
+              "question": "Vyberte plánované operace",
+              "answer_type": "dropdown"
+            }
+          }
+        }
+      },
+
+      "3b_invalidita": {
+        "question": "3.b) Máte nebo jste měl/a přiznanou invaliditu 1., 2., 3. stupně a /nebo sníženou soběstačnost? Jste nebo jste byl/a osobou se zdravotním zněvýhodněním (např. držitel průkazu ZTP, OZZ)? Žádal/a jste o jejich přiznání?",
+        
+        "osoba_znevyhodneni": {
+          "label": "Osoba se zdravotním znevýhodněním (např. držitel průkazu ZTP nebo OZZ)",
+          "faze": {
+            "question": "V jaké fázi aktuálně je?",
+            "answer_type": "text_field"
+          },
+          "diagnoza": {
+            "question": "Pro jakou diagnózu, případně jaké diagnózy?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "invalidita": {
+          "label": "Invalidita",
+          "faze": {
+            "question": "V jaké fázi aktuálně je?",
+            "answer_type": "text_field"
+          },
+          "diagnoza": {
+            "question": "Pro jakou diagnózu, případně jaké diagnózy?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "snizena_sobestacnost": {
+          "label": "Snížená soběstačnost",
+          "faze": {
+            "question": "V jaké fázi aktuálně je?",
+            "answer_type": "text_field"
+          },
+          "diagnoza": {
+            "question": "Pro jakou diagnózu, případně jaké diagnózy?",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "3c_jine_onemocneni": {
+        "question": "3.c) Máte nebo jste měl/a nějaké jiné onemocnění nebo potíže (mimo úrazy), které jste neuvedl v tomto dotazníku a pro které vás vyšetřoval, sledoval nebo léčil lékař?",
+        "vyber_seznam": {
+          "question": "Vyberte onemocnění nebo potíže ze seznamu.",
+          "answer_type": "dropdown"
+        }
+      }
+    },
+
+    "6_URAZ_TRVALE_NASLEDKY": {
+      "hlavni_otazka": {
+        "question": "4. Měl/a jste v minulosti úraz, který zanechal trvalé následky? (např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod.)"
+      },
+      
+      "obecny_dotaz": {
+        "question": "Na jaké části těla máte trvalý následek? Uveďte všechny trvalé následky."
+      },
+
+      "hlava": {
+        "label": "Hlava",
+        "otazka": "Na jaké části hlavy máte trvalý následek?",
+        
+        "nos_usta_krk": {
+          "label": "Nos, ústa, krk",
+          "otazka": "Jaký máte trvalý následek?",
+          "options": {
+            "ztrata_nosu": {
+              "label": "Ztráta nosu nebo čichu",
+              "answer_type": "checkbox"
+            },
+            "ztrata_jazyka": {
+              "label": "Ztráta jazyka",
+              "answer_type": "checkbox"
+            },
+            "ztrata_zubu": {
+              "label": "Ztráta zubu/zubů",
+              "answer_type": "checkbox"
+            },
+            "ztrata_hlasu": {
+              "label": "Ztráta hlasu nebo poškození hlasivek",
+              "answer_type": "checkbox"
+            },
+            "trvala_tracheostomie": {
+              "label": "Trvalá tracheostomie",
+              "answer_type": "checkbox"
+            },
+            "jizvy": {
+              "label": "Jizvy (např. vzniklé poraněním nebo popálením)",
+              "answer_type": "checkbox"
+            },
+            "jiny_nasledek": {
+              "label": "Jiný trvalý následek",
+              "answer_type": "checkbox"
+            }
+          }
+        },
+        
+        "oko_ucho": {
+          "label": "Oko, ucho",
+          "otazka": "Jaký máte trvalý následek?",
+          "options": {
+            "ztrata_oka": {
+              "label": "Ztráta oka nebo slepota jednoho oka",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ztrata_zraku": {
+              "label": "Ztráta zraku (úplná slepota)",
+              "answer_type": "checkbox"
+            },
+            "castecna_ztrata_zraku": {
+              "label": "Částečná ztráta zraku (částečná slepota, praktická slepota)",
+              "answer_type": "checkbox"
+            },
+            "tinnitus": {
+              "label": "Pískání nebo šum v uchu (tinnitus)",
+              "answer_type": "checkbox"
+            },
+            "ztrata_ucha": {
+              "label": "Ztráta ucha nebo poškození boltce",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "nedoslychavost_1_ucho": {
+              "label": "Nedoslýchavost jednoho ucha",
+              "answer_type": "checkbox"
+            },
+            "hluchota_1_ucho": {
+              "label": "Hluchota jednoho ucha",
+              "answer_type": "checkbox"
+            },
+            "nedoslychavost_oba": {
+              "label": "Nedoslýchavost nebo částečná hluchota obou uší",
+              "answer_type": "checkbox"
+            },
+            "ztrata_sluchu": {
+              "label": "Ztráta sluchu (úplná hluchota obou uší)",
+              "answer_type": "checkbox"
+            },
+            "jiny_nasledek": {
+              "label": "Jiný trvalý následek",
+              "answer_type": "checkbox"
+            }
+          }
+        }
+      },
+
+      "pater": {
+        "label": "Páteř",
+        "otazka": "Jaký máte trvalý následek?",
+        "options": {
+          "omezeni_hybnosti": {
+            "label": "Omezení hybnosti",
+            "answer_type": "checkbox"
+          },
+          "poskozeni_patere": {
+            "label": "Poškození páteře, míchy",
+            "answer_type": "checkbox"
+          }
+        }
+      },
+
+      "trup_organy": {
+        "label": "Trvalé následky trupu a orgánů",
+        "otazka": "Jaký máte trvalý následek?",
+        "options": {
+          "ztrata_plice": {
+            "label": "Ztráta části nebo celé plíce",
+            "strana": {
+              "question": "Na jaké straně?",
+              "options": ["Pravá", "Levá"]
+            }
+          },
+          "poskozeni_plic": {
+            "label": "Poškození funkce plic nebo srůsty plic",
+            "strana": {
+              "question": "Na jaké straně?",
+              "options": ["Pravá", "Levá"]
+            }
+          },
+          "ztrata_prsu": {
+            "label": "Ztráta prsu",
+            "strana": {
+              "question": "Na jaké straně?",
+              "options": ["Pravá", "Levá"]
+            }
+          },
+          "zuzeni_jicnu": {
+            "label": "Zúžení jícnu",
+            "answer_type": "checkbox"
+          },
+          "ztrata_sleziny": {
+            "label": "Ztráta sleziny nebo její části",
+            "answer_type": "checkbox"
+          },
+          "ztrata_jater": {
+            "label": "Ztráta části jater",
+            "answer_type": "checkbox"
+          },
+          "ztrata_ledviny": {
+            "label": "Ztráta jedné ledviny nebo její části",
+            "strana": {
+              "question": "Na jaké straně?",
+              "options": ["Pravá", "Levá"]
+            }
+          },
+          "ztrata_obou_ledvin": {
+            "label": "Ztráta obou ledvin",
+            "answer_type": "checkbox"
+          },
+          "poruseni_travicich": {
+            "label": "Porušení funkce trávících orgánů",
+            "answer_type": "checkbox"
+          },
+          "jizvy": {
+            "label": "Jizvy (např. vzniklé poraněním nebo popálením)",
+            "answer_type": "checkbox"
+          },
+          "jiny_nasledek": {
+            "label": "Jiný trvalý následek",
+            "answer_type": "checkbox"
+          }
+        }
+      },
+
+      "horni_koncetina": {
+        "label": "Horní končetina",
+        "otazka": "Jaký máte trvalý následek?",
+        
+        "omezeni_hybnosti": {
+          "label": "Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub",
+          "otazka": "Na jakém kloubu máte trvalý následek?",
+          "klouby": {
+            "rameno": {
+              "label": "Rameno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "loket": {
+              "label": "Loket",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "zapesti": {
+              "label": "Zápěstí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "ztrata_prstu_koncetiny": {
+          "label": "Ztráta prstu nebo horní končetiny",
+          "otazka": "Jaký máte trvalý následek?",
+          "options": {
+            "ztrata_prstu": {
+              "label": "Ztráta prstu",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ztrata_predlokti": {
+              "label": "Ztráta horní končetiny v úrovni předloktí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ztrata_pazni": {
+              "label": "Ztráta horní končetiny v úrovni pažní kosti",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ztrata_zapesti": {
+              "label": "Ztráta horní končetiny v zápěstí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "neurologicke_priznaky": {
+          "label": "Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.)",
+          "answer_type": "checkbox"
+        },
+        
+        "jizvy": {
+          "label": "Jizvy (např. vzniklé poraněním nebo popálením)",
+          "answer_type": "checkbox"
+        },
+        
+        "jiny_nasledek": {
+          "label": "Jiný trvalý následek",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "dolni_koncetina": {
+        "label": "Dolní končetina",
+        "otazka": "Jaký máte trvalý následek?",
+        
+        "omezeni_hybnosti": {
+          "label": "Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub",
+          "otazka": "Na jakém kloubu máte trvalý následek?",
+          "klouby": {
+            "kycel": {
+              "label": "Kyčel",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "koleno": {
+              "label": "Koleno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "kotnik": {
+              "label": "Kotník (hlezno)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "ztrata_prstu_koncetiny": {
+          "label": "Ztráta prstu nebo dolní končetiny",
+          "otazka": "Jaký máte trvalý následek?",
+          "options": {
+            "ztrata_prstu": {
+              "label": "Ztráta prstu",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ztrata_stehno": {
+              "label": "Ztráta v úrovni stehna",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ztrata_berec": {
+              "label": "Ztráta v úrovni bérce",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ztrata_hlezno": {
+              "label": "Ztráta v hlezenním kloubu (kotníku)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "zkraceni_koncetiny": {
+          "label": "Zkrácení končetiny o 3 cm nebo více",
+          "strana": {
+            "question": "Na jaké straně?",
+            "options": ["Pravá", "Levá"]
+          }
+        },
+        
+        "neurologicke_priznaky": {
+          "label": "Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.)",
+          "answer_type": "checkbox"
+        },
+        
+        "jizvy": {
+          "label": "Jizvy (např. vzniklé poraněním nebo popálením)",
+          "answer_type": "checkbox"
+        },
+        
+        "jiny_nasledek": {
+          "label": "Jiný trvalý následek",
+          "answer_type": "checkbox"
+        }
+      },
+
+      "nic_z_uvedeneho": {
+        "label": "Nic z výše uvedeného",
+        "answer_type": "checkbox"
+      }
+    },
+
+    "7_URAZY_POSLEDNI_7_LET": {
+      "hlavni_otazka": {
+        "question": "5. Měl/a jste v posledních 7 letech úraz? (např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod.)"
+      },
+      
+      "obecny_dotaz": {
+        "question": "Jaká část těla byla poraněna? Uveďte všechna poranění."
+      },
+
+      "hlava": {
+        "label": "Hlava",
+        "otazka": "O jaký úraz se jednalo?",
+        
+        "zlomenina": {
+          "label": "Zlomenina",
+          "otazka": "Jaká část hlavy byla poraněna?",
+          "oblasti": {
+            "kosti_lebky": {
+              "label": "Kosti lebky",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "nos": {
+              "label": "Nos",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "celist": {
+              "label": "Čelist",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            }
+          }
+        },
+        
+        "podvrtnuti_celisti": {
+          "label": "Podvrtnutí čelisti",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "vykloubeni_celisti": {
+          "label": "Vykloubení, vymknutí (luxace) čelisti",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "pohmozdeni": {
+          "label": "Pohmoždění (kontuze) v oblasti hlavy",
+          "otazka": "Jaká část hlavy byla poraněna?",
+          "oblasti": {
+            "mozek": {
+              "label": "Mozek",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "oko": {
+              "label": "Oko",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "nos": {
+              "label": "Nos",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "celist": {
+              "label": "Čelist",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "jina_cast": {
+              "label": "Jiná část hlavy",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            }
+          }
+        },
+        
+        "poleptani_popaleni": {
+          "label": "Poleptání, popálení, otevřená nebo tržná rána",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "otres_mozku": {
+          "label": "Otřes mozku",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "jiny_uraz": {
+          "label": "Jiný úraz",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "pater_zada": {
+        "label": "Páteř a záda",
+        "otazka": "O jaký úraz se jednalo?",
+        
+        "zlomenina": {
+          "label": "Zlomenina",
+          "otazka": "Jaká část páteře byla poraněna?",
+          "oblasti": {
+            "krcni_obratle": {
+              "label": "Krční obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "hrudni_obratle": {
+              "label": "Hrudní obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "bederni_krizove": {
+              "label": "Bederní a/nebo křížové obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            }
+          }
+        },
+        
+        "podvrtnuti": {
+          "label": "Podvrtnutí",
+          "otazka": "Jaká část páteře byla poraněna?",
+          "oblasti": {
+            "krcni_obratle": {
+              "label": "Krční obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "hrudni_obratle": {
+              "label": "Hrudní obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "bederni_krizove": {
+              "label": "Bederní a/nebo křížové obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            }
+          }
+        },
+        
+        "vykloubeni_vazy": {
+          "label": "Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach",
+          "otazka": "Jaká část páteře byla poraněna?",
+          "oblasti": {
+            "krcni_obratle": {
+              "label": "Krční obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "hrudni_obratle": {
+              "label": "Hrudní obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "bederni_krizove": {
+              "label": "Bederní a/nebo křížové obratle",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            }
+          }
+        },
+        
+        "pohmozdeni": {
+          "label": "Pohmoždění (kontuze)",
+          "otazka": "Jaká část páteře byla poraněna?",
+          "oblasti": {
+            "krcni": {
+              "label": "Krční",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "hrudni": {
+              "label": "Hrudní",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "bederni_krizova": {
+              "label": "Bederní a/nebo křížová",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            }
+          }
+        },
+        
+        "natrzeni_svalu": {
+          "label": "Natržení, ruptura nebo zhmoždění zádového svalu",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "poleptani_popaleni": {
+          "label": "Poleptání, popálení, otevřená rána na zádech",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        },
+        
+        "jiny_uraz": {
+          "label": "Jiný úraz",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "trup_organy": {
+        "label": "Trup a orgány",
+        "otazka": "O jaký úraz se jednalo?",
+        
+        "zlomenina": {
+          "label": "Zlomenina",
+          "otazka": "Jaká část byla poraněna?",
+          "oblasti": {
+            "hrudni_kost": {
+              "label": "Hrudní kost",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "zebra": {
+              "label": "Žebra",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "pohmozdeni_organu": {
+          "label": "Pohmoždění (kontuze) orgánů",
+          "otazka": "Jaký orgán byl poraněn?",
+          "organy": {
+            "hrdlo": {
+              "label": "Hrdlo (hrtan, hltan, jícen, hlasivky)",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "plice": {
+              "label": "Plíce",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "srdce": {
+              "label": "Srdce",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "jatra": {
+              "label": "Játra",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "slezina": {
+              "label": "Slezina",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "slinivka": {
+              "label": "Slinivka (pankreas)",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "zaludek": {
+              "label": "Žaludek",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "strevo": {
+              "label": "Tenké nebo tlusté střevo",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "ledviny": {
+              "label": "Ledviny",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "mocovy_mechyr": {
+              "label": "Močový měchýř, močová trubice, pohlavní orgány",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            }
+          }
+        },
+        
+        "natrzeni_svalu": {
+          "label": "Natržení, ruptura nebo zhmoždění břišního svalu",
+          "strana": {
+            "question": "Na jaké straně?",
+            "options": ["Pravá", "Levá"]
+          }
+        },
+        
+        "poleptani_popaleni": {
+          "label": "Poleptání, popálení, otevřená rána na trupu",
+          "strana": {
+            "question": "Na jaké straně?",
+            "options": ["Pravá", "Levá"]
+          }
+        },
+        
+        "jiny_uraz": {
+          "label": "Jiný úraz",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "horni_koncetina": {
+        "label": "Horní končetina",
+        "otazka": "O jaký úraz se jednalo?",
+        
+        "zlomenina": {
+          "label": "Zlomenina",
+          "otazka": "Jaká část horní končetiny byla poraněna?",
+          "oblasti": {
+            "lopatka": {
+              "label": "Lopatka",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "klicni_kost": {
+              "label": "Kliční kost",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "pazni_kost": {
+              "label": "Pažní kost (humerus)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "predlokti": {
+              "label": "Předloktí (loketní a vřetenní kost)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "zapesti": {
+              "label": "Zápěstí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "zaprstni_kosti": {
+              "label": "Záprstní kosti",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "podvrtnuti": {
+          "label": "Podvrtnutí kloubu",
+          "otazka": "Jaká část horní končetiny byla poraněna?",
+          "oblasti": {
+            "rameno": {
+              "label": "Rameno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "loket": {
+              "label": "Loket",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "zapesti": {
+              "label": "Zápěstí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "vykloubeni_vazy": {
+          "label": "Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach",
+          "otazka": "Jaká část horní končetiny byla poraněna?",
+          "oblasti": {
+            "rameno": {
+              "label": "Rameno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "loket": {
+              "label": "Loket",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "zapesti": {
+              "label": "Zápěstí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "pohmozdeni": {
+          "label": "Pohmoždění (kontuze)",
+          "otazka": "Jaká část horní končetiny byla poraněna?",
+          "oblasti": {
+            "rameno": {
+              "label": "Rameno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "loket": {
+              "label": "Loket",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "zapesti": {
+              "label": "Zápěstí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "predlokti": {
+              "label": "Předloktí (loketní a vřetenní kost)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "svaly_paze": {
+              "label": "Svaly paže (nadloktí)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "natrzeni_svalu": {
+          "label": "Natržení nebo přetržení (ruptura) svalu",
+          "otazka": "Jaká část horní končetiny byla poraněna?",
+          "oblasti": {
+            "svaly_ramenne": {
+              "label": "Svaly ramenní a lopatkové",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "svaly_predlokti": {
+              "label": "Svaly předloktí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "svaly_paze": {
+              "label": "Svaly paže (nadloktí)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "poleptani_popaleni": {
+          "label": "Poleptání, popálení, otevřená rána",
+          "otazka": "Jaká část horní končetiny byla poraněna?",
+          "oblasti": {
+            "rameno": {
+              "label": "Rameno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "loket": {
+              "label": "Loket",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "zapesti": {
+              "label": "Zápěstí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "predlokti": {
+              "label": "Předloktí",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "paze": {
+              "label": "Paže (nadloktí)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "jiny_uraz": {
+          "label": "Jiný úraz",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "dolni_koncetina": {
+        "label": "Dolní končetina",
+        "otazka": "O jaký úraz se jednalo?",
+        
+        "zlomenina": {
+          "label": "Zlomenina",
+          "otazka": "Jaká část dolní končetiny byla poraněna?",
+          "oblasti": {
+            "panev": {
+              "label": "Pánev",
+              "kolikrat": {
+                "question": "Kolikrát?",
+                "answer_type": "text_field"
+              }
+            },
+            "kycel": {
+              "label": "Kyčel",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "stehenni_kost": {
+              "label": "Stehenní kost",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "ceska": {
+              "label": "Čéška",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "holenni_lytkova": {
+              "label": "Holenní a lýtková kost",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "kotnik": {
+              "label": "Kotník (hlezno)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "pata": {
+              "label": "Pata",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "nartni_kosti": {
+              "label": "Nártní (metatarzální) kosti",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "podvrtnuti": {
+          "label": "Podvrtnutí kloubu",
+          "otazka": "Jaká část dolní končetiny byla poraněna?",
+          "oblasti": {
+            "kycel": {
+              "label": "Kyčel",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "koleno": {
+              "label": "Koleno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "kotnik": {
+              "label": "Kotník (hlezno)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "pata": {
+              "label": "Pata",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "nartni_kosti": {
+              "label": "Nártní (metatarzální) kosti",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "vykloubeni_vazy": {
+          "label": "Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach",
+          "otazka": "Jaká část dolní končetiny byla poraněna?",
+          "oblasti": {
+            "kycel": {
+              "label": "Kyčel",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "koleno": {
+              "label": "Koleno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "kotnik": {
+              "label": "Kotník (hlezno)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "pohmozdeni": {
+          "label": "Pohmoždění (kontuze)",
+          "otazka": "Jaká část dolní končetiny byla poraněna?",
+          "oblasti": {
+            "kycel": {
+              "label": "Kyčel",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "koleno": {
+              "label": "Koleno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "kotnik": {
+              "label": "Kotník (hlezno)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "stehno": {
+              "label": "Stehno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "berec": {
+              "label": "Bérec (holeň nebo lýtko)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "natrzeni_svalu": {
+          "label": "Natržení nebo přetržení (ruptura) svalu",
+          "otazka": "Jaká část dolní končetiny byla poraněna?",
+          "oblasti": {
+            "svaly_kycelniho": {
+              "label": "Svaly kyčelního kloubu (vč. hýžďového)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "svaly_stehna": {
+              "label": "Svaly stehna",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "svaly_berce": {
+              "label": "Svaly bérce (holeň nebo lýtko)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "poleptani_popaleni": {
+          "label": "Poleptání, popálení, otevřená rána",
+          "otazka": "Jaká část dolní končetiny byla poraněna?",
+          "oblasti": {
+            "kycle": {
+              "label": "Kyčle (vč. hýžďového svalu)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "koleno": {
+              "label": "Koleno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "kotnik": {
+              "label": "Kotník (hlezno)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "prsty": {
+              "label": "Prsty",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "stehno": {
+              "label": "Stehno",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            },
+            "berec": {
+              "label": "Bérec (holeň nebo lýtko)",
+              "strana": {
+                "question": "Na jaké straně?",
+                "options": ["Pravá", "Levá"]
+              }
+            }
+          }
+        },
+        
+        "jiny_uraz": {
+          "label": "Jiný úraz",
+          "kolikrat": {
+            "question": "Kolikrát?",
+            "answer_type": "text_field"
+          }
+        }
+      },
+
+      "nic_z_uvedeneho": {
+        "label": "Nic z výše uvedeného",
+        "answer_type": "checkbox"
+      }
+    }
+  }
+}
