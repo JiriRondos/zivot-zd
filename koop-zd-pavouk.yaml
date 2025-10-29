@@ -11,24 +11,20 @@ KOOP_ZD_PAVOUK:
       answer: ""
     koureni: 
       q: "Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret.)"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     alkohol:
       q: "Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     drogy_navykove_latky:
       q: "Užíváte nebo jste užíval/a drogy či jiné návykové látky?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     druhy_drog:
       q: "Které z následujících drog jste užil/a?"
       marihuana:
         nazev: "Marihuana - kouření, vaporizace, konzumace"
         posledni_2_roky:
           q: "Užil/a jste tuto drogu v posledních 2 letech?"
-          volby: [Ano, Ne]
-          answer: ""
+          answer: [Ano, Ne]
         jak_casto:
           q: "Jak často jste v posledních 2 letech užíval/a tuto drogu?"
           answer: ""
@@ -36,21 +32,18 @@ KOOP_ZD_PAVOUK:
         nazev: "Jiný druh drog (např. kokain, opiáty, heroin, amfetaminy, MDMA, pervitin)"
         posledni_7_let:
           q: "Užil/a jste tuto drogu v posledních 7 letech?"
-          volby: [Ano, Ne]
-          answer: ""
+          answer: [Ano, Ne]
     zavislost:
       q: "Jste nebo jste byl/a závislý/á na alkoholu, drogách, léčivých přípravcích nebo jiných návykových látkách?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     uzivani_posledni_10_let:
       q: "Užil/a jste v posledních 10 letech některou z výše uvedených látek?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
 
   2_ZDRAVY_ZIVOTNI_STYL:
     zajem_dotaznik:
       q: "Mám zájem o vyplnění dotazníku pro slevu za zdravý životní styl"
-      answer: false
+      answer: ""  # checkbox - prázdné = nezaškrtnuto, "zaškrtnuto" = zaškrtnuto
     vyska_zs:
       q: "Výška (cm)"
       answer: ""
@@ -59,82 +52,97 @@ KOOP_ZD_PAVOUK:
       answer: ""
     koureni_zs:
       q: "Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret.)"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     alkohol_zs:
       q: "Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     drogy_zs:
       q: "Užíváte nebo jste užíval/a drogy či jiné návykové látky?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     spanek:
       q: "Kolik hodin průměrně denně spíte?"
-      volby: ["Méně než 6 hodin", "6 až 9 hodin", "Více než 9 hodin"]
-      answer: ""
+      answer: ["Méně než 6 hodin", "6 až 9 hodin", "Více než 9 hodin"]
     pohyb:
       q: "Jak často se věnujete pohybu?"
-      volby: ["Denně", "5-6x týdně", "3-4x týdně", "1-2x týdně", "Méně často"]
-      answer: ""
+      answer: ["Denně", "5-6x týdně", "3-4x týdně", "1-2x týdně", "Méně často"]
     preventivni_prohlidky:
       q: "Docházíte pravidelně na preventivní prohlídky k praktickému lékaři?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
 
   3_NEM1_NEMOCI_CAST1:
+    hlavni_otazka:
+      q: "1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?"
     1a_nadorova_onemocneni:
-      q: "1.a) Nádorová onemocnění"
-      zhoubny_nador_plic:
-        nazev: "Zhoubný nádor plic"
-        answer: false
-      zhoubny_nador_prostaty:
-        nazev: "Zhoubný nádor prostaty"
-        answer: false
-      zhoubny_nador_prsu:
-        nazev: "Zhoubný nádor prsu"
-        answer: false
-      zhoubny_nador_kolorektalni:
-        nazev: "Zhoubný nádor kolorektální (tlustého střeva a konečníku)"
-        answer: false
-      zhoubny_nador_mocoveho_mechyre:
-        nazev: "Zhoubný nádor močového měchýře"
-        answer: false
-      zhoubny_nador_ledvin:
-        nazev: "Zhoubný nádor ledvin"
-        answer: false
-      zhoubny_nador_jater:
-        nazev: "Zhoubný nádor jater"
-        answer: false
-      zhoubny_nador_slinivky:
-        nazev: "Zhoubný nádor slinivky břišní"
-        answer: false
-      zhoubny_nador_vajecniku:
-        nazev: "Zhoubný nádor vaječníků"
-        answer: false
-      zhoubny_nador_delohy:
-        nazev: "Zhoubný nádor dělohy"
-        answer: false
-      zhoubny_nador_melanom:
-        nazev: "Zhoubný nádor kůže - melanom"
-        answer: false
-      zhoubny_nador_jiny_kuze:
-        nazev: "Zhoubný nádor kůže - jiný"
-        answer: false
+      q: "1.a) Nádorová onemocnění (např. rakovina – zhoubný nádor, leukémie, lymfom, nezhoubný nádor mozku)"
+      rakovina_zhoubny_nador:
+        nazev: "Rakovina – zhoubný nádor"
+        prostaty:
+          nazev: "Prostaty"
+          q: "Prodělal jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        varlete_varlat:
+          nazev: "Varlete / varlat"
+          q: "Prodělal jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        prsu_prsu:
+          nazev: "Prsu / prsů"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        ledviny_ledvin:
+          nazev: "Ledviny / ledvin"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        mocoveho_mechyre:
+          nazev: "Močového měchýře"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        tlusteho_streva_konecniku:
+          nazev: "Tlustého střeva nebo konečníku (rekta)"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        plice_plic:
+          nazev: "Plíce / plic"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        kuze:
+          nazev: "Kůže"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        stitne_zlazy:
+          nazev: "Štítné žlázy"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        kosti:
+          nazev: "Kostí"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        mozku:
+          nazev: "Mozku"
+          q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+          answer: [Ano, Ne]
+        jine_ostatni:
+          nazev: "Jiné / Ostatní"
+          uvedte_onemocneni:
+            q: "Uveďte o jaké onemocnění se jedná"
+            answer: ""
       leukemie:
         nazev: "Leukémie"
-        answer: false
+        q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+        answer: [Ano, Ne]
       lymfom:
         nazev: "Lymfom (např. Hodgkinův lymfom, Non-Hodgkinův lymfom)"
-        answer: false
+        q: "Prodělal/a jste toto onemocnění v posledních 10 letech?"
+        answer: [Ano, Ne]
       nezhoubny_nador_mozku:
         nazev: "Nezhoubný nádor mozku"
-        answer: false
+        q: "Prodělal/a jste toto onemocnění v posledních 5 letech?"
+        answer: [Ano, Ne]
 
     1b_vysoky_tlak_srdce:
-      q: "1.b) Vysoký krevní tlak a onemocnění srdce"
+      q: "1.b) Vysoký krevní tlak a onemocnění srdce (např. srdeční infarkt, angina pectoris / bolest na hrudi / ischemická choroba srdeční, bušení srdce / arytmie, vrozená vada srdce nebo operace srdce)"
       vysoky_krevni_tlak:
         nazev: "Vysoký krevní tlak"
+        popis: "Poslední naměřená hodnota krevního tlaku:"
         systolicky:
           q: "Systolický (vyšší hodnota)"
           answer: ""
@@ -143,265 +151,264 @@ KOOP_ZD_PAVOUK:
           answer: ""
       srdecni_infarkt:
         nazev: "Srdeční infarkt"
-        answer: false
+        q: "Prodělal/a jste srdeční infarkt v posledních 5 letech?"
+        answer: [Ano, Ne]
       angina_pectoris:
         nazev: "Angina pectoris, bolest na hrudi, ischemická choroba srdeční"
-        answer: false
+        answer: ""
       buseni_srdce:
         nazev: "Bušení srdce, arytmie"
-        answer: false
+        answer: ""
       vrozena_vada:
         nazev: "Vrozená vada srdce"
-        answer: false
+        answer: ""
       operace_srdce:
         nazev: "Operace srdce"
-        answer: false
+        answer: ""
 
     1c_neurologicka:
       q: "1.c) Neurologická onemocnění"
       cevni_mozkova_prihoda:
         nazev: "Cévní mozková příhoda (mrtvice)"
-        answer: false
+        answer: ""
         nasledky:
           q: "Máte nějaké následky? (např. narušení schopnosti hýbat některou částí těla, porucha řeči, zhoršení zraku, epilepsie)"
           answer: ""
       epilepsie:
         nazev: "Epilepsie"
-        answer: false
+        answer: ""
         neurologicka_evidence:
           q: "Jste aktuálně veden/a v neurologické evidenci?"
-          volby: [Ano, Ne]
-          answer: ""
+          answer: [Ano, Ne]
       roztroušena_skleroza:
         nazev: "Roztroušená skleróza"
-        answer: false
+        answer: ""
       alzheimerova_nemoc:
         nazev: "Alzheimerova nemoc"
-        answer: false
+        answer: ""
 
     1d_psychicka:
       q: "1.d) Psychická onemocnění"
       deprese_uzkost:
         nazev: "Deprese, úzkost, fobie, poruchy spánku, stresová porucha, postraumatická stresová porucha"
-        answer: false
+        answer: ""
         kombinace_tri_leky:
           q: "Užíváte kombinaci tří nebo více druhů léků?"
-          volby: [Ano, Ne]
-          answer: ""
+          answer: [Ano, Ne]
       poporodní_deprese:
         nazev: "Poporodní deprese"
-        answer: false
+        answer: ""
       syndrom_vyhoreni:
         nazev: "Syndrom vyhoření"
-        answer: false
+        answer: ""
       bipolární_porucha:
         nazev: "Bipolární porucha"
-        answer: false
+        answer: ""
       ocd:
         nazev: "Obsedantně kompulzivní porucha"
-        answer: false
+        answer: ""
       schizofrenie:
         nazev: "Schizofrenie"
-        answer: false
+        answer: ""
       autismus:
         nazev: "Autismus"
-        answer: false
+        answer: ""
       aspergeruv_syndrom:
         nazev: "Aspergerův syndrom"
-        answer: false
+        answer: ""
       downuv_syndrom:
         nazev: "Downův syndrom"
-        answer: false
+        answer: ""
       adhd:
         nazev: "ADHD"
-        answer: false
+        answer: ""
 
     1e_nemoci_krve:
       q: "1.e) Nemoci krve"
       chudokrevnost:
         nazev: "Chudokrevnost (anémie)"
-        answer: false
+        answer: ""
       poruchy_srazlivosti:
         nazev: "Poruchy srážlivosti krve"
-        answer: false
+        answer: ""
       jine_nemoci_krve:
         nazev: "Jiné nemoci krve"
-        answer: false
+        answer: ""
 
     1f_cukrovka:
       q: "1.f) Cukrovka (diabetes mellitus)"
       1_typu:
         nazev: "1. typu"
-        answer: false
+        answer: ""
       2_typu:
         nazev: "2. typu"
-        answer: false
+        answer: ""
       gestacni:
         nazev: "Gestační"
-        answer: false
+        answer: ""
 
     1g_kosti_klouby_svaly:
       q: "1.g) Nemoci kostí, kloubů a svalů"
       artritida_revmaticka:
         nazev: "Artritida (revmatická)"
-        answer: false
+        answer: ""
       artroza:
         nazev: "Artroza"
-        answer: false
+        answer: ""
       osteoporoza:
         nazev: "Osteoporóza"
-        answer: false
+        answer: ""
       onemocneni_pozadni_steny:
         nazev: "Onemocnění páteře (např. skolióza, meziobratlová ploténka)"
-        answer: false
+        answer: ""
       onemocneni_svalstva:
         nazev: "Onemocnění svalstva"
-        answer: false
+        answer: ""
 
   4_NEM2_NEMOCI_CAST2:
     2a_poruchy_latek:
       q: "2.a) Poruchy výměny látek"
       obezita:
         nazev: "Obezita"
-        answer: false
+        answer: ""
       dna:
         nazev: "Dna"
-        answer: false
+        answer: ""
       vysoky_cholesterol:
         nazev: "Vysoký cholesterol"
-        answer: false
+        answer: ""
 
     2b_dychaci_cesty:
       q: "2.b) Nemoci dýchacích cest a plic"
       astma:
         nazev: "Astma"
-        answer: false
+        answer: ""
       chronická_obstrukčni:
         nazev: "Chronická obstrukční plicní nemoc (CHOPN)"
-        answer: false
+        answer: ""
       tuberkuloza:
         nazev: "Tuberkulóza"
-        answer: false
+        answer: ""
       pneumonie:
         nazev: "Pneumonie (zánět plic)"
-        answer: false
+        answer: ""
       embolie_plicni:
         nazev: "Embolie plicní"
-        answer: false
+        answer: ""
 
     2c_travici_soustava:
       q: "2.c) Nemoci trávicí soustavy"
       vredy_zaludku:
         nazev: "Vředy žaludku nebo dvanáctníku"
-        answer: false
+        answer: ""
       chronická_gastritida:
         nazev: "Chronická gastritida"
-        answer: false
+        answer: ""
       crohnova_nemoc:
         nazev: "Crohnova nemoc"
-        answer: false
+        answer: ""
       ulcerozní_kolitida:
         nazev: "Ulcerózní kolitida"
-        answer: false
+        answer: ""
       chronická_hepatitida:
         nazev: "Chronická hepatitida"
-        answer: false
+        answer: ""
       ciroza_jater:
         nazev: "Cirhóza jater"
-        answer: false
+        answer: ""
       zlutnka:
         nazev: "Žloutenka"
-        answer: false
+        answer: ""
       zlucnikove_kameny:
         nazev: "Žlučníkové kameny"
-        answer: false
+        answer: ""
 
     2d_mocove_cesty:
       q: "2.d) Nemoci močových cest a ledvin"
       chronická_nedostatečnost_ledvin:
         nazev: "Chronická nedostatečnost ledvin"
-        answer: false
+        answer: ""
       ledvinove_kameny:
         nazev: "Ledvinové kameny"
-        answer: false
+        answer: ""
       chronická_klinická_nephritis:
         nazev: "Chronický zánět ledvin (nefritida)"
-        answer: false
+        answer: ""
 
     2e_prostata_prsa:
       q: "2.e) Nemoci prostaty a prsů"
       zvetšeni_prostaty:
         nazev: "Zvětšení prostaty"
-        answer: false
+        answer: ""
       cysty_prsu:
         nazev: "Cysty prsu"
-        answer: false
+        answer: ""
       fibrocystická_nemoc:
         nazev: "Fibrocystická nemoc prsu"
-        answer: false
+        answer: ""
 
     2f_nakaza_infekce:
       q: "2.f) Nákaza a infekce"
       hiv:
         nazev: "HIV"
-        answer: false
+        answer: ""
       hepatitida_b:
         nazev: "Hepatitida B"
-        answer: false
+        answer: ""
       hepatitida_c:
         nazev: "Hepatitida C"
-        answer: false
+        answer: ""
       syﬁlis:
         nazev: "Syfilis"
-        answer: false
+        answer: ""
 
     2g_štitna_zlaza:
       q: "2.g) Nemoci štítné žlázy"
       hyperfunkce:
         nazev: "Hyperfunkce štítné žlázy"
-        answer: false
+        answer: ""
       hypofunkce:
         nazev: "Hypofunkce štítné žlázy"
-        answer: false
+        answer: ""
       strumy:
         nazev: "Strumy"
-        answer: false
+        answer: ""
 
     2h_kuze:
       q: "2.h) Nemoci kůže"
       ekzem:
         nazev: "Ekzém"
-        answer: false
+        answer: ""
       lupénka:
         nazev: "Lupénka (psoriáza)"
-        answer: false
+        answer: ""
       atopická_dermatitida:
         nazev: "Atopická dermatitida"
-        answer: false
+        answer: ""
 
     2i_zrak:
       q: "2.i) Poruchy zraku"
       zeleny_zakal:
         nazev: "Zelený zákal (glaukom)"
-        answer: false
+        answer: ""
       sedy_zakal:
         nazev: "Šedý zákal (katarakta)"
-        answer: false
+        answer: ""
       odlouceni_sitnice:
         nazev: "Odloučení sítnice"
-        answer: false
+        answer: ""
       dalšie_poruchy_zraku:
         nazev: "Další poruchy zraku vyžadující operaci"
-        answer: false
+        answer: ""
 
     2j_sluch:
       q: "2.j) Poruchy sluchu"
       nedoslýchavost:
         nazev: "Nedoslýchavost"
-        answer: false
+        answer: ""
       hluchota:
         nazev: "Hluchota"
-        answer: false
+        answer: ""
 
   5_NEM3_SOUCASNY_STAV:
     aktualní_zdravotní_problemy:
@@ -409,15 +416,13 @@ KOOP_ZD_PAVOUK:
       answer: ""
     pracovní_neschopnost:
       q: "Jste aktuálně v pracovní neschopnosti?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     planovane_leceni:
       q: "Máte naplánované nějaké léčení, vyšetření nebo operaci?"
       answer: ""
     invalidní_duchod:
       q: "Pobíráte invalidní důchod?"
-      volby: [Ano, Ne]
-      answer: ""
+      answer: [Ano, Ne]
     jine_nemoci:
       q: "Trpíte jinými nemocemi, které nebyly uvedeny v dotazníku?"
       answer: ""
@@ -431,13 +436,13 @@ KOOP_ZD_PAVOUK:
         oblasti:
           lebka:
             nazev: "Lebka"
-            answer: false
+            answer: ""
           obličej:
             nazev: "Obličej"
-            answer: false
+            answer: ""
           krk:
             nazev: "Krk"
-            answer: false
+            answer: ""
       horn_koncetiny:
         nazev: "Horní končetiny"
         oblasti:
@@ -445,57 +450,57 @@ KOOP_ZD_PAVOUK:
             nazev: "Rameno"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           paže:
             nazev: "Paže"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           predlokti:
             nazev: "Předloktí"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           zapesti:
             nazev: "Zápěstí"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           prsty_ruk:
             nazev: "Prsty rukou"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
       trup:
         nazev: "Trup"
         oblasti:
           hrudnik:
             nazev: "Hrudník"
-            answer: false
+            answer: ""
           brisko:
             nazev: "Břiško"
-            answer: false
+            answer: ""
           záda:
             nazev: "Záda"
-            answer: false
+            answer: ""
           patere:
             nazev: "Páteř"
-            answer: false
+            answer: ""
       dolni_koncetiny:
         nazev: "Dolní končetiny"
         oblasti:
@@ -503,50 +508,50 @@ KOOP_ZD_PAVOUK:
             nazev: "Kyčle"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           koleno:
             nazev: "Koleno"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           kotnik:
             nazev: "Kotník"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           prsty_nohou:
             nazev: "Prsty nohou"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           stehno:
             nazev: "Stehno"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
           berec:
             nazev: "Bérec"
             prava:
               nazev: "Pravá"
-              answer: false
+              answer: ""
             leva:
               nazev: "Levá"
-              answer: false
+              answer: ""
 
   7_UR_URAZY_7_LET:
     urazy_7_let:
@@ -560,16 +565,16 @@ KOOP_ZD_PAVOUK:
             oblasti:
               lebka:
                 nazev: "Lebka"
-                answer: false
+                answer: ""
               obličej:
                 nazev: "Obličej"
-                answer: false
+                answer: ""
               krk:
                 nazev: "Krk"
-                answer: false
+                answer: ""
           otres_mozku:
             nazev: "Otřes mozku"
-            answer: false
+            answer: ""
             kolikrat:
               q: "Kolikrát?"
               answer: ""
@@ -578,16 +583,16 @@ KOOP_ZD_PAVOUK:
             oblasti:
               lebka:
                 nazev: "Lebka"
-                answer: false
+                answer: ""
               obličej:
                 nazev: "Obličej"
-                answer: false
+                answer: ""
               krk:
                 nazev: "Krk"
-                answer: false
+                answer: ""
           jiny_uraz:
             nazev: "Jiný úraz"
-            answer: false
+            answer: ""
             kolikrat:
               q: "Kolikrát?"
               answer: ""
@@ -602,42 +607,42 @@ KOOP_ZD_PAVOUK:
                 nazev: "Rameno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               paže:
                 nazev: "Paže"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               predlokti:
                 nazev: "Předloktí"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               zapesti:
                 nazev: "Zápěstí"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               prsty:
                 nazev: "Prsty"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           vyknuti:
             nazev: "Vyknutí"
             oblasti:
@@ -645,34 +650,34 @@ KOOP_ZD_PAVOUK:
                 nazev: "Rameno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               loket:
                 nazev: "Loket"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               zapesti:
                 nazev: "Zápěstí"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               prsty:
                 nazev: "Prsty"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           natrzeni_svalu:
             nazev: "Natržení nebo přetržení (ruptura) svalu"
             oblasti:
@@ -680,26 +685,26 @@ KOOP_ZD_PAVOUK:
                 nazev: "Svaly ramene"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               svaly_paže:
                 nazev: "Svaly paže"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               svaly_predlokti:
                 nazev: "Svaly předloktí"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           poleptani_popaleni:
             nazev: "Poleptání, popálení, otevřená rána"
             oblasti:
@@ -707,45 +712,45 @@ KOOP_ZD_PAVOUK:
                 nazev: "Rameno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               paže:
                 nazev: "Paže"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               predlokti:
                 nazev: "Předloktí"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               zapesti:
                 nazev: "Zápěstí"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               prsty:
                 nazev: "Prsty"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           jiny_uraz:
             nazev: "Jiný úraz"
-            answer: false
+            answer: ""
             kolikrat:
               q: "Kolikrát?"
               answer: ""
@@ -758,31 +763,31 @@ KOOP_ZD_PAVOUK:
             oblasti:
               zebra:
                 nazev: "Žebra"
-                answer: false
+                answer: ""
               hrudni_kost:
                 nazev: "Hrudní kost"
-                answer: false
+                answer: ""
               obratly:
                 nazev: "Obratle"
-                answer: false
+                answer: ""
               panev:
                 nazev: "Pánev"
-                answer: false
+                answer: ""
           poleptani_popaleni:
             nazev: "Poleptání, popálení, otevřená rána"
             oblasti:
               hrudnik:
                 nazev: "Hrudník"
-                answer: false
+                answer: ""
               brisko:
                 nazev: "Břiško"
-                answer: false
+                answer: ""
               záda:
                 nazev: "Záda"
-                answer: false
+                answer: ""
           jiny_uraz:
             nazev: "Jiný úraz"
-            answer: false
+            answer: ""
             kolikrat:
               q: "Kolikrát?"
               answer: ""
@@ -797,50 +802,50 @@ KOOP_ZD_PAVOUK:
                 nazev: "Kyčle"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               koleno:
                 nazev: "Koleno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               kotnik:
                 nazev: "Kotník (hlezno)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               prsty:
                 nazev: "Prsty"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               stehno:
                 nazev: "Stehno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               berec:
                 nazev: "Bérec (holeň nebo lýtko)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           vyknuti:
             nazev: "Vyknutí"
             oblasti:
@@ -848,50 +853,50 @@ KOOP_ZD_PAVOUK:
                 nazev: "Kyčle"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               koleno:
                 nazev: "Koleno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               kotnik:
                 nazev: "Kotník (hlezno)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               prsty:
                 nazev: "Prsty"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               stehno:
                 nazev: "Stehno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               berec:
                 nazev: "Bérec (holeň nebo lýtko)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           natrzeni_svalu:
             nazev: "Natržení nebo přetržení (ruptura) svalu"
             oblasti:
@@ -899,26 +904,26 @@ KOOP_ZD_PAVOUK:
                 nazev: "Svaly kyčelního kloubu (vč. hýžďového)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               svaly_stehna:
                 nazev: "Svaly stehna"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               svaly_berce:
                 nazev: "Svaly bérce (holeň nebo lýtko)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           poleptani_popaleni:
             nazev: "Poleptání, popálení, otevřená rána"
             oblasti:
@@ -926,57 +931,57 @@ KOOP_ZD_PAVOUK:
                 nazev: "Kyčle (vč. hýžďového svalu)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               koleno:
                 nazev: "Koleno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               kotnik:
                 nazev: "Kotník (hlezno)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               prsty:
                 nazev: "Prsty"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               stehno:
                 nazev: "Stehno"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
               berec:
                 nazev: "Bérec (holeň nebo lýtko)"
                 prava:
                   nazev: "Pravá"
-                  answer: false
+                  answer: ""
                 leva:
                   nazev: "Levá"
-                  answer: false
+                  answer: ""
           jiny_uraz:
             nazev: "Jiný úraz"
-            answer: false
+            answer: ""
             kolikrat:
               q: "Kolikrát?"
               answer: ""
 
       nic_z_uvedeneho:
         nazev: "Nic z výše uvedeného"
-        answer: false
+        answer: ""

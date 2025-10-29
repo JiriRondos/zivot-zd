@@ -15,6 +15,7 @@ Veškeré volby odpovědí ze zdroje a případné pole pro "ruční" zápis inf
 
 ###
 Použij nejvhodnější kompaktní formát pavouka/stromu → yaml/toml/...?
+Aktualizuj vždy JEDINÝ výstup (např. koop-zd-pavouk.yaml) a nevytvářej další a další nové verze.
 
 Použij češtinu a přesné výrazy ze zdroje a nevymýšlej jiné/zbytečné kategorie/podkategorie, než uvedené ve zdroji.
 
