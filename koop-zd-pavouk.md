@@ -59,7 +59,7 @@ Dočasné pracovní:
         {…} Prsu / prsů [Ano|Ne]
           {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-        {…} Ledviny / ledvin [Ano|Ne]
+        {…} Ledviny [Ano|Ne] / ledvin [Ano|Ne]
           {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Močového měchýře [Ano|Ne]
@@ -68,7 +68,7 @@ Dočasné pracovní:
         {…} Tlustého střeva nebo konečníku (rekta) [Ano|Ne]
           {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-        {…} Plíce / plic [Ano|Ne]
+        {…} Plíce [Ano|Ne] / plic [Ano|Ne]
           {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Kůže [Ano|Ne]
@@ -189,63 +189,63 @@ Dočasné pracovní:
         {…} Psoriatická artritida [Ano|Ne]
         {…} Poúrazová artritida [Ano|Ne]
           {…+} Na jakém kloubu?
-            {…} Rameno [Ano|Ne]
+            {…} Rameno [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Loket [Ano|Ne]
+            {…} Loket [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Zápěstí [Ano|Ne]
+            {…} Zápěstí [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Kyčel [Ano|Ne]
+            {…} Kyčel [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Koleno [Ano|Ne]
+            {…} Koleno [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Kotník (hlezno) [Ano|Ne]
+            {…} Kotník (hlezno) [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
             {…} Infekční nebo septická artritida [Ano|Ne]
               {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
                 {…-}{…} Zanechalo toto onemocnění deformity nebo omezení hybnosti kloubů? [Ano|Ne]
                   {…+} Na jakém kloubu?
-                    {…} Rameno [Ano|Ne]
+                    {…} Rameno [Ano|Ne] [Ano|Ne]
                       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-                    {…} Loket [Ano|Ne]
+                    {…} Loket [Ano|Ne] [Ano|Ne]
                       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-                    {…} Zápěstí [Ano|Ne]
+                    {…} Zápěstí [Ano|Ne] [Ano|Ne]
                       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-                    {…} Kyčel [Ano|Ne]
+                    {…} Kyčel [Ano|Ne] [Ano|Ne]
                       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-                    {…} Koleno [Ano|Ne]
+                    {…} Koleno [Ano|Ne] [Ano|Ne]
                       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-                    {…} Kotník (hlezno) [Ano|Ne]
+                    {…} Kotník (hlezno) [Ano|Ne] [Ano|Ne]
                       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
     {…} Artróza nebo totální endoprotéza (TEP) [Ano|Ne]
       {…+}
         {…} Máte nebo jste měl/a artrózu? [Ano|Ne]
           {…+} Na jakém kloubu?
-            {…} Rameno [Ano|Ne]
+            {…} Rameno [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Loket [Ano|Ne]
+            {…} Loket [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Zápěstí [Ano|Ne]
+            {…} Zápěstí [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Kyčel [Ano|Ne]
+            {…} Kyčel [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Koleno [Ano|Ne]
+            {…} Koleno [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Kotník (hlezno) [Ano|Ne]
+            {…} Kotník (hlezno) [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
         {…} Máte provedenou náhradu kloubu (totální endoprotéza, TEP), uvažujete o ní nebo vám byla doporučena? [Ano|Ne]
           {…+} Na jakém kloubu?
-            {…} Rameno [Ano|Ne]
+            {…} Rameno [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Loket [Ano|Ne]
+            {…} Loket [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Zápěstí [Ano|Ne]
+            {…} Zápěstí [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Kyčel [Ano|Ne]
+            {…} Kyčel [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Koleno [Ano|Ne]
+            {…} Koleno [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-            {…} Kotník (hlezno) [Ano|Ne]
+            {…} Kotník (hlezno) [Ano|Ne] [Ano|Ne]
               {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
     {…} Vrozená vada pohybového aparátu [Ano|Ne]
       {…+}{…} Uveďte diagnózu: […]
@@ -850,9 +850,6 @@ Ztráta sluchu (úplná hluchota)
 #### 4. Měl/a jste v minulosti úraz, který zanechal trvalé následky? (např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod.)
 Na jaké části těla máte trvalý následek? Uveďte všechny trvalé následky.
 
-  {…+}
-    {…} Osoba se zdravotním znevýhodněním (např. držitel průkazu ZTP nebo OZZ) [Ano|Ne]
-
 {…} Hlava [Ano|Ne]
   {…+} Na jaké části hlavy máte trvalý následek?
     {…} Nos, ústa, krk [Ano|Ne]
@@ -864,7 +861,7 @@ Na jaké části těla máte trvalý následek? Uveďte všechny trvalé násled
         {…} Trvalá tracheostomie [Ano|Ne]
         {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
         {…} Jiný trvalý následek [Ano|Ne]
-          {151} […]
+          {…+}{…} Uveď: […]
     {…} Oko, ucho [Ano|Ne]
       {…+} Jaký máte trvalý následek?
         {…} Ztráta oka nebo slepota jednoho oka [Ano|Ne]
@@ -879,11 +876,15 @@ Na jaké části těla máte trvalý následek? Uveďte všechny trvalé násled
         {…} Nedoslýchavost nebo částečná hluchota obou uší [Ano|Ne]
         {…} Ztráta sluchu (úplná hluchota obou uší) [Ano|Ne]
         {…} Jiný trvalý následek [Ano|Ne]
-          {161} […]
+          {…+}{…} Uveď: […]
+    {…} Jiný trvalý následek [Ano|Ne]
+      {…+}{…} Uveď: […]
+
 {…} Páteř [Ano|Ne]
   {…+} Jaký máte trvalý následek?
     {…} Omezení hybnosti [Ano|Ne]
-    {…} Poškození páteře, míchy
+    {…} Poškození páteře, míchy [Ano|Ne]
+
 {…} Trvalé následky trupu a orgánů [Ano|Ne]
   {…+} Jaký máte trvalý následek?
     {…} Ztráta části nebo celé plíce [Ano|Ne]
@@ -893,29 +894,31 @@ Na jaké části těla máte trvalý následek? Uveďte všechny trvalé násled
     {…} Ztráta prsu [Ano|Ne]
       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
     {…} Zúžení jícnu [Ano|Ne]
-    {…} Ztráta sleziny nebo její části
-    {…} Ztráta části jater
+    {…} Ztráta sleziny nebo její části [Ano|Ne]
+    {…} Ztráta části jater [Ano|Ne]
     {…} Ztráta jedné ledviny nebo její části [Ano|Ne]
-      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+      {…+}{…} Na jaké straně? [Pravá|Levá]
+        {…ab}{…} Druhá ledvina je plně funkční [Ano|Ne]
     {…} Ztráta obou ledvin [Ano|Ne]
     {…} Porušení funkce trávících orgánů [Ano|Ne]
     {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
     {…} Jiný trvalý následek [Ano|Ne]
-      {174} […]
-{…} Horní končetina [Ano|Ne]
+      {…+}{…} Uveď: […]
+
+{…} Horní končetina [Ano|Ne] [Ano|Ne]
   {…+} Jaký máte trvalý následek?
     {…} Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub [Ano|Ne]
-      Na jakém kloubu máte trvalý následek?
-        {…} Rameno [Ano|Ne]
+      {…+} Na jakém kloubu máte trvalý následek?
+        {…} Rameno [Ano|Ne] [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Loket [Ano|Ne]
+        {…} Loket [Ano|Ne] [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Zápěstí [Ano|Ne]
+        {…} Zápěstí [Ano|Ne] [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Prsty [Ano|Ne]
+        {…} Prsty [Ano|Ne] [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-    {…} Jiný trvalý následek [Ano|Ne]
-      {179} […]
+        {…} Jiný trvalý následek [Ano|Ne]
+          {…+}{…} Uveď: […]
     {…} Ztráta prstu nebo horní končetiny [Ano|Ne]
       {…+} Jaký máte trvalý následek?
         {…} Ztráta prstu [Ano|Ne]
@@ -927,434 +930,457 @@ Na jaké části těla máte trvalý následek? Uveďte všechny trvalé násled
         {…} Ztráta horní končetiny v zápěstí [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
         {…} Jiný trvalý následek [Ano|Ne]
-          {184} […]
+          {…+}{…} Uveď: […]
     {…} Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.) [Ano|Ne]
     {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
     {…} Jiný trvalý následek [Ano|Ne]
-      {187} […]
-{…} Dolní končetina [Ano|Ne]
+      {…+}{…} Uveď: […]
+
+{…} Dolní končetina [Ano|Ne] [Ano|Ne]
   {…+} Jaký máte trvalý následek?
     {…} Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub [Ano|Ne]
-      Na jakém kloubu máte trvalý následek?
-        {…} Kyčel [Ano|Ne]
+      {…+} Na jakém kloubu máte trvalý následek?
+        {…} Kyčel [Ano|Ne] [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Koleno [Ano|Ne]
+        {…} Koleno [Ano|Ne] [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Kotník (hlezno) [Ano|Ne]
+        {…} Kotník (hlezno) [Ano|Ne] [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-    {…} Jiný trvalý následek [Ano|Ne]
-      {191} […]
+        {…} Jiný trvalý následek [Ano|Ne]
+          {…+}{…} Uveď: […]
     {…} Ztráta prstu nebo dolní končetiny [Ano|Ne]
       {…+} Jaký máte trvalý následek?
         {…} Ztráta prstu [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Ztráta v úrovni stehna
+        {…} Ztráta v úrovni stehna [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Ztráta v úrovni bérce
+        {…} Ztráta v úrovni bérce [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-        {…} Ztráta v hlezenním kloubu (kotníku)
+        {…} Ztráta v hlezenním kloubu (kotníku) [Ano|Ne]
           {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
         {…} Jiný trvalý následek [Ano|Ne]
-          {196} […]
+          {…+}{…} Uveď: […]
     {…} Zkrácení končetiny o 3 cm nebo více [Ano|Ne]
-      
       {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
-
     {…} Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.) [Ano|Ne]
     {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
     {…} Jiný trvalý následek [Ano|Ne]
-      {201} […]
-{…} Nic z výše uvedeného [Ano|Ne]
-
+      {…+}{…} Uveď: […]
+{…} Nic z výše uvedeného [Ano|Ne] [Ano|Ne]
 
 ### {G} Úraz
-{…} 5. Měl/a jste v posledních 7 letech úraz? (např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod.)
-  {…+}
-    Jaká část těla byla poraněna? Uveďte všechna poranění.
-      Hlava
-        O jaký úraz se jednalo?
-          Zlomenina
-            Jaká část hlavy byla poraněna?
-              Kosti lebky
-                Kolikrát?
-                  {203} […]
-              Nos
-                Kolikrát?
-                  {204} […]
-              Čelist
-                Kolikrát?
-                  {205} […]
-          Podvrtnutí čelisti
-            Kolikrát?
-              {206} […]
-          Vykloubení, vymknutí (luxace) čelisti
-            Kolikrát?
-              {207} […]
-          Pohmoždění (kontuze) v oblasti hlavy
-            Jaká část hlavy byla poraněna?
-              Mozek
-                Kolikrát?
-                  {208} […]
-              Oko
-                Na jaké straně?
-                  {209} [Pravá|Levá]
-              Nos
-                Kolikrát?
-                  {210} […]
-              Čelist
-                Kolikrát?
-                  {211} […]
-              Jiná část hlavy
-                Kolikrát?
-                  {212} […]
-          Poleptání, popálení, otevřená nebo tržná rána
-            Kolikrát?
-              {213} […]
-          Otřes mozku
-            Kolikrát?
-              {214} […]
-          Jiný úraz
-            Kolikrát?
-              {215} […]
+#### 5. Měl/a jste **v posledních 7 letech** úraz? (např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod.)
+Jaká část těla byla poraněna? Uveďte všechna poranění.
+    
+{…} Hlava [Ano|Ne]
+  {…+} O jaký úraz se jednalo?
+    {…} Zlomenina [Ano|Ne] [Ano|Ne]
+      {…+} Jaká část hlavy byla poraněna?
+        {…} Kosti lebky [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Nos [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Čelist [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+    {…} Podvrtnutí čelisti [Ano|Ne]
+      {…+}{…} Kolikrát? […]
+    {…} Vykloubení, vymknutí (luxace) čelisti [Ano|Ne]
+      {…+}{…} Kolikrát? […]
+    {…} Pohmoždění (kontuze) [Ano|Ne] v oblasti hlavy [Ano|Ne]
+      {…+} Jaká část hlavy byla poraněna?
+        {…} Mozek [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Oko [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Nos [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Čelist [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Jiná část hlavy [Ano|Ne]
+          {…+}
+            {…} Uveď popis: […]
+            {…} Kolikrát? […]
+    {…} Poleptání, popálení, otevřená nebo tržná rána [Ano|Ne]
+      {…+}{…} Kolikrát? […]
+    {…} Otřes mozku [Ano|Ne]
+      {…+}{…} Kolikrát? […]
+    {…} Jiný úraz [Ano|Ne]
+      {…+}
+        {…} Uveď popis: […]
+        {…} Kolikrát? […]
 
-      Páteř a záda
-        O jaký úraz se jednalo?
-          Zlomenina
-            Jaká část páteře byla poraněna?
-              Krční obratle
-                Kolikrát?
-                  {216} […]
-              Hrudní obratle
-                Kolikrát?
-                  {217} […]
-              Bederní a/nebo křížové obratle
-                Kolikrát?
-                  {218} […]
-          Podvrtnutí
-            Jaká část páteře byla poraněna?
-              Krční obratle
-                Kolikrát?
-                  {219} […]
-              Hrudní obratle
-                Kolikrát?
-                  {220} […]
-              Bederní a/nebo křížové obratle
-                Kolikrát?
-                  {221} […]
-          Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach
-            Jaká část páteře byla poraněna?
-              Krční obratle
-                Kolikrát?
-                  {222} […]
-              Hrudní obratle
-                Kolikrát?
-                  {223} […]
-              Bederní a/nebo křížové obratle
-                Kolikrát?
-                  {224} […]
-          Pohmoždění (kontuze)
-            Jaká část páteře byla poraněna?
-              Krční
-                Kolikrát?
-                  {225} […]
-              Hrudní
-                Kolikrát?
-                  {226} […]
-              Bederní a/nebo křížová
-                Kolikrát?
-                  {227} […]
-          Natržení, ruptura nebo zhmoždění zádového svalu
-            Kolikrát?
-              {228} […]
-          Poleptání, popálení, otevřená rána na zádech
-            Kolikrát?
-              {229} […]
-          Jiný úraz
-            Kolikrát?
-              {230} […]
+{…} Páteř a záda [Ano|Ne]
+  {…+} O jaký úraz se jednalo?
+    {…} Zlomenina [Ano|Ne]
+      {…+} Jaká část páteře byla poraněna?
+        {…} Krční obratle [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Hrudní obratle [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Bederní a/nebo křížové obratle
+          {…+}{…} Kolikrát? […]
+    {…} Podvrtnutí
+      {…+} Jaká část páteře byla poraněna?
+        {…} Krční obratle [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Hrudní obratle [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Bederní a/nebo křížové obratle
+          {…+}{…} Kolikrát? […]
+    {…} Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach [Ano|Ne]
+      {…+} Jaká část páteře byla poraněna?
+        {…} Krční obratle [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Hrudní obratle [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Bederní a/nebo křížové obratle
+          {…+}{…} Kolikrát? […]
+    {…} Pohmoždění (kontuze) [Ano|Ne]
+      {…+} Jaká část páteře byla poraněna?
+        {…} Krční [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Hrudní [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Bederní a/nebo křížová [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+    {…} Natržení, ruptura nebo zhmoždění zádového svalu [Ano|Ne]
+      {…+}{…} Kolikrát? […]
+    {…} Poleptání, popálení, otevřená rána na zádech [Ano|Ne]
+      {…+}{…} Kolikrát? […]
+    {…} Jiný úraz [Ano|Ne]
+      {…} Uveď popis: […]
+      {…+}{…} Kolikrát? […]
 
-      Trup a orgány
-        O jaký úraz se jednalo?
-          Zlomenina
-            Jaká část byla poraněna?
-              Hrudní kost
-                Kolikrát?
-                  {231} […]
-              Žebra
-                Na jaké straně?
-                  {232} [Pravá|Levá]
-          Pohmoždění (kontuze) orgánů
-            Jaký orgán byl poraněn?
-              Hrdlo (hrtan, hltan, jícen, hlasivky)
-                Kolikrát?
-                  {233} […]
-              Plíce
-                Na jaké straně?
-                  {234} [Pravá|Levá]
-              Srdce
-                Kolikrát?
-                  {235} […]
-              Játra
-                Kolikrát?
-                  {236} […]
-              Slezina
-                Kolikrát?
-                  {237} […]
-              Slinivka (pankreas)
-                Kolikrát?
-                  {238} […]
-              Žaludek
-                Kolikrát?
-                  {239} […]
-              Tenké nebo tlusté střevo
-                Kolikrát?
-                  {240} […]
-              Ledviny
-                Na jaké straně?
-                  {241} [Pravá|Levá]
-              Močový měchýř, močová trubice, pohlavní orgány
-                Kolikrát?
-                  {242} […]
-          Natržení, ruptura nebo zhmoždění břišního svalu
-            Na jaké straně?
-              {243} [Pravá|Levá]
-          Poleptání, popálení, otevřená rána na trupu
-            Na jaké straně?
-              {244} [Pravá|Levá]
-          Jiný úraz
-            Kolikrát?
-              {245} […]
+{…} Trup a orgány [Ano|Ne]
+  {…+} O jaký úraz se jednalo?
+    {…} Zlomenina [Ano|Ne]
+      {…+} Jaká část byla poraněna?
+        {…} Hrudní kost [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Žebra [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Pohmoždění (kontuze) orgánů [Ano|Ne]
+      {…+} Jaký orgán byl poraněn?
+        {…} Hrdlo (hrtan, hltan, jícen, hlasivky) [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Plíce [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Srdce [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Játra [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Slezina [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Slinivka (pankreas) [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Žaludek [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Tenké nebo tlusté střevo [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Ledviny [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Močový měchýř, močová trubice, pohlavní orgány [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+    {…} Natržení, ruptura nebo zhmoždění břišního svalu [Ano|Ne]
+      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…ac}{…} Napravo kolikrát? […]
+        {…bc}{…} Nalevo kolikrát? […]
+    {…} Poleptání, popálení, otevřená rána [Ano|Ne] na trupu [Ano|Ne]
+      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…ac}{…} Napravo kolikrát? […]
+        {…bc}{…} Nalevo kolikrát? […]
+    {…} Jiný úraz [Ano|Ne]
+      {…} Uveď popis: […]
+      {…+}{…} Kolikrát? […]
 
-      Horní končetina
-        O jaký úraz se jednalo?
-          Zlomenina
-            Jaká část horní končetiny byla poraněna?
-              Lopatka
-                Na jaké straně?
-                  {246} [Pravá|Levá]
-              Kliční kost
-                Na jaké straně?
-                  {247} [Pravá|Levá]
-              Pažní kost (humerus)
-                Na jaké straně?
-                  {248} [Pravá|Levá]
-              Předloktí (loketní a vřetenní kost)
-                Na jaké straně?
-                  {249} [Pravá|Levá]
-              Zápěstí
-                Na jaké straně?
-                  {250} [Pravá|Levá]
-              Záprstní kosti
-                Na jaké straně?
-                  {251} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {252} [Pravá|Levá]
-          Podvrtnutí kloubu
-            Jaká část horní končetiny byla poraněna?
-              Rameno
-                Na jaké straně?
-                  {253} [Pravá|Levá]
-              Loket
-                Na jaké straně?
-                  {254} [Pravá|Levá]
-              Zápěstí
-                Na jaké straně?
-                  {255} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {256} [Pravá|Levá]
-          Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach
-            Jaká část horní končetiny byla poraněna?
-              Rameno
-                Na jaké straně?
-                  {257} [Pravá|Levá]
-              Loket
-                Na jaké straně?
-                  {258} [Pravá|Levá]
-              Zápěstí
-                Na jaké straně?
-                  {259} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {260} [Pravá|Levá]
-          Pohmoždění (kontuze)
-            Jaká část horní končetiny byla poraněna?
-              Rameno
-                Na jaké straně?
-                  {261} [Pravá|Levá]
-              Loket
-                Na jaké straně?
-                  {262} [Pravá|Levá]
-              Zápěstí
-                Na jaké straně?
-                  {263} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {264} [Pravá|Levá]
-              Předloktí (loketní a vřetenní kost)
-                Na jaké straně?
-                  {265} [Pravá|Levá]
-              Svaly paže (nadloktí)
-                Na jaké straně?
-                  {266} [Pravá|Levá]
-          Natržení nebo přetržení (ruptura) svalu
-            Jaká část horní končetiny byla poraněna?
-              Svaly ramenní a lopatkové
-                Na jaké straně?
-                  {267} [Pravá|Levá]
-              Svaly předloktí
-                Na jaké straně?
-                  {268} [Pravá|Levá]
-              Svaly paže (nadloktí)
-                Na jaké straně?
-                  {269} [Pravá|Levá]
-          Poleptání, popálení, otevřená rána
-            Jaká část horní končetiny byla poraněna?
-              Rameno
-                Na jaké straně?
-                  {270} [Pravá|Levá]
-              Loket
-                Na jaké straně?
-                  {271} [Pravá|Levá]
-              Zápěstí
-                Na jaké straně?
-                  {272} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {273} [Pravá|Levá]
-              Předloktí
-                Na jaké straně?
-                  {274} [Pravá|Levá]
-              Paže (nadloktí)
-                Na jaké straně?
-                  {275} [Pravá|Levá]
-          Jiný úraz
-            Kolikrát?
-              {276} […]
+{…} Horní končetina [Ano|Ne]
+  {…+} O jaký úraz se jednalo?
+    {…} Zlomenina [Ano|Ne]
+      {…+} Jaká část horní končetiny byla poraněna?
+        {…} Lopatka [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Kliční kost [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Pažní kost (humerus) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Předloktí [Ano|Ne] (loketní a vřetenní kost) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Zápěstí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Záprstní kosti [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Podvrtnutí kloubu [Ano|Ne]
+      {…+} Jaká část horní končetiny byla poraněna?
+        {…} Rameno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Loket [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Zápěstí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach [Ano|Ne]
+      {…+} Jaká část horní končetiny byla poraněna?
+        {…} Rameno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Loket [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Zápěstí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Pohmoždění (kontuze) [Ano|Ne]
+      {…+} Jaká část horní končetiny byla poraněna?
+        {…} Rameno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Loket [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Zápěstí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Předloktí [Ano|Ne] (loketní a vřetenní kost) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Svaly paže (nadloktí) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Natržení nebo přetržení (ruptura) svalu [Ano|Ne]
+      {…+} Jaká část horní končetiny byla poraněna?
+        {…} Svaly ramenní a lopatkové [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Svaly předloktí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Svaly paže (nadloktí) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Poleptání, popálení, otevřená rána [Ano|Ne]
+      {…+} Jaká část horní končetiny byla poraněna?
+        {…} Rameno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Loket [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Zápěstí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Předloktí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Paže (nadloktí) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Jiný úraz [Ano|Ne]
+      {…} Uveď popis: […]
+      {…+}{…} Kolikrát? […]
 
-      Dolní končetina
-        O jaký úraz se jednalo?
-          Zlomenina
-            Jaká část dolní končetiny byla poraněna?
-              Pánev
-                Kolikrát?
-                  {277} […]
-              Kyčel
-                Na jaké straně?
-                  {278} [Pravá|Levá]
-              Stehenní kost
-                Na jaké straně?
-                  {279} [Pravá|Levá]
-              Čéška
-                Na jaké straně?
-                  {280} [Pravá|Levá]
-              Holenní a lýtková kost
-                Na jaké straně?
-                  {281} [Pravá|Levá]
-              Kotník (hlezno)
-                Na jaké straně?
-                  {282} [Pravá|Levá]
-              Pata
-                Na jaké straně?
-                  {283} [Pravá|Levá]
-              Nártní (metatarzální) kosti
-                Na jaké straně?
-                  {284} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {285} [Pravá|Levá]
-          Podvrtnutí kloubu
-            Jaká část dolní končetiny byla poraněna?
-              Kyčel
-                Na jaké straně?
-                  {286} [Pravá|Levá]
-              Koleno
-                Na jaké straně?
-                  {287} [Pravá|Levá]
-              Kotník (hlezno)
-                Na jaké straně?
-                  {288} [Pravá|Levá]
-              Pata
-                Na jaké straně?
-                  {289} [Pravá|Levá]
-              Nártní (metatarzální) kosti
-                Na jaké straně?
-                  {290} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {291} [Pravá|Levá]
-          Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach
-            Jaká část dolní končetiny byla poraněna?
-              Kyčel
-                Na jaké straně?
-                  {292} [Pravá|Levá]
-              Koleno
-                Na jaké straně?
-                  {293} [Pravá|Levá]
-              Kotník (hlezno)
-                Na jaké straně?
-                  {294} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {295} [Pravá|Levá]
-          Pohmoždění (kontuze)
-            Jaká část dolní končetiny byla poraněna?
-              Kyčel
-                Na jaké straně?
-                  {296} [Pravá|Levá]
-              Koleno
-                Na jaké straně?
-                  {297} [Pravá|Levá]
-              Kotník (hlezno)
-                Na jaké straně?
-                  {298} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {299} [Pravá|Levá]
-              Stehno
-                Na jaké straně?
-                  {300} [Pravá|Levá]
-              Bérec (holeň nebo lýtko)
-                Na jaké straně?
-                  {301} [Pravá|Levá]
-          Natržení nebo přetržení (ruptura) svalu
-            Jaká část dolní končetiny byla poraněna?
-              Svaly kyčelního kloubu (vč. hýžďového)
-                Na jaké straně?
-                  {302} [Pravá|Levá]
-              Svaly stehna
-                Na jaké straně?
-                  {303} [Pravá|Levá]
-              Svaly bérce (holeň nebo lýtko)
-                Na jaké straně?
-                  {304} [Pravá|Levá]
-          Poleptání, popálení, otevřená rána
-            Jaká část dolní končetiny byla poraněna?
-              Kyčle (vč. hýžďového svalu)
-                Na jaké straně?
-                  {305} [Pravá|Levá]
-              Koleno
-                Na jaké straně?
-                  {306} [Pravá|Levá]
-              Kotník (hlezno)
-                Na jaké straně?
-                  {307} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {308} [Pravá|Levá]
-              Stehno
-                Na jaké straně?
-                  {309} [Pravá|Levá]
-              Bérec (holeň nebo lýtko)
-                Na jaké straně?
-                  {310} [Pravá|Levá]
-          Jiný úraz
-            Kolikrát?
-              {311} […]
+{…} Dolní končetina [Ano|Ne]
+  {…+} O jaký úraz se jednalo?
+    {…} Zlomenina [Ano|Ne]
+      {…+} Jaká část dolní končetiny byla poraněna?
+        {…} Pánev [Ano|Ne]
+          {…+}{…} Kolikrát? […]
+        {…} Kyčel [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Stehenní kost [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Čéška [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Holenní a lýtková kost [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Kotník (hlezno) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Pata [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Nártní (metatarzální) kosti [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Podvrtnutí kloubu [Ano|Ne]
+      {…+} Jaká část dolní končetiny byla poraněna?
+        {…} Kyčel [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Koleno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Kotník (hlezno) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Vykloubení, vymknutí (luxace), natržení nebo přetržení vazů a šlach [Ano|Ne]
+      {…+} Jaká část dolní končetiny byla poraněna?
+        {…} Kyčel [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Koleno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Kotník (hlezno) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Pohmoždění (kontuze) [Ano|Ne]
+      {…+} Jaká část dolní končetiny byla poraněna?
+        {…} Kyčel [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Koleno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Kotník (hlezno) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Stehno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Bérec (holeň nebo lýtko) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Natržení nebo přetržení (ruptura) svalu [Ano|Ne]
+      {…+} Jaká část dolní končetiny byla poraněna?
+        {…} Svaly kyčelního kloubu (vč. hýžďového) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Svaly stehna [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Svaly bérce (holeň nebo lýtko) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Poleptání, popálení, otevřená rána [Ano|Ne]
+      {…+} Jaká část dolní končetiny byla poraněna?
+        {…} Kyčle (vč. hýžďového svalu) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Koleno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Kotník (hlezno) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Stehno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+        {…} Bérec (holeň nebo lýtko) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…ac}{…} Napravo kolikrát? […]
+            {…bc}{…} Nalevo kolikrát? […]
+    {…} Jiný úraz [Ano|Ne]
+      {…} Uveď popis: […]
+      {…+}{…} Kolikrát? […]
 
-      Nic z výše uvedeného
-        {312} [ano|ne]
-
----
-
+{…} Nic z výše uvedeného [Ano|Ne]
