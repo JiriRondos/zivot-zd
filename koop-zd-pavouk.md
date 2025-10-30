@@ -17,7 +17,7 @@ Dočasné pracovní:
 {1} Mám zájem o vyplnění dotazníku pro slevu za zdravý životní styl [Ano|Ne]
 {2} Výška (cm): […]
 {3} Váha (kg): […]
-{4} Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret) [Ano|Ne]
+{4} Kouříte nebo jste kouřil/a **v posledních 2 letech**? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret) [Ano|Ne]
 {5} Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin? [Ano|Ne]
 {6} Užíváte nebo jste užíval/a drogy či jiné návykové látky? [Ano|Ne]
 {7} Kolik hodin průměrně denně spíte? [Méně_než_6_hodin|6_až_9_hodin|Více_než_9_hodin]
@@ -30,70 +30,70 @@ Dočasné pracovní:
 {1} Praktický lékař - Jméno a příjmení, adresa (pokud neznáte přesnou adresu, uveďte město): […]
 {2} Výška (cm): […]
 {3} Váha (kg): […]
-{4} Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret) [Ano|Ne]
+{4} Kouříte nebo jste kouřil/a **v posledních 2 letech**? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret) [Ano|Ne]
 {5} Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin? [Ano|Ne]
 {6} Užíváte nebo jste užíval/a drogy či jiné návykové látky? [Ano|Ne]
   {6+} Které z následujících drog jste užil/a?
     {7} Marihuana - kouření, vaporizace, konzumace [Ano|Ne]
-      {7+}{8} Užil/a jste tuto drogu v posledních 2 letech? [Ano|Ne]
-        {8+}{9} Jak často jste v posledních 2 letech užíval/a tuto drogu? [1-2krát_týdně_nebo_méně|3-4krát_týdně|5krát_týdně_nebo_více]
+      {7+}{8} Užil/a jste tuto drogu **v posledních 2 letech**? [Ano|Ne]
+        {8+}{9} Jak často jste **v posledních 2 letech** užíval/a tuto drogu? [1-2krát_týdně_nebo_méně|3-4krát_týdně|5krát_týdně_nebo_více]
     {10} Jiný druh drog (např. kokain, opiáty, heroin, amfetaminy, MDMA, pervitin) [Ano|Ne]
       {10+}{11} Užil/a jste tuto drogu v posledních 7 letech? [Ano|Ne]
 {12} Jste nebo jste byl/a závislý/á na alkoholu, drogách, léčivých přípravcích nebo jiných návykových látkách? [Ano|Ne]
-  {12+}{13} Užil/a jste v posledních 10 letech některou z výše uvedených látek? [Ano|Ne]
+  {12+}{13} Užil/a jste **v posledních 10 letech** některou z výše uvedených látek? [Ano|Ne]
 
 ### {C} Onemocnění - část 1
-#### 1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?
+#### 1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař **vyšetřoval, sledoval nebo léčil**?
 {…} 1.a) Nádorová onemocnění (např. rakovina – zhoubný nádor, leukémie, lymfom, nezhoubný nádor mozku) [Ano|Ne]
   {…+}
     {…} Rakovina – zhoubný nádor [Ano|Ne]
       {…+}
         {…}<male> Prostaty [Ano|Ne]
-          {…+}{…} Prodělal jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělal jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
         {…}<male> Varlete / varlat [Ano|Ne]
-          {…+}{…} Prodělal jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělal jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
         {…}<female> Děložního čípku [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Prsu / prsů [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Ledviny / ledvin [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Močového měchýře [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Tlustého střeva nebo konečníku (rekta) [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Plíce / plic [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Kůže [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Štítné žlázy [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Kostí [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…} Mozku [Ano|Ne]
-          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
             {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
           {…-}{…} Byl nádor úplně odstraněn? [Ano|Ne|Nevím]
             {…+}{…} Zanechal nádor trvalé následky? (např. bolesti hlavy, změny chování a osobnosti, poruchy pohyblivosti a koordinace, zhoršení zraku, sluchu, čichu nebo řeči) [Ano|Ne]
         {…} Jiné / Ostatní [Ano|Ne]
           {…+}{…} Uveďte o jaké onemocnění se jedná: […]
     {…} Leukémie [Ano|Ne]
-      {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+      {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
         {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
     {…} Lymfom (např. Hodgkinův lymfom, Non-Hodgkinův lymfom) [Ano|Ne]
-      {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+      {…+}{…} Prodělala jste toto onemocnění **v posledních 10 letech**? [Ano|Ne]
         {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
     {…} Nezhoubný nádor mozku [Ano|Ne]
-      {…+}{…} Prodělala jste toto onemocnění v posledních **5 letech**? [Ano|Ne]
+      {…+}{…} Prodělala jste toto onemocnění **v posledních 5 letech**? [Ano|Ne]
         {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
       {…-}{…} Byl nádor úplně odstraněn? [Ano|Ne|Nevím]
         {…+}{…} Zanechal nádor trvalé následky? (např. bolesti hlavy, změny chování a osobnosti, poruchy pohyblivosti a koordinace, zhoršení zraku, sluchu, čichu nebo řeči) [Ano|Ne]
@@ -105,7 +105,7 @@ Dočasné pracovní:
         Systolický (vyšší hodnota) [140_mm_Hg_nebo_menší|141-160_mm_Hg|161_mm_Hg_nebo_vyšší|Nevím]
         Diastolický (nižší hodnota) [90_mm_Hg_nebo_nižší|91-100_mm_Hg|101_mm_Hg_nebo_vyšší|Nevím]
     {…} Srdeční infarkt [Ano|Ne]
-      {…+}{…} Prodělal/a jste srdeční infarkt v posledních **5 letech**? [Ano|Ne]
+      {…+}{…} Prodělal/a jste srdeční infarkt **v posledních 5 letech**? [Ano|Ne]
       {…-}{…} Prodělal/a jste srdeční infarkt **opakovaně**? [Ano|Ne]
     {…} Angina pectoris, bolest na hrudi, ischemická choroba srdeční [Ano|Ne]
     {…} Bušení srdce, arytmie [Ano|Ne]
@@ -119,7 +119,7 @@ Dočasné pracovní:
     {…} Epilepsie [Ano|Ne]
       {…+}{…} Jste aktuálně veden/a v neurologické evidenci? [Ano|Ne]
         {…+}
-          {…} Prodělal/a jste epileptický záchvat v posledních **5 letech**? [Ano|Ne]
+          {…} Prodělal/a jste epileptický záchvat **v posledních 5 letech**? [Ano|Ne]
           {…} Máte nějaké psychické onemocnění? [Ano|Ne]
     {…} Roztroušená skleróza [Ano|Ne]
     {…} Alzheimerova nemoc [Ano|Ne]
@@ -130,11 +130,11 @@ Dočasné pracovní:
       {…+}{…} Užíváte kombinaci tří nebo více druhů léků? [Ano|Ne]
         {…+}{…} Hospitalizovali vás, byl/a jste v pracovní neschopnosti nebo vám byla přiznána invalidita v souvislosti s tímto onemocněním? [Ano|Ne]
         {…-}
-          {…} Ukončil lékař sledování nebo léčbu před více než 2 lety? [Ano|Ne]
+          {…} Ukončil lékař sledování nebo léčbu **před více než 2 lety**? [Ano|Ne]
           {…} Hospitalizovali vás, byl/a jste v pracovní neschopnosti nebo vám byla přiznána invalidita v souvislosti s tímto onemocněním? [Ano|Ne]
     {…}<female> Poporodní deprese [Ano|Ne]
       {…+}{…} Máte potíže nebo se s tímto onemocněním v současnosti léčíte? [Ano|Ne]
-        {…-}{…} Ukončil lékař sledování nebo léčbu před více než 6 měsíci? [Ano|Ne]
+        {…-}{…} Ukončil lékař sledování nebo léčbu **před více než 6 měsíci**? [Ano|Ne]
     {…} Syndrom vyhoření [Ano|Ne]
     {…} Bipolární porucha, obsedantně kompulzivní porucha, schizofrenie [Ano|Ne]
     {…} Downův syndrom [Ano|Ne]
@@ -147,7 +147,7 @@ Dočasné pracovní:
   {…+}
     {…} Leidenská mutace nebo jiná porucha srážlivosti krve – trombofilie (např. protrombinová mutace, antitrombinová deficience, MTHFR mutace, hyperhomocytémie) [Ano|Ne]
       {…+}{…} Vyskytly se u vás komplikace jako krevní sraženiny, trombózy nebo tromboembolie? [Ano|Ne]
-        {…+}{…} Byla poslední komplikace před více než **5 lety**? [Ano|Ne]
+        {…+}{…} Byla poslední komplikace **před více než 5 lety**? [Ano|Ne]
     {…} Anemie z nedostatku železa [Ano|Ne]
     {…} Jiná anémie (např. hemoragická, aplastická, megaloblastická, hemolytická, autoimunitní hemolytická, sideroblotastická) [Ano|Ne]
     {…} Hemofilie [Ano|Ne]
@@ -176,7 +176,7 @@ Dočasné pracovní:
     {…} Bolest zad [Ano|Ne]
       {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
         {…-}{…} Měl/a jste toto onemocnění opakovaně? [Ano|Ne]
-          {…-}{…} Bylo poslední před více než 2 lety? [Ano|Ne]
+          {…-}{…} Bylo poslední **před více než 2 lety**? [Ano|Ne]
     {…} Onemocnění meziobratlových plotének (např. výhřez ploténky) a meziobratlových kloubů (např. artróza, artritida) [Ano|Ne]
     {…} Bechtěrevova choroba (ankylozující spondylitida) [Ano|Ne]
       {…+}
@@ -249,169 +249,173 @@ Dočasné pracovní:
     {…} Vrozená vada pohybového aparátu [Ano|Ne]
       {…+}{…} Uveďte diagnózu: […]
 
-
-    1.h) Nic z výše uvedeného
-      {75} [ano|ne]
+{…} 1.h) Nic z výše uvedeného [ano|ne]
 
 ### {D} Onemocnění - část 2
-  2. Máte nebo jste měl/a v posledních 7 letech některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?
-    2.a) Porucha látkové přeměny (např. zvýšený cholesterol, zvýšené jaterní testy, dna)
-      Zvýšený cholesterol
-        Poslední naměřená hodnota cholesterolu:
-          {76} […]
-      Zvýšené jaterní testy
-        {77} […]
-      Dna
-        Užíváte pro toto onemocnění léky?
-          {78} [Ano|Ne]
+#### 2. Máte nebo jste měl/a **v posledních 7 letech** některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?
 
-    2.b) Onemocnění dýchací soustavy (např. astma, chronická obstrukční plicní nemoc - CHOPN, bronchitida, plicní fibróza, zápal plic, zánět průdušek, alergie)
-      Astma
-        Jak často užíváte léky v souvislosti s tímto onemocněním?
-          {79} […]
-      Chronická obstrukční plicní nemoc (CHOPN), chronická bronchitida, plicní fibróza
-        {80} […]
-      Zápal plic, akutní bronchitida, zánět průdušek
-        Máte v současnosti toto onemocnění?
-          {81} [Ano|Ne]
-      Alergie
-        Hospitalizovali vás anebo jste byl/a v posledních 2 letech v pracovní neschopnosti v souvislosti s tímto onemocněním?
-          {82} [Ano|Ne]
+{…} 2.a) Porucha látkové přeměny (např. zvýšený cholesterol, zvýšené jaterní testy, dna) [Ano|Ne]
+  {…+}
+    {…} Zvýšený cholesterol [Ano|Ne]
+      {…+}{…} Poslední naměřená hodnota cholesterolu: [7.1_mmol/l_nebo_menší|7,1–9_mmol/l|9,1_mmol/l_nebo_větší|Nevím]
+    {…} Zvýšené jaterní testy [Ano|Ne]
+    {…} Dna [Ano|Ne]
+      {…+}
+        {…} Užíváte pro toto onemocnění léky? [Ano|Ne]
+        {…} Hospitalizovali vás, nebo jste byl/a v pracovní neshopnosti kvůli dně, dnavé artritidě, hyperurikémii nebo uratické artritidě? [Ano|Ne]
 
-    2.c) Onemocnění trávící soustavy (např. žlučníkové kameny, vřed dvanáctníku, žaludeční vřed, reflux jícnu, zánět slinivky břišní – pankreatitida, onemocnění jater, Crohnova nemoc, ulcerózní kolitida, celiakie, onemocnění nebo vrozené vady jícnu, žaludku nebo střev)
-      Žlučníkové kameny
-        Máte v současnosti toto onemocnění?
-          {83} [Ano|Ne]
-      Vřed dvanáctníku (duodenum), žaludeční vřed
-        Máte v současnosti toto onemocnění?
-          {84} [Ano|Ne]
-      Reflux jícnu (gastrozofagiální reflux)
-        Máte nebo měl/a jste komplikace? (např.potíže s polykáním, zvracení krve, vřed nebo zúžení jícnu, Barretův jícen, brániční / jícnová kýla – hiátová hernie)
-          {85} […]
-      Zánět slinivky břišní (pankreatitida)
-        Akutní zánět slinivky břišní
-          Měl jste 3 a více záchvatů za posledních 7 let?
-            {86} [Ano|Ne]
-        Chronický zánět slinivky břišní
-          {87} […]
-      Onemocnění jater (např. cirhóza, fibróza nebo ztučnění jater – steatóza, cysta na játrech, hemangiom jater)
-        {88} […]
-      Crohnova nemoc, ulcerózní kolitida
-        {89} […]
-      Celiakie
-        Máte komplikace v souvislosti s tímto onemocněním? (např. nízka váha, podvýživa, malabsorpční syndrom)
-          {90} [Ano|Ne]
-      Vrozená vada jícnu, žaludku nebo střev
-        {91} […]
+{…} 2.b) Onemocnění dýchací soustavy (např. astma, chronická obstrukční plicní nemoc - CHOPN, bronchitida, plicní fibróza, zápal plic, zánět průdušek, alergie) [Ano|Ne]
+  {…+}
+    {…} Astma [Ano|Ne]
+      {…+}{…} Jak často užíváte léky v souvislosti s tímto onemocněním? [Pouze_při_obtížích_nebo_sezónně|Pravidelně|Léky_neužívám]
+        {…b}{…} Hospitalizovali vás anebo jste byl/a **v posledních 2 letech** v pracovní neschopnosti v souvislosti s tímto onemocněním? [Ano|Ne]
+    {…} Chronická obstrukční plicní nemoc (CHOPN), chronická bronchitida, plicní fibróza [Ano|Ne]
+    {…} Zápal plic, akutní bronchitida, zánět průdušek [Ano|Ne]
+      {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
+    {…} Alergie [Ano|Ne]
+      {…+}{…} Hospitalizovali vás anebo jste byl/a **v posledních 2 letech** v pracovní neschopnosti v souvislosti s tímto onemocněním? [Ano|Ne]
 
-    2.d) Onemocnění močového ústrojí (např. ledvinové kameny, zánět ledvin, močového měchýře nebo močových cest, vrozená vada ledvin, močového měchýře nebo močových cest)
-      Ledvinové kameny
-        Máte v současnosti toto onemocnění?
+{…} 2.c) Onemocnění trávící soustavy (např. žlučníkové kameny, vřed dvanáctníku, žaludeční vřed, reflux jícnu, zánět slinivky břišní – pankreatitida, onemocnění jater, Crohnova nemoc, ulcerózní kolitida, celiakie, onemocnění nebo vrozené vady jícnu, žaludku nebo střev) [Ano|Ne]
+  {…+}
+    {…} Žlučníkové kameny [Ano|Ne]
+      {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
+        {…-}{…} Operovali vás v souvislosti s tímto onemocněním? [Ano|Ne]
+          {…-}{…} Opakovalo se u vás toto onemocnění? [Ano|Ne]
+    {…} Vřed dvanáctníku (duodenum), žaludeční vřed [Ano|Ne]
+      {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
+        {…-}{…} Operovali vás v souvislosti s tímto onemocněním? [Ano|Ne]
+          {…-}{…} Opakovalo se u vás toto onemocnění? [Ano|Ne]
+    {…} Reflux jícnu (gastrozofagiální reflux) [Ano|Ne]
+      {…+}{…} Máte nebo měl/a jste komplikace? (např.potíže s polykáním, zvracení krve, vřed nebo zúžení jícnu, Barretův jícen, brániční / jícnová kýla – hiátová hernie) [Ano|Ne]
+    {…} Zánět slinivky břišní (pankreatitida) [Ano|Ne]
+      {…+}{…} Akutní zánět slinivky břišní [Ano|Ne]
+        {…+}{…} Měl jste 3 a více záchvatů **za posledních 7 let**? [Ano|Ne]
+          {…-}{…} Byl poslední záchvat **před více než 2 lety**? [Ano|Ne]
+      {…+}{…} Chronický zánět slinivky břišní [Ano|Ne]
+    {…} Onemocnění jater (např. cirhóza, fibróza nebo ztučnění jater – steatóza, cysta na játrech, hemangiom jater) [Ano|Ne]
+    {…} Crohnova nemoc, ulcerózní kolitida [Ano|Ne]
+    {…} Celiakie [Ano|Ne]
+      {…+}{…} Máte komplikace v souvislosti s tímto onemocněním? (např. nízka váha, podvýživa, malabsorpční syndrom) [Ano|Ne]
+    {…} Vrozená vada jícnu, žaludku nebo střev [Ano|Ne]
+
+
+{…} 2.d) Onemocnění močového ústrojí (např. ledvinové kameny, zánět ledvin, močového měchýře nebo močových cest, vrozená vada ledvin, močového měchýře nebo močových cest) [Ano|Ne]
+  {…+}
+      Ledvinové kameny [Ano|Ne]
+        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
           {92} [Ano|Ne]
-      Vrozená vada ledvin, močového měchýře, močových cest
+      Vrozená vada ledvin, močového měchýře, močových cest [Ano|Ne]
         {93} […]
-      Zánět močového měchýře
-        Máte v současnosti toto onemocnění?
+      Zánět močového měchýře [Ano|Ne]
+        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
           {94} [Ano|Ne]
-      Zánět močových cest
-        Máte v současnosti toto onemocnění?
+      Zánět močových cest [Ano|Ne]
+        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
           {95} [Ano|Ne]
-      Zánět ledvin
-        Máte v současnosti toto onemocnění?
+      Zánět ledvin [Ano|Ne]
+        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
           {96} [Ano|Ne]
 
-    2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu)
-      [MUŽ] Zvětšená prostata
+{…} 2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu) [Ano|Ne]
+  {…+}
+      [MUŽ] Zvětšená prostata [Ano|Ne]
         {97} […]
-      [ŽENA] Gynekologické obtíže
+      [ŽENA] Gynekologické obtíže [Ano|Ne]
         {98} […]
-      Bulka v prsu
+      Bulka v prsu [Ano|Ne]
         {99} […]
 
-    2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV)
-      Žloutenka (hepatitida) typu A nebo E
-        Máte v současné době toto onemocnění?
+{…} 2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV) [Ano|Ne]
+  {…+}
+      Žloutenka (hepatitida) typu A nebo E [Ano|Ne]
+        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
           {100} [Ano|Ne]
-      Žloutenka (hepatitida) typu B nebo D
+      Žloutenka (hepatitida) typu B nebo D [Ano|Ne]
         {101} […]
-      Žloutenka (hepatitida) typu C
+      Žloutenka (hepatitida) typu C [Ano|Ne]
         {102} […]
-      Infekční mononukleóza
+      Infekční mononukleóza [Ano|Ne]
         {103} […]
-      Lymeská borelióza
-        Máte v současné době toto onemocnění?
+      Lymeská borelióza [Ano|Ne]
+        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
           {104} [Ano|Ne]
-      Encefalitida (včetně klíšťové)
-        Máte v současné době toto onemocnění?
+      Encefalitida (včetně klíšťové) [Ano|Ne]
+        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
           {105} [Ano|Ne]
-      Meningitida
-        Máte v současné době toto onemocnění?
+      Meningitida [Ano|Ne]
+        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
           {106} [Ano|Ne]
       HIV
         {107} […]
 
-    2.h) Onemocnění štítné žlázy (např. snížená funkce, zvýšená funkce, cysta nebo uzly)
-      Snížená funkce štítné žlázy (hypofunkce)
+{…} 2.h) Onemocnění štítné žlázy (např. snížená funkce, zvýšená funkce, cysta nebo uzly) [Ano|Ne]
+  {…+}
+      Snížená funkce štítné žlázy (hypofunkce) [Ano|Ne]
         {108} […]
-      Zvýšená funkce štítné žlázy (hyperfunkce)
+      Zvýšená funkce štítné žlázy (hyperfunkce) [Ano|Ne]
         {109} […]
-      Cysta nebo uzly štítné žlázy
+      Cysta nebo uzly štítné žlázy [Ano|Ne]
         {110} […]
 
-    2.i) Onemocnění kůže (např. lupénka, atopický ekzém, ekzém)
-      Lupénka (psoriáza)
-        Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech?
+{…} 2.i) Onemocnění kůže (např. lupénka, atopický ekzém, ekzém) [Ano|Ne]
+  {…+}
+      Lupénka (psoriáza) [Ano|Ne]
+        {…+}{…} Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech? [Ano|Ne]
           {111} [Ano|Ne]
-      Atopický ekzém (atopická dermatitida)
+      Atopický ekzém (atopická dermatitida) [Ano|Ne]
         {112} […]
-      Ekzém (kontaktní dermatitida)
-        Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky?
+      Ekzém (kontaktní dermatitida) [Ano|Ne]
+        {…+}{…} Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky? [Ano|Ne]
           {113} [Ano|Ne]
 
-    2.j) Onemocnění zrakového ústrojí (např. krátkozrakost, dalekozrakost víc jak 10 dioptrií, astigmatizmus, tupozrakost, šilhavost, keratokonus, zelený zákal, šedý zákal, slepota)
-      Krátkozrakost nebo dalekozrakost více než 10 dioptrií
+{…} 2.j) Onemocnění zrakového ústrojí (např. krátkozrakost, dalekozrakost víc jak 10 dioptrií, astigmatizmus, tupozrakost, šilhavost, keratokonus, zelený zákal, šedý zákal, slepota) [Ano|Ne]
+  {…+}
+      Krátkozrakost nebo dalekozrakost více než 10 dioptrií [Ano|Ne]
         {114} […]
-      Astigmatismus
+      Astigmatismus [Ano|Ne]
         {115} […]
-      Tupozrakost
+      Tupozrakost [Ano|Ne]
         {116} […]
-      Šilhavost
+      Šilhavost [Ano|Ne]
         {117} […]
-      Keratokonus
+      Keratokonus [Ano|Ne]
         {118} […]
-      Zelený zákal (glaukom, zvýšený nitrooční tlak, NOT)
+      Zelený zákal (glaukom, zvýšený nitrooční tlak, NOT) [Ano|Ne]
         {119} […]
-      Šedý zákal (katarakta)
+      Šedý zákal (katarakta) [Ano|Ne]
         {120} […]
-      Slepota (např. slepota 1 oka, částečná nebo praktická, úplná)
-        Slepota 1 oka
-          Pravé oko
+      Slepota (např. slepota 1 oka, částečná nebo praktická, úplná) [Ano|Ne]
+        {…+}{…} Slepota 1 oka [Ano|Ne]
+          Pravé oko [Ano|Ne]
             {121} […]
-          Levé oko
+          Levé oko [Ano|Ne]
             {122} […]
-        Částečná nebo praktická slepota
+        {…+}{…} Částečná nebo praktická slepota [Ano|Ne]
           {123} […]
-        Úplná slepota
+        {…+}{…} Úplná slepota [Ano|Ne]
           {124} […]
 
-    2.k) Onemocnění sluchového ústrojí (např. pískání nebo šum v uchu – tinnitus, nedoslýchavost, hluchota)
-      Pískání nebo šum v uchu (tinnitus)
-        Máte problémy nebo se léčíte v současnosti s tímto onemocněním?
+{…} 2.k) Onemocnění sluchového ústrojí (např. pískání nebo šum v uchu – tinnitus, nedoslýchavost, hluchota) [Ano|Ne]
+  {…+}
+      Pískání nebo šum v uchu (tinnitus) [Ano|Ne]
+        {…+}{…} Máte problémy nebo se léčíte v současnosti s tímto onemocněním? [Ano|Ne]
           {125} [Ano|Ne]
-      Nedoslýchavost 1 ucha
+      Nedoslýchavost 1 ucha [Ano|Ne]
         {126} […]
-      Hluchota 1 ucha
+      Hluchota 1 ucha [Ano|Ne]
         {127} […]
-      Nedoslýchavost nebo částečná hluchota obou uší
+      Nedoslýchavost nebo částečná hluchota obou uší [Ano|Ne]
         {128} […]
-      Ztráta sluchu (úplná hluchota obou uší)
+      Ztráta sluchu (úplná hluchota obou uší) [Ano|Ne]
         {129} [ano|ne]
 
-    2.l) Nic z výše uvedeného
+{…} 2.l) Nic z výše uvedeného [Ano|Ne]
+  {…+}
       {130} [ano|ne]
 
 ### {E} Onemocnění - část 3
-  3.a) Máte v současné době zdravotní obtíže? (nemoc, pracovní neschopnost, plánujete navštívit lékaře, probíhá u vás vyšetřování, čekáte na výsledky testů, zahájení léčby či operaci)
+{…} 3.a) Máte v současné době zdravotní obtíže? (nemoc, pracovní neschopnost, plánujete navštívit lékaře, probíhá u vás vyšetřování, čekáte na výsledky testů, zahájení léčby či operaci)
+  {…+}
     Jsem v pracovní neschopnosti nebo nejsem schopen práce (v případě OSVČ)
       Uveďte důvod:
         {131} […]
@@ -429,7 +433,8 @@ Dočasné pracovní:
         Vyberte plánované operace
           {135} […]
 
-  3.b) Máte nebo jste měl/a přiznanou invaliditu 1., 2., 3. stupně a /nebo sníženou soběstačnost?
+{…} 3.b) Máte nebo jste měl/a přiznanou invaliditu 1., 2., 3. stupně a /nebo sníženou soběstačnost?
+  {…+}
     Jste nebo jste byl/a osobou se zdravotním zněvýhodněním (např. držitel průkazu ZTP, OZZ)?
       {136} [Ano|Ne]
     Žádal/a jste o jejich přiznání?
@@ -450,12 +455,14 @@ Dočasné pracovní:
       Pro jakou diagnózu, případně jaké diagnózy?
         {143} […]
 
-  3.c) Máte nebo jste měl/a nějaké jiné onemocnění nebo potíže (mimo úrazy), které jste neuvedl v tomto dotazníku a pro které vás vyšetřoval, sledoval nebo léčil lékař?
+{…} 3.c) Máte nebo jste měl/a nějaké jiné onemocnění nebo potíže (mimo úrazy), které jste neuvedl v tomto dotazníku a pro které vás vyšetřoval, sledoval nebo léčil lékař?
+  {…+}
     Vyberte onemocnění nebo potíže ze seznamu.
       {144} […]
 
 ### {F} Trvalé následky
-  4. Měl/a jste v minulosti úraz, který zanechal trvalé následky? (např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod.)
+{…} 4. Měl/a jste v minulosti úraz, který zanechal trvalé následky? (např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod.)
+  {…+}
     Na jaké části těla máte trvalý následek? Uveďte všechny trvalé následky.
       Hlava
         Na jaké části hlavy máte trvalý následek?
@@ -619,7 +626,8 @@ Dočasné pracovní:
         {202} [ano|ne]
 
 ### {G} Úraz
-  5. Měl/a jste v posledních 7 letech úraz? (např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod.)
+{…} 5. Měl/a jste v posledních 7 letech úraz? (např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod.)
+  {…+}
     Jaká část těla byla poraněna? Uveďte všechna poranění.
       Hlava
         O jaký úraz se jednalo?
