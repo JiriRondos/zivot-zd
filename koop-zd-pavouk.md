@@ -298,116 +298,118 @@ Dočasné pracovní:
       {…+}{…} Máte komplikace v souvislosti s tímto onemocněním? (např. nízka váha, podvýživa, malabsorpční syndrom) [Ano|Ne]
     {…} Vrozená vada jícnu, žaludku nebo střev [Ano|Ne]
 
-
 {…} 2.d) Onemocnění močového ústrojí (např. ledvinové kameny, zánět ledvin, močového měchýře nebo močových cest, vrozená vada ledvin, močového měchýře nebo močových cest) [Ano|Ne]
   {…+}
-      Ledvinové kameny [Ano|Ne]
-        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
-          {92} [Ano|Ne]
-      Vrozená vada ledvin, močového měchýře, močových cest [Ano|Ne]
-        {93} […]
-      Zánět močového měchýře [Ano|Ne]
-        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
-          {94} [Ano|Ne]
-      Zánět močových cest [Ano|Ne]
-        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
-          {95} [Ano|Ne]
-      Zánět ledvin [Ano|Ne]
-        {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
-          {96} [Ano|Ne]
+    {…} Ledvinové kameny [Ano|Ne]
+      {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
+        {…-}{…} Operovali vás v souvislosti s tímto onemocněním? [Ano|Ne]
+          {…-}{…} Opakovalo se u vás toto onemocnění? [Ano|Ne]
+    {…} Vrozená vada ledvin, močového měchýře, močových cest [Ano|Ne]
+    {…} Zánět močového měchýře [Ano|Ne]
+      {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
+        {…-}{…} Opakovalo se u vás toto onemocnění? [Ano|Ne]
+    {…} Zánět močových cest [Ano|Ne]
+      {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
+        {…-}{…} Opakovalo se u vás toto onemocnění? [Ano|Ne]
+    {…} Zánět ledvin [Ano|Ne]
+      {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
+        {…-}{…} Opakovalo se u vás toto onemocnění? [Ano|Ne]
+
 
 {…} 2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu) [Ano|Ne]
   {…+}
-      [MUŽ] Zvětšená prostata [Ano|Ne]
-        {97} […]
-      [ŽENA] Gynekologické obtíže [Ano|Ne]
-        {98} […]
-      Bulka v prsu [Ano|Ne]
-        {99} […]
+
+{…} [MUŽ] Zvětšená prostata [Ano|Ne]
+
+{…} [ŽENA] Gynekologické obtíže [Ano|Ne]
+
+{…} Bulka v prsu [Ano|Ne]
+
 
 {…} 2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV) [Ano|Ne]
   {…+}
-      Žloutenka (hepatitida) typu A nebo E [Ano|Ne]
-        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-          {100} [Ano|Ne]
-      Žloutenka (hepatitida) typu B nebo D [Ano|Ne]
-        {101} […]
-      Žloutenka (hepatitida) typu C [Ano|Ne]
-        {102} […]
-      Infekční mononukleóza [Ano|Ne]
-        {103} […]
-      Lymeská borelióza [Ano|Ne]
-        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-          {104} [Ano|Ne]
-      Encefalitida (včetně klíšťové) [Ano|Ne]
-        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-          {105} [Ano|Ne]
-      Meningitida [Ano|Ne]
-        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-          {106} [Ano|Ne]
-      HIV
-        {107} […]
+
+{…} Žloutenka (hepatitida) typu A nebo E [Ano|Ne]
+  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+
+{…} Žloutenka (hepatitida) typu B nebo D [Ano|Ne]
+
+{…} Žloutenka (hepatitida) typu C [Ano|Ne]
+
+{…} Infekční mononukleóza [Ano|Ne]
+
+{…} Lymeská borelióza [Ano|Ne]
+  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+
+{…} Encefalitida (včetně klíšťové) [Ano|Ne]
+  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+
+{…} Meningitida [Ano|Ne]
+  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+
+{…} HIV
+
 
 {…} 2.h) Onemocnění štítné žlázy (např. snížená funkce, zvýšená funkce, cysta nebo uzly) [Ano|Ne]
   {…+}
-      Snížená funkce štítné žlázy (hypofunkce) [Ano|Ne]
-        {108} […]
-      Zvýšená funkce štítné žlázy (hyperfunkce) [Ano|Ne]
-        {109} […]
-      Cysta nebo uzly štítné žlázy [Ano|Ne]
-        {110} […]
+
+{…} Snížená funkce štítné žlázy (hypofunkce) [Ano|Ne]
+
+{…} Zvýšená funkce štítné žlázy (hyperfunkce) [Ano|Ne]
+
+{…} Cysta nebo uzly štítné žlázy [Ano|Ne]
+
 
 {…} 2.i) Onemocnění kůže (např. lupénka, atopický ekzém, ekzém) [Ano|Ne]
   {…+}
-      Lupénka (psoriáza) [Ano|Ne]
-        {…+}{…} Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech? [Ano|Ne]
-          {111} [Ano|Ne]
-      Atopický ekzém (atopická dermatitida) [Ano|Ne]
-        {112} […]
-      Ekzém (kontaktní dermatitida) [Ano|Ne]
-        {…+}{…} Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky? [Ano|Ne]
-          {113} [Ano|Ne]
+
+{…} Lupénka (psoriáza) [Ano|Ne]
+  {…+}{…} Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech? [Ano|Ne]
+
+{…} Atopický ekzém (atopická dermatitida) [Ano|Ne]
+
+{…} Ekzém (kontaktní dermatitida) [Ano|Ne]
+  {…+}{…} Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky? [Ano|Ne]
+
 
 {…} 2.j) Onemocnění zrakového ústrojí (např. krátkozrakost, dalekozrakost víc jak 10 dioptrií, astigmatizmus, tupozrakost, šilhavost, keratokonus, zelený zákal, šedý zákal, slepota) [Ano|Ne]
   {…+}
-      Krátkozrakost nebo dalekozrakost více než 10 dioptrií [Ano|Ne]
-        {114} […]
-      Astigmatismus [Ano|Ne]
-        {115} […]
-      Tupozrakost [Ano|Ne]
-        {116} […]
-      Šilhavost [Ano|Ne]
-        {117} […]
-      Keratokonus [Ano|Ne]
-        {118} […]
-      Zelený zákal (glaukom, zvýšený nitrooční tlak, NOT) [Ano|Ne]
-        {119} […]
-      Šedý zákal (katarakta) [Ano|Ne]
-        {120} […]
-      Slepota (např. slepota 1 oka, částečná nebo praktická, úplná) [Ano|Ne]
-        {…+}{…} Slepota 1 oka [Ano|Ne]
-          Pravé oko [Ano|Ne]
-            {121} […]
-          Levé oko [Ano|Ne]
-            {122} […]
-        {…+}{…} Částečná nebo praktická slepota [Ano|Ne]
-          {123} […]
-        {…+}{…} Úplná slepota [Ano|Ne]
-          {124} […]
+
+{…} Krátkozrakost nebo dalekozrakost více než 10 dioptrií [Ano|Ne]
+  
+{…} Astigmatismus [Ano|Ne]
+
+{…} Tupozrakost [Ano|Ne]
+
+{…} Šilhavost [Ano|Ne]
+
+{…} Keratokonus [Ano|Ne]
+
+{…} Zelený zákal (glaukom, zvýšený nitrooční tlak, NOT) [Ano|Ne]
+
+{…} Šedý zákal (katarakta) [Ano|Ne]
+
+{…} Slepota (např. slepota 1 oka, částečná nebo praktická, úplná) [Ano|Ne]
+  {…+}{…} Slepota 1 oka [Ano|Ne]
+    Pravé oko [Ano|Ne]
+    Levé oko [Ano|Ne]
+  {…+}{…} Částečná nebo praktická slepota [Ano|Ne]
+  {…+}{…} Úplná slepota [Ano|Ne]
 
 {…} 2.k) Onemocnění sluchového ústrojí (např. pískání nebo šum v uchu – tinnitus, nedoslýchavost, hluchota) [Ano|Ne]
   {…+}
-      Pískání nebo šum v uchu (tinnitus) [Ano|Ne]
-        {…+}{…} Máte problémy nebo se léčíte v současnosti s tímto onemocněním? [Ano|Ne]
-          {125} [Ano|Ne]
-      Nedoslýchavost 1 ucha [Ano|Ne]
-        {126} […]
-      Hluchota 1 ucha [Ano|Ne]
-        {127} […]
-      Nedoslýchavost nebo částečná hluchota obou uší [Ano|Ne]
-        {128} […]
-      Ztráta sluchu (úplná hluchota obou uší) [Ano|Ne]
-        {129} [ano|ne]
+
+{…} Pískání nebo šum v uchu (tinnitus) [Ano|Ne]
+  {…+}{…} Máte problémy nebo se léčíte v současnosti s tímto onemocněním? [Ano|Ne]
+
+{…} Nedoslýchavost 1 ucha [Ano|Ne]
+
+{…} Hluchota 1 ucha [Ano|Ne]
+
+{…} Nedoslýchavost nebo částečná hluchota obou uší [Ano|Ne]
+
+{…} Ztráta sluchu (úplná hluchota obou uší) [Ano|Ne]
+
 
 {…} 2.l) Nic z výše uvedeného [Ano|Ne]
   {…+}
