@@ -3,11 +3,15 @@ https://knz.koop.cz/KoopLifeWeb/faces/p1FN/tab_main.xhtml#
 
 ## Legenda
 {A}, {B}, → {Z}: označení kapitoly
-  {muž|žena}: celá sekce platí pouze pro uvedené pohlaví
+  <male|female>: celá vnořená sekce platí pouze pro uvedené pohlaví
   {1}, {2}, → {x}: číslo odpovědi pro otázku v dané v sekci (kontext/začátek otázky může být i na předcházejících vyšších úrovních)
     […]: pole na vyplnění odpovědi textem
     [a|b|→|z]: volba z možných odpovědí
+  {1+}, {1-}, {1?}: číslo otázky a zástupné symboly odpovědí: [Ano|Ne|Nevím]
   {1a}, {1c}, → {1z}: číslo otázky a pořadí odpovědi při volbě ze seznamu [a|b|→|z] pro stromové pokračování
+
+Dočasné pracovní:
+{…}, {…+}, ...: místo pro doplnění čísla odpovědi
 
 ## {A} Dotazník pro slevu za zdravý životní styl
 {1} Mám zájem o vyplnění dotazníku pro slevu za zdravý životní styl [Ano|Ne]
@@ -29,98 +33,116 @@ https://knz.koop.cz/KoopLifeWeb/faces/p1FN/tab_main.xhtml#
 {4} Kouříte nebo jste kouřil/a v posledních 2 letech? (Kouřením rozumíme užívání tabáku nebo elektronických cigaret) [Ano|Ne]
 {5} Pijete nebo jste pil/a denně alkohol v množství větším než 2 l piva, 0,5 l vína nebo 0,1 l lihovin? [Ano|Ne]
 {6} Užíváte nebo jste užíval/a drogy či jiné návykové látky? [Ano|Ne]
-  {6a} Které z následujících drog jste užil/a?
+  {6+} Které z následujících drog jste užil/a?
     {7} Marihuana - kouření, vaporizace, konzumace [Ano|Ne]
-      {7a}{8} Užil/a jste tuto drogu v posledních 2 letech? [Ano|Ne]
-        {8a}{9} Jak často jste v posledních 2 letech užíval/a tuto drogu? [1-2krát_týdně_nebo_méně|3-4krát_týdně|5krát_týdně_nebo_více]
+      {7+}{8} Užil/a jste tuto drogu v posledních 2 letech? [Ano|Ne]
+        {8+}{9} Jak často jste v posledních 2 letech užíval/a tuto drogu? [1-2krát_týdně_nebo_méně|3-4krát_týdně|5krát_týdně_nebo_více]
     {10} Jiný druh drog (např. kokain, opiáty, heroin, amfetaminy, MDMA, pervitin) [Ano|Ne]
-      {a}{11} Užil/a jste tuto drogu v posledních 7 letech? [Ano|Ne]
+      {10+}{11} Užil/a jste tuto drogu v posledních 7 letech? [Ano|Ne]
 {12} Jste nebo jste byl/a závislý/á na alkoholu, drogách, léčivých přípravcích nebo jiných návykových látkách? [Ano|Ne]
-  {12a}{13} Užil/a jste v posledních 10 letech některou z výše uvedených látek? [Ano|Ne]
+  {12+}{13} Užil/a jste v posledních 10 letech některou z výše uvedených látek? [Ano|Ne]
 
 ### {C} Onemocnění - část 1
-[{…}+Ano|Ne?] 1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?
-  [{…}+Ano|Ne?] 1.a) Nádorová onemocnění (např. rakovina – zhoubný nádor, leukémie, lymfom, nezhoubný nádor mozku)
+#### 1. Máte nebo jste měl/a některé z následujících onemocnění, kvůli kterým vás lékař vyšetřoval, sledoval nebo léčil?
+{…} 1.a) Nádorová onemocnění (např. rakovina – zhoubný nádor, leukémie, lymfom, nezhoubný nádor mozku) [Ano|Ne]
+  {…+}
     {…} Rakovina – zhoubný nádor [Ano|Ne]
-      {muž}{…} Prostaty [Ano|Ne]
-        {…a} Prodělal jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {muž}{…} Varlete / varlat [Ano|Ne]
-        {…a} Prodělal jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {žena}{…} Děložního čípku [Ano|Ne]
-        {…a} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Prsu / prsů [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Ledviny / ledvin [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Močového měchýře [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Tlustého střeva nebo konečníku (rekta) [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Plíce / plic [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Kůže [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Štítné žlázy [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Kostí [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Mozku [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
-      {…} Jiné / Ostatní [Ano|Ne]
-        {…a} Uveďte o jaké onemocnění se jedná: […]
+      {…+}
+        {…}<male> Prostaty [Ano|Ne]
+          {…+}{…} Prodělal jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+        {…}<male> Varlete / varlat [Ano|Ne]
+          {…+}{…} Prodělal jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+        {…}<female> Děložního čípku [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Prsu / prsů [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Ledviny / ledvin [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Močového měchýře [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Tlustého střeva nebo konečníku (rekta) [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Plíce / plic [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Kůže [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Štítné žlázy [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Kostí [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…} Mozku [Ano|Ne]
+          {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+            {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+          {…-}{…} Byl nádor úplně odstraněn? [Ano|Ne|Nevím]
+            {…+}{…} Zanechal nádor trvalé následky? (např. bolesti hlavy, změny chování a osobnosti, poruchy pohyblivosti a koordinace, zhoršení zraku, sluchu, čichu nebo řeči) [Ano|Ne]
+        {…} Jiné / Ostatní [Ano|Ne]
+          {…+}{…} Uveďte o jaké onemocnění se jedná: […]
     {…} Leukémie [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+      {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
     {…} Lymfom (např. Hodgkinův lymfom, Non-Hodgkinův lymfom) [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+      {…+}{…} Prodělala jste toto onemocnění v posledních 10 letech? [Ano|Ne]
+        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
     {…} Nezhoubný nádor mozku [Ano|Ne]
-        {…a} Prodělal/a jste toto onemocnění v posledních 5 letech? [Ano|Ne]
+      {…+}{…} Prodělala jste toto onemocnění v posledních **5 letech**? [Ano|Ne]
+        {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+      {…-}{…} Byl nádor úplně odstraněn? [Ano|Ne|Nevím]
+        {…+}{…} Zanechal nádor trvalé následky? (např. bolesti hlavy, změny chování a osobnosti, poruchy pohyblivosti a koordinace, zhoršení zraku, sluchu, čichu nebo řeči) [Ano|Ne]
 
-  1.b) Vysoký krevní tlak a onemocnění srdce (např. srdeční infarkt, angina pectoris / bolest na hrudi / ischemická choroba srdeční, bušení srdce / arytmie, vrozená vada srdce nebo operace srdce)
-      Vysoký krevní tlak
-        Poslední naměřená hodnota krevního tlaku:
-          Systolický (vyšší hodnota)
-            {37} […]
-          Diastolický (nižší hodnota)
-            {38} […]
-      Srdeční infarkt
-        Prodělal/a jste srdeční infarkt v posledních 5 letech?
-          {39} [Ano|Ne]
-      Angina pectoris, bolest na hrudi, ischemická choroba srdeční
-        {40} […]
-      Bušení srdce, arytmie
-        {41} […]
-      Vrozená vada srdce
-        {42} […]
-      Operace srdce
-        {43} […]
+{…} 1.b) Vysoký krevní tlak a onemocnění srdce (např. srdeční infarkt, angina pectoris / bolest na hrudi / ischemická choroba srdeční, bušení srdce / arytmie, vrozená vada srdce nebo operace srdce) [Ano|Ne]
+  {…+}
+    {…} Vysoký krevní tlak [Ano|Ne]
+      {…+} Poslední naměřená hodnota krevního tlaku:
+        Systolický (vyšší hodnota) [140_mm_Hg_nebo_menší|141-160_mm_Hg|161_mm_Hg_nebo_vyšší|Nevím]
+        Diastolický (nižší hodnota) [90_mm_Hg_nebo_nižší|91-100_mm_Hg|101_mm_Hg_nebo_vyšší|Nevím]
+    {…} Srdeční infarkt [Ano|Ne]
+      {…+}{…} Prodělal/a jste srdeční infarkt v posledních **5 letech**? [Ano|Ne]
+      {…-}{…} Prodělal/a jste srdeční infarkt **opakovaně**? [Ano|Ne]
+    {…} Angina pectoris, bolest na hrudi, ischemická choroba srdeční [Ano|Ne]
+    {…} Bušení srdce, arytmie [Ano|Ne]
+    {…} Vrozená vada srdce [Ano|Ne]
+    {…} Operace srdce [Ano|Ne]
 
-    1.c) Neurologická onemocnění (např. cévní mozková příhoda – mrtvice, epilepsie, roztroušená skleróza, Alzheimerova nemoc)
-      Cévní mozková příhoda (mrtvice)
-        Máte nějaké následky? (např. narušení schopnosti hýbat některou částí těla, porucha řeči, zhoršení zraku, epilepsie)
-          {44} […]
-      Epilepsie
-        Jste aktuálně veden/a v neurologické evidenci?
-          {45} [Ano|Ne]
-      Roztroušená skleróza
-        {46} [ano|ne]
-      Alzheimerova nemoc
-        {47} [ano|ne]
+{…} 1.c) Neurologická onemocnění (např. cévní mozková příhoda – mrtvice, epilepsie, roztroušená skleróza, Alzheimerova nemoc) [Ano|Ne]
+  {…+}
+    {…} Cévní mozková příhoda (mrtvice) [Ano|Ne]
+      {…+}{…} Máte nějaké následky? (např. narušení schopnosti hýbat některou částí těla, porucha řeči, zhoršení zraku, epilepsie) [Ano|Ne]
+    {…} Epilepsie [Ano|Ne]
+      {…+}{…} Jste aktuálně veden/a v neurologické evidenci? [Ano|Ne]
+        {…+}
+          {…} Prodělal/a jste epileptický záchvat v posledních **5 letech**? [Ano|Ne]
+          {…} Máte nějaké psychické onemocnění? [Ano|Ne]
+    {…} Roztroušená skleróza [Ano|Ne]
+    {…} Alzheimerova nemoc [Ano|Ne]
 
-    1.d) Psychická onemocnění (např. úzkost, deprese, poruchy spánku, stresová porucha, poporodní deprese, syndrom vyhoření, bipolární porucha, obsedantně kompulzivní porucha, schizofrenie, autismus, Aspergerův syndrom, Downův syndrom, ADHD)
-      Deprese, úzkost, fobie, poruchy spánku, stresová porucha, postraumatická stresová porucha
-        Užíváte kombinaci tří nebo více druhů léků?
-          {48} [Ano|Ne]
-      Syndrom vyhoření
-        {49} [ano|ne]
-      Bipolární porucha, obsedantně kompulzivní porucha, schizofrenie
-        {50} [ano|ne]
-      Downův syndrom
-        {51} [ano|ne]
-      Autismus, porucha autistického spektra, Aspergerův syndrom
-        {52} [ano|ne]
-      ADHD
-        Užíváte kombinaci dvou nebo více druhů léků?
-          {53} [Ano|Ne]
+{…} 1.d) Psychická onemocnění (např. úzkost, deprese, poruchy spánku, stresová porucha, poporodní deprese, syndrom vyhoření, bipolární porucha, obsedantně kompulzivní porucha, schizofrenie, autismus, Aspergerův syndrom, Downův syndrom, ADHD) [Ano|Ne]
+  {…+}
+    {…} Deprese, úzkost, fobie, poruchy spánku, stresová porucha, postraumatická stresová porucha [Ano|Ne]
+      {…+}{…} Užíváte kombinaci tří nebo více druhů léků? [Ano|Ne]
+        {…+}{…} Hospitalizovali vás, byl/a jste v pracovní neschopnosti nebo vám byla přiznána invalidita v souvislosti s tímto onemocněním? [Ano|Ne]
+        {…-}
+          {…} Ukončil lékař sledování nebo léčbu před více než 2 lety? [Ano|Ne]
+          {…} Hospitalizovali vás, byl/a jste v pracovní neschopnosti nebo vám byla přiznána invalidita v souvislosti s tímto onemocněním? [Ano|Ne]
+    {…}<female> Poporodní deprese [Ano|Ne]
+      {…+}{…} Máte potíže nebo se s tímto onemocněním v současnosti léčíte? [Ano|Ne]
+        {…-}{…} Ukončil lékař sledování nebo léčbu před více než 6 měsíci? [Ano|Ne]
+    {…} Syndrom vyhoření [Ano|Ne]
+    {…} Bipolární porucha, obsedantně kompulzivní porucha, schizofrenie [Ano|Ne]
+    {…} Downův syndrom [Ano|Ne]
+    {…} Autismus, porucha autistického spektra, Aspergerův syndrom [Ano|Ne]
+    {…} ADHD [Ano|Ne]
+      {…+}{…} Užíváte kombinaci dvou nebo více druhů léků? [Ano|Ne]
+        {…-}{…} Máte potíže s pamětí, učením, udržením pozornosti či agresivním chováním? [Ano|Ne]
+
 
     1.e) Onemocnění krve (např. porucha srážlivosti krve, chudokrevnost – anémie, hemofilie)
       Leidenská mutace nebo jiná porucha srážlivosti krve – trombofilie (např. protrombinová mutace, antitrombinová deficience, MTHFR mutace, hyperhomocytémie)
