@@ -3,12 +3,13 @@ https://knz.koop.cz/KoopLifeWeb/faces/p1FN/tab_main.xhtml#
 
 ## Legenda
 {A}, {B}, → {Z}: označení kapitoly
-  <male|female>: celá vnořená sekce platí pouze pro uvedené pohlaví
-  {1}, {2}, → {x}: číslo odpovědi pro otázku v dané v sekci (kontext/začátek otázky může být i na předcházejících vyšších úrovních)
-    […]: pole na vyplnění odpovědi textem
-    [a|b|→|z]: volba z možných odpovědí
-  {1+}, {1-}, {1?}: číslo otázky a zástupné symboly odpovědí: [Ano|Ne|Nevím]
-  {1a}, {1c}, → {1z}: číslo otázky a pořadí odpovědi při volbě ze seznamu [a|b|→|z] pro stromové pokračování
+<male|female>: celá vnořená sekce platí pouze pro uvedené pohlaví
+{1}, {2}, → {x}: číslo odpovědi pro otázku v dané v sekci (kontext/začátek otázky může být i na předcházejících vyšších úrovních)
+  […]: pole na vyplnění odpovědi textem
+  [a|b|→|z]: volba z možných odpovědí
+{1+}, {1-}, {1?}: číslo otázky a zástupné symboly odpovědí: [Ano|Ne|Nevím]
+{1a}, {1b}, → {1z}, {1ade}: číslo otázky a pořadí odpovědi(í) při volbě ze seznamu [a|b|→|z] pro stromové pokračování
+[…]\n```md blok```: seznam položek, ze kterého se vybírá do […]
 
 Dočasné pracovní:
 {…}, {…+}, ...: místo pro doplnění čísla odpovědi
@@ -327,14 +328,11 @@ Dočasné pracovní:
 
     
 
+
+
 {…}<male> 2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu) [Ano|Ne]
   {…+}
 
-{…} [MUŽ] Zvětšená prostata [Ano|Ne]
-
-{…} [ŽENA] Gynekologické obtíže [Ano|Ne]
-
-{…} Bulka v prsu [Ano|Ne]
 
 
 
@@ -373,92 +371,159 @@ Dočasné pracovní:
 
 {…} 2.j) Onemocnění zrakového ústrojí (např. krátkozrakost, dalekozrakost víc jak 10 dioptrií, astigmatizmus, tupozrakost, šilhavost, keratokonus, zelený zákal, šedý zákal, slepota) [Ano|Ne]
   {…+}
-
-{…} Krátkozrakost nebo dalekozrakost více než 10 dioptrií [Ano|Ne]
-  
-{…} Astigmatismus [Ano|Ne]
-
-{…} Tupozrakost [Ano|Ne]
-
-{…} Šilhavost [Ano|Ne]
-
-{…} Keratokonus [Ano|Ne]
-
-{…} Zelený zákal (glaukom, zvýšený nitrooční tlak, NOT) [Ano|Ne]
-
-{…} Šedý zákal (katarakta) [Ano|Ne]
-
-{…} Slepota (např. slepota 1 oka, částečná nebo praktická, úplná) [Ano|Ne]
-  {…+}{…} Slepota 1 oka [Ano|Ne]
-    Pravé oko [Ano|Ne]
-    Levé oko [Ano|Ne]
-  {…+}{…} Částečná nebo praktická slepota [Ano|Ne]
-  {…+}{…} Úplná slepota [Ano|Ne]
+    {…} Krátkozrakost nebo dalekozrakost více než 10 dioptrií [Ano|Ne]
+    {…} Astigmatismus [Ano|Ne]
+    {…} Tupozrakost [Ano|Ne]
+    {…} Šilhavost [Ano|Ne]
+    {…} Keratokonus [Ano|Ne]
+    {…} Zelený zákal (glaukom, zvýšený nitrooční tlak, NOT) [Ano|Ne]
+    {…} Šedý zákal (katarakta) [Ano|Ne]
+    {…} Slepota (např. slepota 1 oka, částečná nebo praktická, úplná) [Ano|Ne]
+      {…+}
+        {…} Slepota 1 oka [Ano|Ne]
+          {…+}{…} Oko: [Pravé|Levé|Pravé+Levé]
+        {…} Částečná nebo praktická slepota [Ano|Ne]
+        {…} Úplná slepota [Ano|Ne]
 
 {…} 2.k) Onemocnění sluchového ústrojí (např. pískání nebo šum v uchu – tinnitus, nedoslýchavost, hluchota) [Ano|Ne]
   {…+}
-
-{…} Pískání nebo šum v uchu (tinnitus) [Ano|Ne]
-  {…+}{…} Máte problémy nebo se léčíte v současnosti s tímto onemocněním? [Ano|Ne]
-
-{…} Nedoslýchavost 1 ucha [Ano|Ne]
-
-{…} Hluchota 1 ucha [Ano|Ne]
-
-{…} Nedoslýchavost nebo částečná hluchota obou uší [Ano|Ne]
-
-{…} Ztráta sluchu (úplná hluchota obou uší) [Ano|Ne]
-
+    {…} Pískání nebo šum v uchu (tinnitus) [Ano|Ne]
+      {…+}{…} Máte problémy nebo se léčíte v současnosti s tímto onemocněním? [Ano|Ne]
+        {…+}{…} Máte sníženou slyšitelnost jednoho nebo obou uší? [Ano|Ne]
+    {…} Nedoslýchavost 1 ucha [Ano|Ne]
+    {…} Hluchota 1 ucha [Ano|Ne]
+    {…} Nedoslýchavost nebo částečná hluchota obou uší [Ano|Ne]
+    {…} Ztráta sluchu (úplná hluchota obou uší) [Ano|Ne]
 
 {…} 2.l) Nic z výše uvedeného [Ano|Ne]
-  {…+}
-      {130} [ano|ne]
 
 ### {E} Onemocnění - část 3
-{…} 3.a) Máte v současné době zdravotní obtíže? (nemoc, pracovní neschopnost, plánujete navštívit lékaře, probíhá u vás vyšetřování, čekáte na výsledky testů, zahájení léčby či operaci)
+{…} 3.a) Máte v současné době zdravotní obtíže? (nemoc, pracovní neschopnost, plánujete navštívit lékaře, probíhá u vás vyšetřování, čekáte na výsledky testů, zahájení léčby či operaci) [Ano|Ne]
   {…+}
-    Jsem v pracovní neschopnosti nebo nejsem schopen práce (v případě OSVČ)
-      Uveďte důvod:
-        {131} […]
-    Mám potíže, pro které plánuji vyhledat lékaře
-      Uveďte důvod:
-        {132} […]
-    Probíhá u mě vyšetřování, testy nebo čekám na výsledky provedených vyšetření
-      Uveďte důvod:
-        {133} […]
-    Čekám na zahájení jakékoliv formy léčby nebo operaci
-      Léčba (kromě operace)
-        Uveďte důvod:
-          {134} […]
-      Operace
-        Vyberte plánované operace
-          {135} […]
+    {…} Jsem v pracovní neschopnosti nebo nejsem schopen práce (v případě OSVČ) [Ano|Ne]
+      {…+}{…} Uveďte důvod: […]
+    {…} Mám potíže, pro které plánuji vyhledat lékaře [Ano|Ne]
+      {…+}{…} Uveďte důvod: […]
+    {…} Probíhá u mě vyšetřování, testy nebo čekám na výsledky provedených vyšetření [Ano|Ne]
+      {…+}{…} Uveďte důvod: […]
+    {…} Čekám na zahájení jakékoliv formy léčby nebo operaci [Ano|Ne]
+      {…+}
+        {…} Léčba (kromě operace) [Ano|Ne]
+          {…+}{…} Uveďte důvod: […]
+        {…} Operace [Ano|Ne]
+          {…+}{…} Vyberte plánované operace (ze seznamu): […]
+```md
+Operace mozku
+Operace míchy
+Operace meziobratlových plotének
+Operace skoliózy páteře
+Operace páteře
+Laserová operace pravého oka
+Laserová operace levého oka
+Operace pravého oka
+Operace levého oka
+Operace šedého zákalu pravého oka
+Operace šedého zákalu levého oka
+Operace zeleného zákalu
+Operace ušního bubínku pravého ucha
+Operace ušního bubínku levého ucha
+Operace pravého ucha
+Operace levého ucha
+Operace středního ucha
+Operace sluchového ústrojí
+Operace nosní přepážky
+Operace nebo odstranění nosních mandlí
+Operace nosní dutiny a/nebo nebo přínosových dutin
+Operace čelisti
+Operace rozštěpu patra
+Operace nebo odstranění krčních mandlí
+Operace slinných žláz
+Operace zubů v celkové anestézii
+Operace hlasivek
+Operace štítné žlázy
+Operace srdce a/ nebo aorty
+Operace břišní aorty
+Operace krčních tepen
+Operace plic
+Operace hrudní stěny
+Operace hemoroidů
+Operace křečových žil (varixů)
+Operace žil a/nebo tepen
+Operace jícnu
+Operace refluxu
+Operace žaludku
+Operace slinivky břišní (pankreasu)
+Operace jater
+Operace sleziny
+Operace střev
+Operace slepého střeva (apendixu)
+Operace konečníku
+Operace ledvin
+Operace močového měchýře
+Operace močových cest
+Operace močové trubice
+Operace prsou
+Operace nebo odstranění dělohy
+Operace, odstranění nebo zákrok na děložním čípku
+Operace nebo odstranění vaječníků
+Operace, odstranění nebo zákrok na vejcovodech
+Operace nebo odstranění varlat/e
+Operace prostaty
+Operace pravé horní končetiny
+Operace levé horní končetiny
+Operace pravého ramenního kloubu
+Operace levého ramenního kloubu
+Operace pravého loketního kloubu
+Operace levého loketního kloubu
+Operace pravého zápěstí
+Operace levého zápěstí
+Operace pravé ruky (od zápěstí po konečky prstů)
+Operace levé ruky (od zápěstí po konečky prstů)
+Operace karpálních tunelů
+Operace pravého kyčelního kloubu
+Operace levého kyčelního kloubu
+Operace pravého kolenního kloubu
+Operace levého kolenního kloubu
+Operace pravého hlezenního kloubu
+Operace levého hlezenního kloubu
+Operace pravé dolní končetiny
+Operace levé dolní končetiny
+Operace pravé nohy (od kotníku po konečky prstů)
+Operace levé nohy (od kotníku po konečky prstů)
+Operace vbočeného palce nohy (haluxu)
+Operace patních ostruh
+Odstranění nádoru kůže
+Operace tukových výrustků (v lokální anestezii)
+Operace břišní kýly
+Operace pupeční kýly
+Operace tříselné kýly
+Operace kýly
+Operace žlučníku
+Jiná operace
+```
 
-{…} 3.b) Máte nebo jste měl/a přiznanou invaliditu 1., 2., 3. stupně a /nebo sníženou soběstačnost?
+{…} 3.b) Máte nebo jste měl/a přiznanou invaliditu 1., 2., 3. stupně a /nebo sníženou soběstačnost? Jste nebo jste byl/a osobou se zdravotním zněvýhodněním (např. držitel průkazu ZTP, OZZ)? Žádal/a jste o jejich přiznání? [Ano|Ne]
   {…+}
-    Jste nebo jste byl/a osobou se zdravotním zněvýhodněním (např. držitel průkazu ZTP, OZZ)?
-      {136} [Ano|Ne]
-    Žádal/a jste o jejich přiznání?
-      {137} [Ano|Ne]
-    Osoba se zdravotním znevýhodněním (např. držitel průkazu ZTP nebo OZZ)
-      V jaké fázi aktuálně je?
-        {138} […]
-      Pro jakou diagnózu, případně jaké diagnózy?
-        {139} […]
-    Invalidita
-      V jaké fázi aktuálně je?
-        {140} […]
-      Pro jakou diagnózu, případně jaké diagnózy?
-        {141} […]
-    Snížená soběstačnost
-      V jaké fázi aktuálně je?
-        {142} […]
-      Pro jakou diagnózu, případně jaké diagnózy?
-        {143} […]
+    {…} Osoba se zdravotním znevýhodněním (např. držitel průkazu ZTP nebo OZZ) [Ano|Ne]
+      {…+}
+        {…} V jaké fázi aktuálně je žádost? [Podaná|Přiznaná|Ukončená|Zamítnutá]
+        {…} Uveďte měsíc a rok (MM/RRRR) - podání / přiznání / ukončení / zamítnutí: […]
+        {…} Pro jakou diagnózu, případně jaké diagnózy? […]
+    {…} Invalidita [Ano|Ne]
+      {…+}
+        {…} V jaké fázi aktuálně je žádost? [Podaná|Přiznaná|Ukončená|Zamítnutá]
+          {…bc}{…} Uveďte stupeň snížené soběstačnosti (závislosti): [1|2|3|4]
+        {…} Uveďte měsíc a rok (MM/RRRR) - podání / přiznání / ukončení / zamítnutí: […]
+        {…} Pro jakou diagnózu, případně jaké diagnózy? […]
+    {…} Snížená soběstačnost [Ano|Ne]
+        {…} V jaké fázi aktuálně je žádost? [Podaná|Přiznaná|Ukončená|Zamítnutá]
+          {…bc}{…} Uveďte stupeň invalidity: [1|2|3]
+        {…} Uveďte měsíc a rok (MM/RRRR) - podání / přiznání / ukončení / zamítnutí: […]
+        {…} Pro jakou diagnózu, případně jaké diagnózy? […]
 
-{…} 3.c) Máte nebo jste měl/a nějaké jiné onemocnění nebo potíže (mimo úrazy), které jste neuvedl v tomto dotazníku a pro které vás vyšetřoval, sledoval nebo léčil lékař?
+{…} 3.c) Máte nebo jste měl/a nějaké jiné onemocnění nebo potíže (mimo úrazy), které jste neuvedl v tomto dotazníku a pro které vás vyšetřoval, sledoval nebo léčil lékař? [Ano|Ne]
   {…+}
-    Vyberte onemocnění nebo potíže ze seznamu.
+    Vyberte onemocnění nebo potíže ze seznamu. [Ano|Ne]
       {144} […]
 
 ### {F} Trvalé následky
