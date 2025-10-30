@@ -338,52 +338,38 @@ Dočasné pracovní:
 
 
 
-
 {…} 2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV) [Ano|Ne]
   {…+}
-
-{…} Žloutenka (hepatitida) typu A nebo E [Ano|Ne]
-  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-
-{…} Žloutenka (hepatitida) typu B nebo D [Ano|Ne]
-
-{…} Žloutenka (hepatitida) typu C [Ano|Ne]
-
-{…} Infekční mononukleóza [Ano|Ne]
-
-{…} Lymeská borelióza [Ano|Ne]
-  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-
-{…} Encefalitida (včetně klíšťové) [Ano|Ne]
-  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-
-{…} Meningitida [Ano|Ne]
-  {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
-
-{…} HIV
-
+    {…} Žloutenka (hepatitida) typu A nebo E [Ano|Ne]
+      {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+    {…} Žloutenka (hepatitida) typu B nebo D [Ano|Ne]
+    {…} Žloutenka (hepatitida) typu C [Ano|Ne]
+    {…} Infekční mononukleóza [Ano|Ne]
+      {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+    {…} Lymeská borelióza [Ano|Ne]
+      {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…-}{…} Zanechalo toto onemocnění trvalé následky? (např. únava, deprese, neurologické komplikace, postižení srdce) [Ano|Ne]
+    {…} Encefalitida (včetně klíšťové) [Ano|Ne]
+      {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…-}{…} Zanechalo toto onemocnění trvalé následky? (např. neurologické komplikace, epilepsie, ochrnutí, bolesti hlavy, poruchy soustředění nebo nálad) [Ano|Ne]
+    {…} Meningitida [Ano|Ne]
+      {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…-}{…} Zanechalo toto onemocnění trvalé následky? (např. neurologické komplikace, epilepsie, ochrnutí, bolesti hlavy, poruchy soustředění nebo nálad) [Ano|Ne]
+    {…} HIV [Ano|Ne]
 
 {…} 2.h) Onemocnění štítné žlázy (např. snížená funkce, zvýšená funkce, cysta nebo uzly) [Ano|Ne]
   {…+}
-
-{…} Snížená funkce štítné žlázy (hypofunkce) [Ano|Ne]
-
-{…} Zvýšená funkce štítné žlázy (hyperfunkce) [Ano|Ne]
-
-{…} Cysta nebo uzly štítné žlázy [Ano|Ne]
-
+    {…} Snížená funkce štítné žlázy (hypofunkce) [Ano|Ne]
+    {…} Zvýšená funkce štítné žlázy (hyperfunkce) [Ano|Ne]
+    {…} Cysta nebo uzly štítné žlázy [Ano|Ne]
 
 {…} 2.i) Onemocnění kůže (např. lupénka, atopický ekzém, ekzém) [Ano|Ne]
   {…+}
-
-{…} Lupénka (psoriáza) [Ano|Ne]
-  {…+}{…} Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech? [Ano|Ne]
-
-{…} Atopický ekzém (atopická dermatitida) [Ano|Ne]
-
-{…} Ekzém (kontaktní dermatitida) [Ano|Ne]
-  {…+}{…} Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky? [Ano|Ne]
-
+    {…} Lupénka (psoriáza) [Ano|Ne]
+      {…+}{…} Měla/a jste někdy bolest či otok kloubů, bolestivý a oteklý celý prst, bolest paty a/nebo se Vám dělají dolíčky na nehtech? [Ano|Ne]
+    {…} Atopický ekzém (atopická dermatitida) [Ano|Ne]
+    {…} Ekzém (kontaktní dermatitida) [Ano|Ne]
+      {…+}{…} Máte rozsáhlé oblasti suché kůže, časté svědění, zarudnutí, oděrky, mokvání či popraskání pokožky? [Ano|Ne]
 
 {…} 2.j) Onemocnění zrakového ústrojí (např. krátkozrakost, dalekozrakost víc jak 10 dioptrií, astigmatizmus, tupozrakost, šilhavost, keratokonus, zelený zákal, šedý zákal, slepota) [Ano|Ne]
   {…+}
