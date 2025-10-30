@@ -315,8 +315,19 @@ Dočasné pracovní:
       {…+}{…} Máte v současnosti toto onemocnění? [Ano|Ne]
         {…-}{…} Opakovalo se u vás toto onemocnění? [Ano|Ne]
 
+{…}<female> 2.e) Gynekologická onemocnění a onemocnění prsou (např. cysty na vaječnících, endometrióza, děložní myomy, dysplazie děložního čípku / pozitivní nález ve stěru z děložního čípku, bulka v prsu) [Ano|Ne]
+  {…+}
+    {…} Cysta na vaječníku [Ano|Ne]
+    {…} Polycystické vaječníky [Ano|Ne]
+    {…} Endometrióza [Ano|Ne]
+    {…} Děložní myomy [Ano|Ne]
+    {…} Dysplazie děložního čípku (pozitivní nález ve stěru z děložního čípku CIN I., CIN II., CIN III., karcinom in situ) [Ano|Ne]
+      {…+} Jaký byl výsledek nálezu? [CIN_I_(lehké_dysplastické_změny)|CIN_II_(středně_těžké_dysplastické_změny)|CIN_III_(těžké_dysplastické_změny)|Karcinom_in_situ|Nevím]
+    {…} Bulka v prsu, pozitivní nález na mamografu [Ano|Ne]
 
-{…} 2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu) [Ano|Ne]
+    
+
+{…}<male> 2.f) Onemocnění prostaty a onemocnění prsou (např. zvětšení prostaty, bulka v prsu) [Ano|Ne]
   {…+}
 
 {…} [MUŽ] Zvětšená prostata [Ano|Ne]
@@ -324,6 +335,8 @@ Dočasné pracovní:
 {…} [ŽENA] Gynekologické obtíže [Ano|Ne]
 
 {…} Bulka v prsu [Ano|Ne]
+
+
 
 
 {…} 2.g) Infekční nemoci (např. žloutenka – hepatitida – typu A, B, C, D, E, mononukleóza, Lymeská borelióza, encefalitida, meningitida, HIV) [Ano|Ne]
