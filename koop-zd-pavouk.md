@@ -523,8 +523,328 @@ Jiná operace
 
 {…} 3.c) Máte nebo jste měl/a nějaké jiné onemocnění nebo potíže (mimo úrazy), které jste neuvedl v tomto dotazníku a pro které vás vyšetřoval, sledoval nebo léčil lékař? [Ano|Ne]
   {…+}
-    Vyberte onemocnění nebo potíže ze seznamu. [Ano|Ne]
-      {144} […]
+    Vyberte onemocnění nebo potíže ze seznamu: […]
+```md
+Jiné onemocnění nebo potíž
+Artróza prstů
+Artritida prstů
+Alergická rýma (polinóza, "senná rýma")
+Chřipka
+Nosní polypy
+Odstranění nosních nebo krčních mandlí
+Operace nosní přepážky
+Poúrazový pneumothorax
+Zánět hrtanu (laryngitida)
+Zánět mandlí (tonsilitida, "angína")
+Zánět plic (pneumonie)
+Neštovice
+Pásový opar (herpes zoster)
+Příušnice
+Salmonelóza
+Spála
+Spalničky
+Stafylokoková infekce
+Streptokoková infekce
+Střevní infekce
+Zarděnky
+Odstranění bradavic
+Inkontinence moči
+Prostá cysta
+Migréna
+Neuralgie trojklaného nervu (bolest trojklaného nervu)
+Obrna lícního nervu
+Sydrom karpálního tunelu (po provedení operace)
+Hemoroidy
+Hypotenze (nízký krevní tlak)
+Křečové žíly šourku (varikokéla)
+Křečové žíly (varixy)
+Zánět povrchových žil (tromboflebitida)
+Operativní odstranění oční vady (korekce dioptrií)
+Zánět spojivek (konjuktivitida)
+Zánět sítnice
+Císařský řez
+Fibroadenom prsu
+Kapavka (syfilis)
+Těhotenství, porod
+Torze vaječníku (otočení vaječníku)
+Torze varlete (otočení varlete)
+Zánět Bartoliniho žlázy
+Zánět pochvy
+Zvětšení nebo zmenšení prsou
+Ganglion
+Tenisový loket, oštěpařský loket, golfový loket
+Vbočený palec (hallux valgus)
+Zruhlý palec (hallux rigidus)
+Zánět Achillovy šlachy
+Patní ostruhy (calcar calcanei)
+Osteoporóza (bez zlomenin)
+Osteoporóza (se zlomeninami)
+Platfus (plochá noha)
+Skolióza páteře
+Akutní zánět žaludku (gastritida)
+Kýla (pupeční, břišní, tříselná, brániční)
+Neprůchodnost střev (ileus)
+Odstranění slepého střeva (apendektomie)
+Odstranění sleziny (splenektomie)
+Odstranění žlučníku (cholecystektomie)
+Onemocnění zubů nebo dásní
+Reflux jícnu
+Překyselení žaludku (léčba např. Helicid, Omeprazol)
+Střevní viróza
+Zánět slepého střeva (apendicitida)
+Zánět středního ucha (otitis media)
+Zánět nebo ucpání zvukovodu
+Gilbertův syndrom
+Struma (zvětšení štítné žlázy)
+Spánková apnoe
+Onemocnění lymfatických uzlin (kromě rakoviny)
+Cysta v mozku (např. arachnoidální cysta, pineální cysta)
+Kožní mykóza
+Kožní bradavice, fibromy, papilomy
+Porucha příjmu potravy (anorexie, bulimie)
+Fistule (perianální píštěl)
+Podstoupená operace pravé horní končetiny
+Podstoupená operace levé horní končetiny
+Podstoupená operace pravého ramenního kloubu
+Podstoupená operace levého ramenního kloubu
+Podstoupená operace pravého loketního kloubu
+Podstoupená operace levého loketního kloubu
+Podstoupená operace pravého zápěstí
+Podstoupená operace levého zápěstí
+Podstoupená operace pravé ruky (od zápěstí po konečky prstů)
+Podstoupená operace levé ruky (od zápěstí po konečky prstů)
+Podstoupená operace karpálních tunelů
+Podstoupená operace pravého kyčelního kloubu
+Podstoupená operace levého kyčelního kloubu
+Podstoupená operace pravého kolenního kloubu
+Podstoupená operace levého kolenního kloubu
+Podstoupená operace pravého hlezenního kloubu
+Podstoupená operace levého hlezenního kloubu
+Podstoupená operace pravé dolní končetiny
+Podstoupená operace levé dolní končetiny
+Podstoupená operace pravé nohy (od kotníku po konečky prstů)
+Podstoupená operace levé nohy (od kotníku po konečky prstů)
+Podstoupená operace mozku
+Podstoupená operace míchy
+Podstoupená operace meziobratlových plotének
+Podstoupená operace páteře
+Podstoupená laserová operace pravého oka
+Podstoupená laserová operace levého oka
+Podstoupená operace pravého oka
+Podstoupená operace levého oka
+Podstoupená operace šedého zákalu pravého oka
+Podstoupená operace šedého zákalu levého oka
+Podstoupená operace zeleného zákalu
+Podstoupená operace ušního bubínku pravého ucha
+Podstoupená operace ušního bubínku levého ucha
+Podstoupená operace pravého ucha
+Podstoupená operace levého ucha
+Podstoupená operace středního ucha
+Podstoupená operace sluchového ústrojí
+Podstoupená operace nosní přepážky
+Podstoupená operace nebo odstranění nosních mandlí
+Podstoupená operace nosní dutiny a/nebo přínosových dutin
+Podstoupená operace čelisti
+Podstoupená operace rozštěpu patra
+Podstoupená operace nebo odstranění krčních mandlí
+Podstoupená operace zubů v celkové anestézii
+Podstoupená operace hlasivek
+Podstoupená operace štítné žlázy
+Podstoupená operace plic (kromě transplantace)
+Podstoupená operace hemoroidů
+Podstoupená operace křečových žil (varixů)
+Podstoupená operace jícnu
+Podstoupená operace žaludku
+Podstoupená operace slinivky břišní (pankreasu)
+Podstoupená operace jater (kromě transplantace)
+Podstoupená operace střev
+Podstoupená operace konečníku
+Podstoupená operace ledvin (kromě transplantace)
+Podstoupená operace močového měchýře
+Podstoupená operace močových cest
+Podstoupená operace dělohy (hysterektomie)
+Podstoupená operace, odstranění nebo zákrok na děložním čípku
+Podstoupená operace vaječníků
+Podstoupená operace vejcovodů
+Podstoupená operace nebo odstranění varlat/e
+Podstoupená operace prostaty
+Podstoupená operace tukových výrustků (v lokální anestezii)
+Podstoupená operace břišní kýly
+Podstoupená operace pupeční kýly
+Podstoupená operace tříselné kýly
+Podstoupená operace kýly
+Transplantace orgánů (např. srdce, plíce, játra, ledviny)
+Transplantace kostní dřeně
+Rakovina
+Rakovina prostaty
+Rakovina varlete / varlat
+Rakovina děložního čípku
+Rakovina prsu / prsů
+Rakovina ledviny / ledvin
+Rakovina močového měchýře
+Rakovina tlustého střeva nebo konečníku (rekta)
+Rakovina plíce / plic
+Rakovina kůže
+Rakovina štítné žlázy
+Rakovina kostí
+Rakovina mozku
+Rakovina jiná / ostatní
+Leukémie
+Lymfom
+Hodgkinův lymfom
+Non-Hodgkinův lymfom
+Nezhoubný nádor mozku
+Hypertenze (vysoký krevní tlak)
+Srdeční infarkt
+Infarkt myokardu
+Angina pectoris
+Bolest na hrudi
+Bušení srdce
+Srdeční arytmie
+Vrozená vada srdce
+Operace srdce
+Cévní mozková příhoda
+CMP
+Mozková mrtvice
+Epilepsie
+Roztroušená skleróza
+Alzheimerova nemoc
+Deprese
+Úzkost
+Fobie
+Poruchy spánku
+Stresová porucha
+Posttraumatická stresová porucha
+Poporodní deprese
+Syndrom vyhoření
+Bipolární porucha
+Obsedantně kompulzivní porucha
+Schizofrenie
+Downův syndrom
+Autismus
+Porucha autistického spektra
+ADHD
+Leidenská mutace
+Porucha srážlivosti krve
+Trombofilie
+Protrombinová mutace
+Antitrombinová mutace
+MTHFR mutace
+Hyperhomocytémie
+Anemie z nedostatku železa
+Hemoragická anemie
+Megaloblastická anemie
+Hemolytická anemie
+Autoimunitní hemolytická anemie
+Sideroblotastická anemie
+Hemofilie
+Zvýšená hladina cukru v krvi
+Prediabetes
+Porucha glukózové tolerance
+Diabetes mellitus 1. typu
+Cukrovka 1. typu
+Diabetes mellitus typu LADA
+Diabetes mellitus 2. typu
+Cukrovka 2. typu
+Diabetes mellitus typu MODY
+Gestační diabetes
+Těhotenská cukrovka
+Výhřez ploténky
+Onemocnění meziobratlových plotének
+Onemocnění meziobratlových kloubů
+Bolest zad
+Bechtěrevova choroba
+Ankylozující spondylitida
+Artritida
+Revmatoidní artritida
+Psoriatická artritida
+Poúrazová artritida
+Infekční artritida
+Septická artritida
+Artróza
+Totální endoprotéza
+Zvýšený cholesterol
+Zvýšené jaterní testy
+Dna
+Astma
+Chronická obstrukční plicní nemoc (CHOPN)
+Chronická bronchitida
+Plicní fibróza
+Zápal plic
+Akutní bronchitida
+Zánět průdušek
+Alergie
+Žlučníkové kameny
+Vřed dvanáctníku (duodenum)
+Vřed dvanácterníku (duodenum)
+Žaludeční vřed
+Reflux jícnu (gastrozofagiální reflux)
+Zánět slinivky břišní (pankreatitida)
+Akutní zánět slinivky břišní
+Chronický zánět slinivky břišní
+Onemocnění jater
+Cirhóza jater
+Fibróza jater
+Ztučnění (steatóza) jater
+Cysta na játrech
+Hemangiom jater
+Crohnova nemoc
+Ulcerózní kolitida
+Celiakie
+Vrozená vada jícnu
+Vrozená vada žaludku
+Vrozená vada střev
+Ledvinové kameny
+Vrozená vada ledvin
+Vrozená vada močového měchýře
+Vrozená vada močových cest
+Zánět močového měchýře
+Zánět močových cest
+Zánět ledvin
+Cysta na vaječníku
+Polycystické vaječníky
+Endometrióza
+Děložní myomy
+Pozitivní nález ve stěru z děložního čípku
+Dysplazie děložního čípku
+Bulka v prsu (ženy)
+Pozitivní nález na mamografu
+Mutace v genech BRCA1 a/nebo BRCA2 (ženy)
+Zvětšená prostata
+Bulka v prsu (muži)
+Mutace v genech BRCA1 a/nebo BRCA2 (muži)
+Žloutenka (hepatitida) typu A
+Žloutenka (hepatitida) typu E
+Žloutenka (hepatitida) typu B
+Žloutenka (hepatitida) typu D
+Žloutenka (hepatitida) typu C
+Infekční mononukleóza
+Lymeská borelióza
+Encefalitida
+Klíšťová encefalitida
+Meningitida
+HIV
+Snížená funkce štítné žlázy (hypofunkce)
+Zvýšená funkce štítné žlázy (hyperfuknce)
+Cysta nebo uzly štítné žlázy
+Lupénka (psoriáza)
+Atopický ekzém (atopická dermatitida)
+Ekzém (kontaktní dermatitida)
+Krátkozrakost (více než 10 dioptrií)
+Dalekozrakost (více než 10 dioptrií)
+Astigmatismus
+Tupozrakost
+Šilhavost
+Keratokonus
+Zelený zákal (glaukom)
+Šedý zákal (katarakta)
+Slepota (1 oka, částečná nebo praktická, úplná)
+Pískání nebo šum v uchu (tinnitus)
+Nedoslýchavost 1 ucha
+Hluchota 1 ucha
+Částečná hluchota obou uší
+Ztráta sluchu (úplná hluchota)
+```
 
 ### {F} Trvalé následky
 {…} 4. Měl/a jste v minulosti úraz, který zanechal trvalé následky? (např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod.)
@@ -1079,3 +1399,6 @@ Jiná operace
 
       Nic z výše uvedeného
         {312} [ano|ne]
+
+---
+
