@@ -143,71 +143,112 @@ Dočasné pracovní:
       {…+}{…} Užíváte kombinaci dvou nebo více druhů léků? [Ano|Ne]
         {…-}{…} Máte potíže s pamětí, učením, udržením pozornosti či agresivním chováním? [Ano|Ne]
 
+{…} 1.e) Onemocnění krve (např. porucha srážlivosti krve, chudokrevnost – anémie, hemofilie) [Ano|Ne]
+  {…+}
+    {…} Leidenská mutace nebo jiná porucha srážlivosti krve – trombofilie (např. protrombinová mutace, antitrombinová deficience, MTHFR mutace, hyperhomocytémie) [Ano|Ne]
+      {…+}{…} Vyskytly se u vás komplikace jako krevní sraženiny, trombózy nebo tromboembolie? [Ano|Ne]
+        {…+}{…} Byla poslední komplikace před více než **5 lety**? [Ano|Ne]
+    {…} Anemie z nedostatku železa [Ano|Ne]
+    {…} Jiná anémie (např. hemoragická, aplastická, megaloblastická, hemolytická, autoimunitní hemolytická, sideroblotastická) [Ano|Ne]
+    {…} Hemofilie [Ano|Ne]
 
-    1.e) Onemocnění krve (např. porucha srážlivosti krve, chudokrevnost – anémie, hemofilie)
-      Leidenská mutace nebo jiná porucha srážlivosti krve – trombofilie (např. protrombinová mutace, antitrombinová deficience, MTHFR mutace, hyperhomocytémie)
-        Vyskytly se u vás komplikace jako krevní sraženiny, trombózy nebo tromboembolie?
-          {54} [Ano|Ne]
-      Anemie z nedostatku železa
-        {55} [ano|ne]
-      Jiná anémie (např. hemoragická, aplastická, megaloblastická, hemolytická, autoimunitní hemolytická, sideroblotastická)
-        {56} […]
-      Hemofilie
-        {57} [ano|ne]
+{…} 1.f) Zvýšená hladinu cukru v krvi (prediabetes / porucha glukózové tolerance) nebo cukrovka (diabetes, gestační diabetes - těhotenská cukrovka) [Ano|Ne]
+  {…+}
+    {…} Zvýšená hladina cukru v krvi (prediabetes / porucha glukózové tolerance) [Ano|Ne]
+      {…+}{…} Poslední naměřená hodnota cukru v krvi byla: [9.00_mmol/l_nebo_menší|Větší_než_9.00_mmol/l|Nevím]
+    {…} Diabetes / cukrovka (diabetes mellitus 1. typu – cukrovka 1. typu, diabetes mellitus 2. typu – cukrovka 2. typu, diabetes mellitus typu LADA, diabetes mellitus typu MODY) [Ano|Ne]
+      {…+}
+        {…} Jak onemocnění léčíte? [Inzulínem|Pouze_léky_a/nebo_dietou]
+          {…a}
+            {…} Poslední naměřená hodnota cukru v krvi byla: [7.5_mmol/l_nebo_menší|Větší_než_7.5_mmol/l|Nevím]
+              {…a}{…} Diagnóza byla diagnostikována: [V_posledních_5_letech|V_posledních_6_až_9_letech|Před_více_než_9_lety|Nevím]
+          {…b}
+            {…} Poslední naměřená hodnota cukru v krvi byla: [8.3_mmol/l_nebo_menší|Větší_než_8.3_mmol/l|Nevím]
+              {…a}{…} Diagnóza byla diagnostikována: [V_posledních_6_letech|V_posledních_7_až_11_letech|Před_více_než_11_lety|Nevím]
+        {…} Jsou přítomné komplikace? (např. poškození sítnice – retinopatie, poškození nervů – neuropatie, bílkoviny v moči – proteinurie, diabetické kóma v minulosti, hyperosmolární glykemický stav, infarkt myokardu, cévní mozková příhoda, amputace prstů/končetin) [Ano|Ne]
+    {…}<female> Gestační diabetes (těhotenská cukrovka) [Ano|Ne]
+      {…+}{…} Jste těhotná? [Ano|Ne]
+        {…-}{…} Je již hodnota cukru v krvi (glykémie na lačno) normální? [Ano|Ne]
+          {…-}{…} Poslední naměřená hodnota cukru v krvi byla: [9.00_mmol/l_nebo_menší|Větší_než_9.00_mmol/l|Nevím]
 
-    1.f) Zvýšená hladinu cukru v krvi (prediabetes / porucha glukózové tolerance) nebo cukrovka (diabetes, gestační diabetes - těhotenská cukrovka)
-      Zvýšená hladina cukru v krvi (prediabetes / porucha glukózové tolerance)
-        Poslední naměřená hodnota cukru v krvi byla:
-          {58} […]
-      Diabetes / cukrovka (diabetes mellitus 1. typu – cukrovka 1. typu, diabetes mellitus 2. typu – cukrovka 2. typu, diabetes mellitus typu LADA, diabetes mellitus typu MODY)
-        Jak onemocnění léčíte?
-          {59} […]
+{…} 1.g) Onemocnění pohybového aparátu (např. bolesti zad nebo šíje, onemocnění páteře, Bechtěrevova nemoc – ankylozující spondylitida, artritida, artróza, vrozená vada pohybového aparátu) [Ano|Ne]
+  {…+}
+    {…} Bolest zad [Ano|Ne]
+      {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+        {…-}{…} Měl/a jste toto onemocnění opakovaně? [Ano|Ne]
+          {…-}{…} Bylo poslední před více než 2 lety? [Ano|Ne]
+    {…} Onemocnění meziobratlových plotének (např. výhřez ploténky) a meziobratlových kloubů (např. artróza, artritida) [Ano|Ne]
+    {…} Bechtěrevova choroba (ankylozující spondylitida) [Ano|Ne]
+      {…+}
+        {…} Označte rozsah postižení: [Pouze_bolesti_a_ztuhlost_zad|Ztráta_pohyblivosti_páteře_a_bolesti_a_ztuhlost_zad]
+        {…} Máte postižení ramenních nebo kyčelních kloubů a/nebo postižení dalších orgánů jako např. postižení očí, srdce či potíže s dýcháním? [Ano|Ne]
+    {…} Artritida (revmatoidní, psoriatická, poúrazová, infekční nebo septická) [Ano|Ne]
+      {…+}
+        {…} Revmatoidní artritida [Ano|Ne]
+        {…} Psoriatická artritida [Ano|Ne]
+        {…} Poúrazová artritida [Ano|Ne]
+          {…+} Na jakém kloubu?
+            {…} Rameno [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Loket [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Zápěstí [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Kyčel [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Koleno [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Kotník (hlezno) [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Infekční nebo septická artritida [Ano|Ne]
+              {…+}{…} Máte v současné době toto onemocnění? [Ano|Ne]
+                {…-}{…} Zanechalo toto onemocnění deformity nebo omezení hybnosti kloubů? [Ano|Ne]
+                  {…+} Na jakém kloubu?
+                    {…} Rameno [Ano|Ne]
+                      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+                    {…} Loket [Ano|Ne]
+                      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+                    {…} Zápěstí [Ano|Ne]
+                      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+                    {…} Kyčel [Ano|Ne]
+                      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+                    {…} Koleno [Ano|Ne]
+                      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+                    {…} Kotník (hlezno) [Ano|Ne]
+                      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Artróza nebo totální endoprotéza (TEP) [Ano|Ne]
+      {…+}
+        {…} Máte nebo jste měl/a artrózu? [Ano|Ne]
+          {…+} Na jakém kloubu?
+            {…} Rameno [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Loket [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Zápěstí [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Kyčel [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Koleno [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Kotník (hlezno) [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Máte provedenou náhradu kloubu (totální endoprotéza, TEP), uvažujete o ní nebo vám byla doporučena? [Ano|Ne]
+          {…+} Na jakém kloubu?
+            {…} Rameno [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Loket [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Zápěstí [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Kyčel [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Koleno [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+            {…} Kotník (hlezno) [Ano|Ne]
+              {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Vrozená vada pohybového aparátu [Ano|Ne]
+      {…+}{…} Uveďte diagnózu: […]
 
-    1.g) Onemocnění pohybového aparátu (např. bolesti zad nebo šíje, onemocnění páteře, Bechtěrevova nemoc – ankylozující spondylitida, artritida, artróza, vrozená vada pohybového aparátu)
-      Bolest zad
-        Máte v současné době toto onemocnění?
-          {60} [Ano|Ne]
-      Onemocnění meziobratlových plotének (např. výhřez ploténky) a meziobratlových kloubů (např. artróza, artritida)
-        {61} […]
-      Bechtěrevova choroba (ankylozující spondylitida)
-        Označte rozsah postižení:
-          {62} […]
-      Artritida (revmatoidní, psoriatická, poúrazová, infekční nebo septická)
-        Revmatoidní artritida
-          {63} […]
-        Psoriatická artritida
-          {64} […]
-        Poúrazová artritida
-          Na jakém kloubu?
-            Rameno
-              Na jaké straně?
-                {65} [Pravá|Levá]
-            Loket
-              Na jaké straně?
-                {66} [Pravá|Levá]
-            Zápěstí
-              Na jaké straně?
-                {67} [Pravá|Levá]
-            Kyčel
-              Na jaké straně?
-                {68} [Pravá|Levá]
-            Koleno
-              Na jaké straně?
-                {69} [Pravá|Levá]
-            Kotník (hlezno)
-              Na jaké straně?
-                {70} [Pravá|Levá]
-        Infekční nebo septická artritida
-          Máte v současné době toto onemocnění?
-            {71} [Ano|Ne]
-      Artróza nebo totální endoprotéza (TEP)
-        Máte nebo jste měl/a artrózu?
-          {72} [Ano|Ne]
-        Máte provedenou náhradu kloubu (totální endoprotéza, TEP), uvažujete o ní nebo vám byla doporučena?
-          {73} [Ano|Ne]
-      Vrozená vada pohybového aparátu
-        Uveďte diagnózu
-          {74} […]
 
     1.h) Nic z výše uvedeného
       {75} [ano|ne]
