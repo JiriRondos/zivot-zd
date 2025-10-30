@@ -847,169 +847,125 @@ Ztráta sluchu (úplná hluchota)
 ```
 
 ### {F} Trvalé následky
-{…} 4. Měl/a jste v minulosti úraz, který zanechal trvalé následky? (např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod.)
+#### 4. Měl/a jste v minulosti úraz, který zanechal trvalé následky? (např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod.)
+Na jaké části těla máte trvalý následek? Uveďte všechny trvalé následky.
+
   {…+}
-    Na jaké části těla máte trvalý následek? Uveďte všechny trvalé následky.
-      Hlava
-        Na jaké části hlavy máte trvalý následek?
-          Nos, ústa, krk
-            Jaký máte trvalý následek?
-              Ztráta nosu nebo čichu
-                {145} [ano|ne]
-              Ztráta jazyka
-                {146} [ano|ne]
-              Ztráta zubu/zubů
-                {147} [ano|ne]
-              Ztráta hlasu nebo poškození hlasivek
-                {148} [ano|ne]
-              Trvalá tracheostomie
-                {149} [ano|ne]
-              Jizvy (např. vzniklé poraněním nebo popálením)
-                {150} [ano|ne]
-              Jiný trvalý následek
-                {151} […]
-          Oko, ucho
-            Jaký máte trvalý následek?
-              Ztráta oka nebo slepota jednoho oka
-                Na jaké straně?
-                  {152} [Pravá|Levá]
-              Ztráta zraku (úplná slepota)
-                {153} [ano|ne]
-              Částečná ztráta zraku (částečná slepota, praktická slepota)
-                {154} [ano|ne]
-              Pískání nebo šum v uchu (tinnitus)
-                {155} [ano|ne]
-              Ztráta ucha nebo poškození boltce
-                Na jaké straně?
-                  {156} [Pravá|Levá]
-              Nedoslýchavost jednoho ucha
-                {157} [ano|ne]
-              Hluchota jednoho ucha
-                {158} [ano|ne]
-              Nedoslýchavost nebo částečná hluchota obou uší
-                {159} [ano|ne]
-              Ztráta sluchu (úplná hluchota obou uší)
-                {160} [ano|ne]
-              Jiný trvalý následek
-                {161} […]
-      Páteř
-        Jaký máte trvalý následek?
-          Omezení hybnosti
-            {162} [ano|ne]
-          Poškození páteře, míchy
-            {163} [ano|ne]
-      Trvalé následky trupu a orgánů
-        Jaký máte trvalý následek?
-          Ztráta části nebo celé plíce
-            Na jaké straně?
-              {164} [Pravá|Levá]
-          Poškození funkce plic nebo srůsty plic
-            Na jaké straně?
-              {165} [Pravá|Levá]
-          Ztráta prsu
-            Na jaké straně?
-              {166} [Pravá|Levá]
-          Zúžení jícnu
-            {167} [ano|ne]
-          Ztráta sleziny nebo její části
-            {168} [ano|ne]
-          Ztráta části jater
-            {169} [ano|ne]
-          Ztráta jedné ledviny nebo její části
-            Na jaké straně?
-              {170} [Pravá|Levá]
-          Ztráta obou ledvin
-            {171} [ano|ne]
-          Porušení funkce trávících orgánů
-            {172} [ano|ne]
-          Jizvy (např. vzniklé poraněním nebo popálením)
-            {173} [ano|ne]
-          Jiný trvalý následek
-            {174} […]
-      Horní končetina
-        Jaký máte trvalý následek?
-          Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub
-            Na jakém kloubu máte trvalý následek?
-              Rameno
-                Na jaké straně?
-                  {175} [Pravá|Levá]
-              Loket
-                Na jaké straně?
-                  {176} [Pravá|Levá]
-              Zápěstí
-                Na jaké straně?
-                  {177} [Pravá|Levá]
-              Prsty
-                Na jaké straně?
-                  {178} [Pravá|Levá]
-          Jiný trvalý následek
-            {179} […]
-          Ztráta prstu nebo horní končetiny
-            Jaký máte trvalý následek?
-              Ztráta prstu
-                Na jaké straně?
-                  {180} [Pravá|Levá]
-              Ztráta horní končetiny v úrovni předloktí
-                Na jaké straně?
-                  {181} [Pravá|Levá]
-              Ztráta horní končetiny v úrovni pažní kosti
-                Na jaké straně?
-                  {182} [Pravá|Levá]
-              Ztráta horní končetiny v zápěstí
-                Na jaké straně?
-                  {183} [Pravá|Levá]
-              Jiný trvalý následek
-                {184} […]
-          Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.)
-            {185} [ano|ne]
-          Jizvy (např. vzniklé poraněním nebo popálením)
-            {186} [ano|ne]
-          Jiný trvalý následek
-            {187} […]
-      Dolní končetina
-        Jaký máte trvalý následek?
-          Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub
-            Na jakém kloubu máte trvalý následek?
-              Kyčel
-                Na jaké straně?
-                  {188} [Pravá|Levá]
-              Koleno
-                Na jaké straně?
-                  {189} [Pravá|Levá]
-              Kotník (hlezno)
-                Na jaké straně?
-                  {190} [Pravá|Levá]
-          Jiný trvalý následek
-            {191} […]
-          Ztráta prstu nebo dolní končetiny
-            Jaký máte trvalý následek?
-              Ztráta prstu
-                Na jaké straně?
-                  {192} [Pravá|Levá]
-              Ztráta v úrovni stehna
-                Na jaké straně?
-                  {193} [Pravá|Levá]
-              Ztráta v úrovni bérce
-                Na jaké straně?
-                  {194} [Pravá|Levá]
-              Ztráta v hlezenním kloubu (kotníku)
-                Na jaké straně?
-                  {195} [Pravá|Levá]
-              Jiný trvalý následek
-                {196} […]
-          Zkrácení končetiny o 3 cm nebo více
-            Pravá
-              {197} […]
-            Levá
-              {198} […]
-          Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.)
-            {199} [ano|ne]
-          Jizvy (např. vzniklé poraněním nebo popálením)
-            {200} [ano|ne]
-          Jiný trvalý následek
-            {201} […]
-      Nic z výše uvedeného
-        {202} [ano|ne]
+    {…} Osoba se zdravotním znevýhodněním (např. držitel průkazu ZTP nebo OZZ) [Ano|Ne]
+
+{…} Hlava [Ano|Ne]
+  {…+} Na jaké části hlavy máte trvalý následek?
+    {…} Nos, ústa, krk [Ano|Ne]
+      {…+} Jaký máte trvalý následek?
+        {…} Ztráta nosu nebo čichu [Ano|Ne]
+        {…} Ztráta jazyka [Ano|Ne]
+        {…} Ztráta zubu/zubů [Ano|Ne]
+        {…} Ztráta hlasu nebo poškození hlasivek [Ano|Ne]
+        {…} Trvalá tracheostomie [Ano|Ne]
+        {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
+        {…} Jiný trvalý následek [Ano|Ne]
+          {151} […]
+    {…} Oko, ucho [Ano|Ne]
+      {…+} Jaký máte trvalý následek?
+        {…} Ztráta oka nebo slepota jednoho oka [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Ztráta zraku (úplná slepota) [Ano|Ne]
+        {…} Částečná ztráta zraku (částečná slepota, praktická slepota) [Ano|Ne]
+        {…} Pískání nebo šum v uchu (tinnitus) [Ano|Ne]
+        {…} Ztráta ucha nebo poškození boltce [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Nedoslýchavost jednoho ucha [Ano|Ne]
+        {…} Hluchota jednoho ucha [Ano|Ne]
+        {…} Nedoslýchavost nebo částečná hluchota obou uší [Ano|Ne]
+        {…} Ztráta sluchu (úplná hluchota obou uší) [Ano|Ne]
+        {…} Jiný trvalý následek [Ano|Ne]
+          {161} […]
+{…} Páteř [Ano|Ne]
+  {…+} Jaký máte trvalý následek?
+    {…} Omezení hybnosti [Ano|Ne]
+    {…} Poškození páteře, míchy
+{…} Trvalé následky trupu a orgánů [Ano|Ne]
+  {…+} Jaký máte trvalý následek?
+    {…} Ztráta části nebo celé plíce [Ano|Ne]
+      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Poškození funkce plic nebo srůsty plic [Ano|Ne]
+      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Ztráta prsu [Ano|Ne]
+      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Zúžení jícnu [Ano|Ne]
+    {…} Ztráta sleziny nebo její části
+    {…} Ztráta části jater
+    {…} Ztráta jedné ledviny nebo její části [Ano|Ne]
+      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Ztráta obou ledvin [Ano|Ne]
+    {…} Porušení funkce trávících orgánů [Ano|Ne]
+    {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
+    {…} Jiný trvalý následek [Ano|Ne]
+      {174} […]
+{…} Horní končetina [Ano|Ne]
+  {…+} Jaký máte trvalý následek?
+    {…} Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub [Ano|Ne]
+      Na jakém kloubu máte trvalý následek?
+        {…} Rameno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Loket [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Zápěstí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Prsty [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Jiný trvalý následek [Ano|Ne]
+      {179} […]
+    {…} Ztráta prstu nebo horní končetiny [Ano|Ne]
+      {…+} Jaký máte trvalý následek?
+        {…} Ztráta prstu [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Ztráta horní končetiny v úrovni předloktí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Ztráta horní končetiny v úrovni pažní kosti [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Ztráta horní končetiny v zápěstí [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Jiný trvalý následek [Ano|Ne]
+          {184} […]
+    {…} Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.) [Ano|Ne]
+    {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
+    {…} Jiný trvalý následek [Ano|Ne]
+      {187} […]
+{…} Dolní končetina [Ano|Ne]
+  {…+} Jaký máte trvalý následek?
+    {…} Omezení hybnosti, viklavost nebo nestabilita kloubu a/nebo pakloub [Ano|Ne]
+      Na jakém kloubu máte trvalý následek?
+        {…} Kyčel [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Koleno [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Kotník (hlezno) [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+    {…} Jiný trvalý následek [Ano|Ne]
+      {191} […]
+    {…} Ztráta prstu nebo dolní končetiny [Ano|Ne]
+      {…+} Jaký máte trvalý následek?
+        {…} Ztráta prstu [Ano|Ne]
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Ztráta v úrovni stehna
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Ztráta v úrovni bérce
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Ztráta v hlezenním kloubu (kotníku)
+          {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+        {…} Jiný trvalý následek [Ano|Ne]
+          {196} […]
+    {…} Zkrácení končetiny o 3 cm nebo více [Ano|Ne]
+      
+      {…+}{…} Na jaké straně? [Pravá|Levá|Pravá+Levá]
+
+    {…} Trvalé neurologické příznaky (parestézie, brnění, ochrnutí apod.) [Ano|Ne]
+    {…} Jizvy (např. vzniklé poraněním nebo popálením) [Ano|Ne]
+    {…} Jiný trvalý následek [Ano|Ne]
+      {201} […]
+{…} Nic z výše uvedeného [Ano|Ne]
+
 
 ### {G} Úraz
 {…} 5. Měl/a jste v posledních 7 letech úraz? (např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod.)
